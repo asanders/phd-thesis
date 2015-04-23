@@ -1,0 +1,66 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'tip_dimer_diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{207.59248047bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49878025)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{tip_dimer_diagram.png}}%
+    \put(0.49643899,0.00566389){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0.40484336,0.21427953){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$R$}}}%
+    \put(0.37312045,0.29854541){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
+    \put(0.45587695,0.15901725){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.55281652,0.15732158){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.50000003,0.33308906){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\theta_{\mathrm{col}}$}}}%
+    \put(0.35116012,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{col}}$}}}%
+    \put(0.06983971,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{incident}}$}}}%
+    \put(0.31388687,0.21898085){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.31388687,0.11107713){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.6870992,0.10506542){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.6870992,0.22067651){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+  \end{picture}%
+\endgroup%
