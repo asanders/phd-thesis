@@ -1,0 +1,57 @@
+% !TEX TS-program = pdflatexmk
+% !BIB TS-program = bibtex
+
+\documentclass[12pt, a4paper, twoside, draft=false]{book}
+\input{preamble}
+\onehalfspacing
+
+\begin{document}
+
+\title{\textsc{On the Optical Properties and Interactions of Nanostructured AFM Tips}}
+\author{Alan Sanders}
+\date{\today}
+
+\frontmatter
+\begin{singlespace*}
+\subimport{./0_frontmatter/}{title}
+\subimport{./0_preface/}{preface}
+\tableofcontents
+\listoffigures
+\end{singlespace*}
+
+\mainmatter
+\subimport{./1_introduction/}{introduction}
+\subimport{./2_theory/}{theory}
+\subimport{./5_tip_fabrication/}{tip_fabrication}
+\subimport{./3_test_rig_design/}{test_rig_design}
+%\subimport{./4_experimental_procedures/}{experimental_procedures}
+%\subimport{./5_tip_fabrication/}{tip_fabrication}
+\subimport{./6_tip_plasmonics/}{tip_plasmonics}
+\subimport{./7_tip_interactions/}{tip_interactions}
+\subimport{./8_conclusions/}{conclusions}
+
+\begin{singlespace*}
+\printbibliography[heading=bibintoc, notcategory=fullcited, resetnumbers=true]
+\glsaddall
+\printglossary[type=symbols, style=superborder]
+\printglossary[type=\acronymtype, style=superheader]
+%\printnomenclature
+\end{singlespace*}
+
+\appendix
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+%\chapter{Supplementary Information}
+\chapter{Theoretical Background}
+\subimport{./a0_appendices/}{supplementary_theory}
+%\subimport{./a0_appendices/}{quantum_tunnelling}
+\chapter{Experiment Design}
+\subimport{./a0_appendices/}{supplementary_optical_design}
+\chapter{Experimental Procedures}
+\subimport{./a0_appendices/}{tip_alignment_derivation}
+\subimport{./a0_appendices/}{software_lockin}
+%\chapter{Tip Plasmonics}
+%\subimport{./a0_appendices/}{tuneable_raman}
+
+\end{document}

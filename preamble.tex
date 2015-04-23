@@ -1,0 +1,90 @@
+% Page layout settings
+\usepackage[scale=0.8]{geometry}
+\usepackage[]{hyperref}
+%\usepackage{cmbright}
+%\renewcommand\bfdefault{sb}
+\usepackage{setspace}
+
+% Bibliography
+\usepackage[backend=bibtex, style=phys, maxnames=3, hyperref=true, articletitle=true, biblabel=brackets, defernumbers=true]{biblatex}
+\DefineBibliographyStrings{english}{bibliography = {References},}
+\DeclareBibliographyCategory{fullcited}
+\newcommand{\mybibexclude}[1]{\addtocategory{fullcited}{#1}}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/textbooks.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/citations.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/microscopy.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/hyperspectral_imaging.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/tip_methods.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/electrochemistry.bib}
+\addbibresource{~/Documents/PhD/Git/Thesis/citations/presentations.bib}
+
+% Graphics settings
+\usepackage{graphicx}
+\usepackage{transparent}
+%\usepackage[inkscape={inkscape -z -D}]{svg}
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
+\graphicspath{ {./figures/} {./figures/literature/} }
+\usepackage{floatrow}
+\floatsetup{capbesideposition={top,inside}}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[font+=small, list=false]{subcaption}
+\usepackage{eso-pic}
+\usepackage{lpic}
+\usepackage{tikz}
+\usepackage{wrapfig}
+
+% Misc packages
+\usepackage{amsmath}%, amssymb}
+\usepackage[per-mode=reciprocal]{siunitx}
+\usepackage{color, epstopdf, import}
+\sisetup{range-phrase= \thinspace\textendash\thinspace, detect-all}
+\usepackage{nicefrac}
+\usepackage[version=3]{mhchem}
+\usepackage{breqn}
+\usepackage{textcomp}
+\usepackage{mathtools}
+\usepackage{standalone}
+\usepackage{verbatim}
+
+%\usepackage{textcomp}
+%\usepackage{cite}
+%\usepackage{tocloft}
+\usepackage[section, below]{placeins} % to use \FloatBarrier
+
+\usepackage[acronym, toc, nomain, nogroupskip, nonumberlist, nopostdot]{glossaries}
+\setglossarystyle{longborder}
+\setlength\glsdescwidth{0.8\textwidth}
+\newglossary{symbols}{sym}{sbl}{List of Symbols}
+\makeglossaries
+
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Symbols}
+\makenomenclature
+
+% Fancy headings settings
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{}
+%\renewcommand{\chaptermark}{\chaptername\ \thechapter - \textit{x}}
+%\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
+%\fancyhf[HLE]{\chaptermark}
+%\fancyhf[HLO]{\sectionmark}
+\lhead{\nouppercase{\leftmark}}
+\rhead{\thepage}
+%\fancyhead[L]{\nouppercase{\leftmark}}
+%\fancyhead[R]{}
+%\fancyhf[C]{}
+%\fancyhf[FLE,FRO]{\thepage}
+%\fancyhf[FRE,FLO]{\thepart\space - \thesection}
+
+\renewcommand{\topfraction}{.7}
+\renewcommand{\bottomfraction}{.5}
+
+% Math shortcuts
+\renewcommand{\figurename}{Figure}
+%\input{nomencl_symbols}
+\input{symbols}
+\input{acronyms}
