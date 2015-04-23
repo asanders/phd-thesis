@@ -130,6 +130,9 @@ sympy-plots-for-*.tex/
 *.npy
 *.h5
 *.hdf5
+*.oxw
+*.idf
+*.ocw
 
 *.sbl
 *.glsdefs

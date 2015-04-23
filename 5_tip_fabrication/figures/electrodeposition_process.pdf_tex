@@ -1,0 +1,78 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'electrodeposition_process.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{384.11946778bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.31794938)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{electrodeposition_process.png}}%
+    \put(0.25007775,0.15843962){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{M+}}}}%
+    \put(0.16677034,0.15843962){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{M}}}%
+    \put(0.12672466,0.20482259){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0.41669258,0.15843962){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{M+}}}}%
+    \put(0.15769164,0.24695985){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{cathode}}}%
+    \put(0.25007772,0.09512598){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.41669258,0.11027304){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.19801062,0.08441785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedright interfacial depletion\end{minipage}}}%
+    \put(0.20842401,0.19926025){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.34027949,0.24695985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{diffusion}}}%
+    \put(0.8764914,0.20482259){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0.83999686,0.2469475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{anode}}}%
+    \put(0.63810401,0.08441785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedleft interfacial depletion\end{minipage}}}%
+    \put(0.79157595,0.19926025){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.74992225,0.09512598){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.58330742,0.11092404){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.50160803,0.28813){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0.69024716,0.2820261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{oxidation}}}}%
+    \put(0.19040267,0.2820261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{reduction}}}}%
+    \put(0.83277204,0.15728107){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{E}}}%
+    \put(0.58491545,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
+    \put(0.58491545,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
+    \put(0.75153028,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
+    \put(0.22092016,0.27290696){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10205158\unitlength}\raggedleft E-field drift\end{minipage}}}%
+  \end{picture}%
+\endgroup%

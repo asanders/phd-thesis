@@ -1,0 +1,105 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'electrochemistry_energy_diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{287.03685038bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.95440338)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.23781087,0.68402686){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{cathode}}}%
+    \put(0.79514553,0.79551078){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{anode}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.51874068,0.7590856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.24590849,0.8049465){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi_-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.78705914,0.87183687){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\phi_+$}}}%
+    \put(0.14323936,0.68293441){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_-$}}}%
+    \put(0.14323936,0.90590227){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_v$}}}%
+    \put(0.8899552,0.79441833){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_+$}}}%
+    \put(0.8899552,0.90590227){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_v$}}}%
+    \put(0.23781087,0.37744606){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{cathode}}}%
+    \put(0.79514553,0.37744606){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{anode}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.51874068,0.39536929){\color[rgb]{0,0,0}\transparent{0.30000001}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.24590849,0.49836563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi_-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.78171187,0.44123016){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\phi_+$}}}%
+    \put(0.14323936,0.37635361){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_-$}}}%
+    \put(0.14323936,0.59932141){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_v$}}}%
+    \put(0.8899552,0.37496006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_+$}}}%
+    \put(0.8899552,0.59932141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_v$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.78171187,0.5527141){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$V_{\mathrm{cell}}$}}}%
+    \put(0.23787891,0.06991761){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{cathode}}}%
+    \put(0.79514553,0.04253995){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{anode}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.51658877,0.08106601){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.24590849,0.19457189){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi_-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.78171187,0.11517267){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\phi_+$}}}%
+    \put(0.14323936,0.07255986){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_-$}}}%
+    \put(0.14323936,0.29552766){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$E_v$}}}%
+    \put(0.8899552,0.07116631){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_+$}}}%
+    \put(0.8899552,0.29552766){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_v$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.78369026,0.26613588){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$V_{\mathrm{cell}}+\\ V_{\mathrm{applied}}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.02884652,0.91440851){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.02884647,0.60643411){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.02884652,0.30403391){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.53053277,0.6572303){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$I$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{electrochemistry_energy_diagram.pdf}}%
+    \put(0.53053277,0.01464957){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$I$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{electrochemistry_energy_diagram.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,5 @@
+line: -2V	 offset: -10.24
+line: -3V	 offset: -30.63
+line: -4V	 offset: -34.17
+line: -6V	 offset: -78.34
+line: -8V	 offset: -141.55
