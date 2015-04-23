@@ -1,0 +1,68 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'tip_alignment_diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{238.63038569bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.40792788)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{tip_alignment_diagram.png}}%
+    \put(0.53133098,0.07552806){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d_0$}}}%
+    \put(0.41400596,0.21897012){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$R$}}}%
+    \put(0.51456866,0.03529848){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d(t)$}}}%
+    \put(0.02848286,0.18280689){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$}}}%
+    \put(0.20000336,0.00492721){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$z$}}}%
+    \put(0.0726097,0.07868144){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$y$}}}%
+    \put(0.49781759,0.29477257){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$z_{01}$}}}%
+    \put(0.54915037,0.29109743){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z_{02}=0$}}}%
+    \put(0.46429294,0.32829722){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$z_{1}(t)$}}}%
+    \put(0.53134224,0.38245701){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$V(t) = V_0\cos(\omega_{01}t/2)$}}}%
+    \put(0.53133098,0.40071714){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.10556794,0.2581527){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23467255\unitlength}\raggedright \textbf{tip 1:}\textbf{\\ }$k_{01}^z, m_1, \omega_{01},$\\ $\beta_{01}$\end{minipage}}}%
+    \put(0.72242148,0.22462805){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23467255\unitlength}\raggedleft \textbf{tip 2:}\textbf{\\ }$k_{02}^z, m_2, \omega_{02},$\\ $\beta_{02}$\end{minipage}}}%
+    \put(0.65328508,0.15945793){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_{ov}$}}}%
+  \end{picture}%
+\endgroup%

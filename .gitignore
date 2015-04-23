@@ -127,6 +127,7 @@ sympy-plots-for-*.tex/
 
 # Data
 *.npz
+*.npy
 *.h5
 *.hdf5
 

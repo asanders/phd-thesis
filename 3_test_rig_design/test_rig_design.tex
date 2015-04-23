@@ -1,0 +1,41 @@
+% !TEX TS-program = pdflatexmk
+% !BIB TS-program = bibtex
+
+\documentclass[12pt, a4paper, twoside]{book}
+\usepackage{import}
+\subimport{../}{preamble}
+\standalonetrue
+\onehalfspacing
+\begin{document}
+
+\begin{singlespace}
+{\color{yellow}
+\chapter{Microscope Design for Simultaneous Measurements on Plasmonic Tips}}
+\end{singlespace}
+
+\AddToShipoutPictureBG*{
+	\AtTextUpperLeft{
+		\put(-20,-160){
+			\includegraphics[width=1.1\textwidth, keepaspectratio, clip=true, trim=0 400 0 50]{/Users/alansanders/OneDrive/Pictures/"Camera Roll"/IMG_20141117_145054403.jpg}
+}}}
+
+AFM tips are characterised in a microscope custom-built for optical spectroscopy with simultaneous force and electronic measurements. The microscope is fully automated\footnote{A custom Python application used to control the microscope and all experiments} and capable of running an assortment of experiments, the majority of which have been developed primary to study the optical response of tips.
+The primary experiment is designed to take two opposing AFM probe tips, align them in a tip-to-tip dimer geometry and demonstrate nm-scale precision motion/position control. Using such a setup, the plasmonic behaviour of both individual and coupled tip systems can be investigated. Using AuNP-tipped AFM tips in this system enables the dynamic study of the prototypical AuNP dimer under various conditions. Significant effort was invested into developing a system with the capability to perform these experiments. In this chapter the principles behind it's operation and the design considerations are discussed in depth.
+
+\subimport{./}{mechanical_design}
+\subimport{./}{optical_design}
+\subimport{./}{electronics_design}
+\subimport{./}{afm_design}
+\subimport{./}{tip_alignment}
+
+\section{Conclusions}
+
+A custom-built ultra-stable microscope platform, utilising supercontinuum dark-field spectroscopy, low-noise electronics and atomic force microscopy, is built to accommodate spectral studies of both individual tips and tip dimers. The platform is capable of taking two tips and aligning them into a dimer configuration using a modified form of scanning capacitance microscopy. Performance characterisation shows spectral validity between 500--\SI{1100}{nm}, more broadband than standard optical microscopes, with confocal localisation enabling the study of more complex structures than point scatterers.
+
+\ifstandalone
+\begin{singlespace}
+\printbibliography[notcategory=fullcited]
+\end{singlespace}
+\fi
+
+\end{document}

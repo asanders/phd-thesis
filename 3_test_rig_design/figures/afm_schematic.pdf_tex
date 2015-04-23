@@ -1,0 +1,66 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'afm_schematic.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{446.31335449bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.73074162)%
+    \put(0,0){\includegraphics[width=\unitlength]{afm_schematic.png}}%
+    \put(0.76179661,0.29913568){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Signal Routing}}}%
+    \put(0.39608457,0.12943168){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Lateral effect photodiode (PSD)}}}%
+    \put(0.39608457,0.1033401){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Signal processing circuit (SPC)}}}%
+    \put(0.10699462,0.39243595){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.14838779\unitlength}\centering 633 nm laser, single mode fibre\end{minipage}}}%
+    \put(0.53442884,0.64386627){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Experimental Chamber}}}%
+    \put(0.54700918,0.22073019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15563617\unitlength}\centering Glued mirror turning prism\end{minipage}}}%
+    \put(0.26529927,0.39303872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.14838779\unitlength}\centering Beam size control\end{minipage}}}%
+    \put(0.61660864,0.4239641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12904251\unitlength}\raggedright 100 mm achromatic lens\end{minipage}}}%
+    \put(0.89514685,0.25429332){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta X$}}}%
+    \put(0.8962313,0.21027827){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sum X$}}}%
+    \put(0.89514685,0.16467019){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta Y$}}}%
+    \put(0.89514685,0.12165109){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sum Y$}}}%
+  \end{picture}%
+\endgroup%
