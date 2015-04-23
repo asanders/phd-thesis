@@ -1,0 +1,92 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'plasmon_dimer_hybridisation.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{446.04454993bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.41612321)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{plasmon_dimer_hybridisation.pdf}}%
+    \put(0.08282406,0.21547953){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{0}$}}}}%
+    \put(0.4235972,0.21373761){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{0}$}}}}%
+    \put(0.25141709,0.26395676){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{\uparrow\downarrow}$}}}}%
+    \put(0.25141709,0.09536377){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{\uparrow\uparrow}$}}}}%
+    \put(0.56708062,0.2334149){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{0,1}$}}}}%
+    \put(0.90785376,0.19580213){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{0,2}$}}}}%
+    \put(0.73926073,0.25678254){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{\uparrow\downarrow}$}}}}%
+    \put(0.73926073,0.12764752){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\omega_{\uparrow\uparrow}$}}}}%
+    \put(0.08282406,0.15556065){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$l=1$}}}}%
+    \put(0.4235972,0.15556067){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$l=1$}}}}%
+    \put(0.47740348,0.37078581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$l=2$}}}}%
+    \put(0.47740348,0.3887212){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$l=3$}}}}%
+    \put(0.02901777,0.37078581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$l=2$}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{plasmon_dimer_hybridisation.pdf}}%
+    \put(0.18308501,0.31658155){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.23330421,0.31658155){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.27276215,0.31658155){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.32298135,0.31658155){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.18308501,0.04755013){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.23330421,0.04755013){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.27276215,0.04755013){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.32298135,0.04755013){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.05753701,0.20896898){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.10775621,0.20896898){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.39831015,0.20896898){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.44852935,0.20896898){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.66734157,0.29864613){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.71756077,0.29864613){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.75701871,0.29864613){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.80723791,0.29864613){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.66734157,0.08342099){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.71756077,0.08342099){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.75701871,0.08342099){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.80723791,0.08342099){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.54179358,0.22690441){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.59201277,0.22690441){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.88256671,0.18744647){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.93278591,0.18744647){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+  \end{picture}%
+\endgroup%

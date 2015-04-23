@@ -1,0 +1,103 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'dipole_interactions.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{176bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.85816861)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{dipole_interactions.pdf}}%
+    \put(0.40910478,0.59759123){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{dipole_interactions.pdf}}%
+    \put(0.18183209,0.59622744){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{dipole_interactions.pdf}}%
+    \put(0.81819569,0.5962274){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{dipole_interactions.pdf}}%
+    \put(0.59092289,0.59759123){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{dipole_interactions.pdf}}%
+    \put(0.18183221,0.27804565){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{dipole_interactions.pdf}}%
+    \put(0.18183212,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{dipole_interactions.pdf}}%
+    \put(0.40910492,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{dipole_interactions.pdf}}%
+    \put(0.40910485,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{dipole_interactions.pdf}}%
+    \put(0.5909231,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{dipole_interactions.pdf}}%
+    \put(0.59092303,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{dipole_interactions.pdf}}%
+    \put(0.81819583,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{dipole_interactions.pdf}}%
+    \put(0.81819576,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{dipole_interactions.pdf}}%
+    \put(0.40910478,0.41440929){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{dipole_interactions.pdf}}%
+    \put(0.18183209,0.41440926){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{dipole_interactions.pdf}}%
+    \put(0.81819578,0.41532478){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{dipole_interactions.pdf}}%
+    \put(0.59092289,0.41440929){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{dipole_interactions.pdf}}%
+    \put(0.5,0.81500011){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{dipole_interactions.pdf}}%
+    \put(0.5,0.72409101){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$s$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{dipole_interactions.pdf}}%
+    \put(0.04496904,0.59292606){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{dipole_interactions.pdf}}%
+    \put(0.04496904,0.41110788){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{dipole_interactions.pdf}}%
+    \put(0.04496904,0.27474421){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{dipole_interactions.pdf}}%
+    \put(0.95406002,0.27610786){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{dipole_interactions.pdf}}%
+    \put(0.14231956,0.77977964){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{coupling}}}%
+    \put(0.29546842,0.64168205){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$D$}}}%
+    \put(0.29545455,0.54545458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_1$}}}%
+    \put(0.70454545,0.54545458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{dipole_interactions.pdf}}%
+  \end{picture}%
+\endgroup%

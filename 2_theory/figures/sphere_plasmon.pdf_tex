@@ -1,0 +1,61 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'sphere_plasmon.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{177.20947051bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.72038299)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{sphere_plasmon.pdf}}%
+    \put(0.4970341,0.67382792){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\vec{E}_0$}}}}%
+    \put(0.49658746,0.19232433){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\varepsilon(\omega)$}}}}%
+    \put(0.31645685,0.04180749){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\varepsilon_m$}}}}%
+    \put(0.99317491,0.35032943){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\textbf{$\hat{z}$}}}}%
+    \put(0.58732273,0.35648311){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$\theta$}}}}%
+    \put(0.45144314,0.41804583){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$a$}}}}%
+    \put(0.67250728,0.57705262){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$r$}}}}%
+  \end{picture}%
+\endgroup%
