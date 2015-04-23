@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\section{Optical Characterisation of Nanostructures using Hyperspectral Imaging}
+\label{sec:hyperspectral_imaging}
+
+% Introduction to optical characterisation
+%The simplest experiment performed using the designed microscope and nanopositioning stage is the optical characterisation of nanostructures. By characterising a nanostructure its plasmon resonances can be locally determined prior to using the nanostructure for any further study. In the context of tips it becomes important to understand the plasmon resonances of an isolated tip before attempting to use them either for field enhancement purposes, such as TERS, or for studies of plasmon coupling.
+
+\begin{figure}[bt]
+\centering
+\fontsize{10pt}{1em}\selectfont
+\def\svgwidth{0.6\textwidth}
+\subimport{./figures/}{simple_optics_layout.pdf_tex}
+\caption[Experiment configuration for hyperspectral imaging]{\textbf{Experiment configuration for hyperspectral imaging.} The laser is centered on the tip apex for imaging. The tip is scanned across the beam in a grid with spectra acquired at each position. The resulting image then contains 1044 colours at each pixel instead of the usual 3 (RGB).}
+\label{fig:simple_optics_layout}
+\end{figure}
+
+% Introduction to hyperspectral imaging
+To optically characterise a sample, it is scanned in a grid under the laser spot and the spectral content of the sampling volume is measured at each point using a spectrometer instead of a photodiode or CCD. This is a form of hyperspectral imaging, allowing for the creation of images at a given wavelength or wavelength band. Rather than comprising of 3 RGB colours, each image pixel is digitised into 1044 bins between 400--\SI{1200}{nm}.
+This is advantageous over regular imaging as more quantitative information can be extracted from an image to the extent that hyperspectral imaging has become commonplace in many widely spread fields, including microscopy \cite{schultz2001hyperspectral, leavesley2012hyperspectral}, astrophysics \cite{hege2004hyperspectral}, remote sensing and geology \cite{hackwell1996lwir, shaw2003spectral}, food standards \cite{kim2001hyperspectral, gowen2007hyperspectral}, and medical imaging \cite{vo2004hyperspectral, martin2006development, lu2014medical}. Within each of these fields it has mostly been used to identify the components constituting an image by their spectral signatures.
+
+By using this hyperspectral imaging technique, LSPs can be spatially identified with confocal resolutions below \SI{300}{nm} ($\lambda/2\NA$). The microscope configuration for this technique is shown in \figurename~\ref{fig:simple_optics_layout}. This approach to hyperspectral imaging has previously been used to identify plasmonic modes in aggregated AuNP colloids \cite{herrmann2013} and to image SPPs \cite{bashevoy2007hyperspectral}. In this experiment the technique is used to study the optical response of sharp and nanostructured tips. It is also used with AuNPs to measure the microscope PSF and map aberrations.
+
+Fast image acquisition is made possible by utilising the ultra-high brightness of a supercontinuum laser source and sensitive, TE-cooled, benchtop spectrometers with a \SI{10}{ms} integration time. Image acquisition is then limited only by the integration time at each pixel and the $\sim$\SI{30}{ms} movement time between pixels. During this time the focal intensity is $\sim$\SI{e8}{\milli\watt\per\centi\metre\squared}, which is not sufficiently high enough to damage the \SI{50}{nm} metallic tip coatings. The illumination and collection configuration is fixed (using the reference intensity) between different samples to maintain comparable scans. Measured spectra are normalised to a spectrum of flat metal of the same material to show geometrical effects only. By using this approach spectral changes between the apex of a tip and its bulk surfaces can be determined.
+
+While not the fastest or most advanced method of acquiring hyperspectral images, the spatial scanning technique is efficient when used with a supercontinuum white-light source, similar to the laser requirement for confocal imaging. Other imaging techniques have been developed to produce hyperspectral images depending on the imaging requirements. These fall under the categories of "spectral scanning", "non-scanning" and "spatio-spectral scanning".
+% Spectral scanning
+Spectral scanning involves wide-field imaging through a range of bandpass filters \cite{iga2012development}, tuneable liquid crystal filters \cite{slawson1999hyperspectral, gat2000imaging} or an etalon \cite{daly2000tunable}. This is appropriate if studying large areas or when an increased resolution and improved contrast, gained through confocal optical sectioning, are not required. Similarly, if the benefits of sectioning are not necessary and an imaging spectrograph (monochromator with CCD) is available then only a 1d line scan over the sample is required to form an image as opposed to a 2d grid scan whilst measuring pixel spectra \cite{schultz2001hyperspectral}.
+% Non-scanning
+Non-scanning or snapshot hyperspectral imaging techniques are more complex than the previous two categories as both the spatial and spectral information are acquired in a single measurement without the need for any pixel scanning or dynamic filtering. The main method to achieving this is to use a computed tomography imaging spectrometer (CTIS) \cite{okamoto1991simultaneous, bulygin1992spectrotomography, okamoto1993simultaneous, descour1995computed}. By using a 2d dispersive grating in the Fourier plane an image can be split into many spectral images, which can be recorded on a CCD array. Advantages of this approach are short exposure times but necessitates a higher computational requirement to disentangle the 2d image into a cube of dimensions $(x,y,\lambda)$.
+% Spatio-spectral scanning
+%Spatio-spectro scanning involves changing
+
+% Why we still use spatial scanning
+Despite the potential improvements gained by using a more advanced hyperspectral imaging technique, spatial point scanning is deemed the most appropriate solution for characterisation. The imaging process is not time-constrained since the microscope platform is stable, resulting in minimal artefacts due to sample motion, and the use of confocal imaging benefits the acquired image quality. Portable bench-top spectrometers are already incorporated into the microscope for use in other experiments and are readily accessible, therefore adapting the microscope to enable use of an imaging spectrograph and line scanning is not a convenient solution. Wide-field imaging is not beneficial at the set magnification due to the small areas of the overall diffraction-limited image that are point scanned and spectrometers have a far superior spectral resolution compared with imaging through bandpass filters. For these reasons, despite its simple and somewhat relatively slow nature, spatial point scanning is used for characterisation.
+
+% Note that colour reconstruction of data cubes is not covered in the thesis since it has not beed used.
+
+\end{document}

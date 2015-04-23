@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\section{Understanding the SERS Mechanism: Tuneable Raman on Spherical Au Tips}
+
+Previously we have shown that spherical Au tips possess strong far-field antenna LSPs and that the Raman enhancement is higher than for a sharp tip. By utilising this resonance it becomes possible to map the SERS background as a function of excitation wavelength around the plasmon.
+
+A tuneable pulsed laser, outputting wavelengths between \SIrange{500}{700}{nm}, is used in conjunction with an individual tip to understand the link between the localised plasmon resonance and the SERS mechanism.%
+\footnote{Tuneable Raman setup built by Anna Lombardi and Lee Weller. SERS background measurements carried out by Anna Lombardi.}
+By measuring the SERS background, known to be caused by inelastic scattering of internal free electrons in the metal \cite{hugall2015}, at various excitation wavelengths and comparing with a scattering spectrum of the plasmon, the enhancement mechanism can be uncovered.
+
+The electromagnetic enhancement of SERS is widely believed to be due to plasmonic enhancement of the intrinsic inelastic scattering \cite{}. The simple mechanism by which the plasmon enhances the field is described below.
+
+The intensity from inelastic scattering of light, also known as Raman scattering, can be described by,
+\begin{equation}
+I_{scat}(\omega) = P(\omega - \omega_0) I_{in}(\omega_0),
+\label{eq:inelastic_scat}
+\end{equation}
+where the outgoing scattering, $I_{scat}$ at a given frequency, $\omega = \omega_0 - \delta\omega$ is proportional to the amount of incident light, $I_{in}(\omega_0)$ where only a fraction of photons, $P(\omega - \omega_0)$, are inelastically scattered. The intensity goes as the $\vec{E}^2$ hence \eqref{eq:inelastic_scat} can be expressed as,
+\begin{equation}
+I_{scat}(\omega) = \left| \vec{E}_{scat}(\omega) \right|^2 = P(\omega - \omega_0) \left|\vec{E}_{in}(\omega_0)\right|^2.
+\label{eq:raman}
+\end{equation}
+The SERS mechanism, in its simplest form, can be described resonant near-field enhancement, or mode coupling, of both the incident field, $\vec{E}_{in}(\omega_0)$, and the outgoing scattered field, $\vec{E}_{scat}(\omega)$. This process is be described in the relations,
+\begin{subequations}
+\begin{align}
+\vec{E}_{in}(\omega_0) &= \vec{g}(\omega_0) \vec{E}_{in, 0}(\omega_0),\\
+\vec{E}_{scat}(\omega) &= \vec{g}(\omega) \vec{E}_{scat, 0}(\omega),
+% the component should be \cdot?
+\end{align}
+\end{subequations}
+where $\vec{g}(\omega)$ is the plasmon resonance enhancing the initial fields $\vec{E}_0$. The plasmon gain is a vector to account for the polarisation response of the field enhancement. Substituting the enhanced fields back into \eqref{eq:raman} yields firstly that,
+\begin{align}
+I_{scat}(\omega) &= \left| \vec{E}_{scat}(\omega) \right|^2 \\
+			  &= \vec{g}^2(\omega) \left| \vec{E_{scat, 0}}(\omega) \right|^2,
+\end{align}
+the scattered intensity is enhanced by $\vec{g}^2(\omega)$, and secondly that,
+\begin{align}
+\vec{E}_{scat, 0}(\omega) &= P^{1/2}(\omega - \omega_0) \vec{E}_{in}(\omega_0) \\
+					&= P^{1/2}(\omega - \omega_0) \vec{g}(\omega_0) \vec{E}_{in, 0}(\omega_0),
+\end{align}
+the incident field is also enhanced by a similar factor $\vec{g}(\omega_0)$. Factoring out the bare Raman signal, $I_{scat,0}$, as given in \eqref{eq:raman}, results in the complete SERS signal,
+\begin{align}
+I_{scat}(\omega) &= \vec{g}^2(\omega) \left| P^{1/2}(\omega - \omega_0) \vec{g}(\omega_0) \vec{E}_{in, 0}(\omega_0) \right|^2, \\
+			  &= g^2(\omega)g^2(\omega_0) I_{scat,0}.
+\label{eq:sers_enhancement}
+\end{align}
+From this we see that the original Raman signal is enhanced by a factor $g^2(\omega)g^2(\omega_0)$. For illumination wavelengths just below the plasmon resonance, when $g(\omega_0) \approx g(\omega_{scat})$, the enhancement of Raman scattering goes as $g^4$. Hence the weak near-field Raman scattering is now efficiently transmitted into the far-field, resulting in an orders of magnitude  signal increase when measuring in the vicinity of a plasmonic surface.
+
+% Experimental data
+\begin{figure}[h]
+\begin{subfigure}[t]{0.49\textwidth}
+\caption[Scattering spectra showing the SERS background from a spherical Au tip at various excitation wavelengths]{\textbf{Scattering spectra showing the SERS background from a spherical Au tip at various excitation wavelengths.} Spectra are acquired by integrating for \SI{10}{s} at \SI{10}{\micro\watt} incident powers.}
+\label{fig:sers_backgrounds}
+\end{subfigure}
+~
+\begin{subfigure}[t]{0.49\textwidth}
+\caption[Supercontinuum dark-field scattering spectrum of the spherical Au tip used to measure the SERS background]{\textbf{Supercontinuum dark-field scattering spectrum of the spherical Au tip used to measure the SERS background.} The overlaid line is the interpolated plasmon function.}
+\label{fig:sers_plasmon}
+\end{subfigure}
+\caption{}
+\end{figure}
+
+{\color{red}Inelastic/Raman} scattering spectra showing the broad SERS background at excitation wavelengths between \SIrange{500}{700}{nm} are shown in \figurename~\ref{fig:sers_backgrounds} along with the plasmon spectrum in \figurename~\ref{fig:sers_plasmon}, as measured using supercontinuum dark-field spectroscopy. The square root of the plasmon spectrum is interpolated to form the plasmon gain function $g(\lambda)$. The SERS model from \eqref{eq:sers_enhancement} is multiplied by a factor $\left( 1 - e^{-c(\lambda_{scat}-\lambda_{ex})} \right)$ to model the experimental cut-on of the long-pass filter. SERS backgrounds modelled using \eqref{eq:sers_enhancement} and the experimental gain function are shown in \figurename~\ref{fig:sers_plasmon}.
+% Commenting on the SERS background curves
+Both experiment and model at first show good agreement. The shape of the SERS background follows the shape of the plasmon resonance to some extent.
+
+\begin{figure}[h]
+\caption[]{SERS analysis.}
+\label{fig:sers_analysis}
+\end{figure}
+
+Extracting the wavelength of maximum intensity and integrated counts from each SERS background and plotting against the excitation wavelength shows that the enhancement peaks when illumination is slightly blueshifted from the plasmon (\figurename~\ref{fig:sers_analysis}). This is expected as the plasmon maximally enhances both the blueshifted incident light and the redshifted scattered light. Significant deviations occur when comparing the maxima and integrated counts between experiment and model. Experimental data shows a much sharper resonance than accounted for in the model.
+
+\end{document}
