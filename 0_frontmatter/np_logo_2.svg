@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="466.13113"
+   height="151.69115"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="np_logo_2.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter4041"
+       x="-0.027019976"
+       width="1.05404"
+       y="-0.51337957"
+       height="2.0267591"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2781629"
+         id="feGaussianBlur4043" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4091"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.74999998"
+         id="feGaussianBlur4093" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4099"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.57714389"
+         id="feGaussianBlur4101" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="196.1095"
+     inkscape:cy="66.927806"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="mm"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-top="10"
+     fit-margin-bottom="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="0.56556193px"
+       originy="-923.87043px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.56556193,23.199388)">
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.625;stroke-miterlimit:4;stroke-dasharray:none;font-family:PT Serif;-inkscape-font-specification:PT Serif;"
+       x="50"
+       y="52.362183"
+       id="text2987"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="50"
+         y="52.362183"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;stroke:#000000;stroke-width:0.625;stroke-miterlimit:4;stroke-dasharray:none;font-family:PT Sans;-inkscape-font-specification:PT Sans;fill-opacity:1;">NanoPhotonics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.625;stroke-miterlimit:4;stroke-dasharray:none;font-family:PT Serif;-inkscape-font-specification:PT Serif;"
+       x="320"
+       y="92.362183"
+       id="text2991"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2993"
+         x="320"
+         y="92.362183"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;stroke:#000000;stroke-width:0.625;stroke-miterlimit:4;stroke-dasharray:none;font-family:PT Sans;-inkscape-font-specification:PT Sans;fill-opacity:1;">Centre</tspan></text>
+    <rect
+       style="opacity:0.9;fill:#f50000;fill-opacity:1;stroke:none;filter:url(#filter4041)"
+       id="rect3987"
+       width="380"
+       height="20"
+       x="50"
+       y="52.362183"
+       ry="10"
+       transform="matrix(0.98684211,0,0,0.20674458,-4.3421053,47.401694)" />
+    <g
+       id="g4103"
+       transform="matrix(0.77364591,0.13987732,-0.13987732,0.77364591,170.85818,-59.299893)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045"
+         d="m 200,112.36218 10,-19.999997 0,19.999997 20,10 -20,0 -10,20 0,-20 -20,-10 z"
+         style="opacity:0.8;fill:#f50000;fill-opacity:1;stroke:none;filter:url(#filter4091)" />
+      <path
+         transform="matrix(-0.5790805,0.33031837,0.33031837,0.5790805,314.23197,-35.164485)"
+         style="opacity:0.8;fill:#f50000;fill-opacity:1;stroke:none;filter:url(#filter4099)"
+         d="m 250,112.36218 10,-19.999994 0,19.999994 20,10 -20,0 -10,20 0,-20 -20,-10 z"
+         id="path4065"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
