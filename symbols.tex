@@ -20,13 +20,18 @@
 				description={radial coordinate [m]}}
 \newglossaryentry{theta}{type=symbols, name=\ensuremath{\theta}, sort=theta,
 				description={angle [\si{\degree}]}}
-\newglossaryentry{phi}{type=symbols, name=\ensuremath{\phi}, sort=[hi,
+\newglossaryentry{phi}{type=symbols, name=\ensuremath{\phi}, sort=phi,
+				description={displacement [m]}}
+\newglossaryentry{s}{type=symbols, name=\ensuremath{s}, sort=s,
 				description={azimuthal angle [\si{\degree}]}}
 				
 \newglossaryentry{F}{type=symbols, name=\ensuremath{\vec{F}}, sort=F,
 				description={force [N]}}
 \newglossaryentry{|F|}{type=symbols, name=\ensuremath{F}, sort=F,
 				description={magnitude of force [N]}}
+				
+\newglossaryentry{T}{type=symbols, name=\ensuremath{T}, sort=T,
+				description={temperature [K]}}
 
 % Electromagnetism
 \newglossaryentry{E}{type=symbols, name=\ensuremath{\vec{E}}, sort=E,
@@ -52,6 +57,8 @@
 				description={total volume charge density [\si{C.m^{-3}}]}}
 \newglossaryentry{c}{type=symbols, name=\ensuremath{c}, sort=c,
 				description={speed of light, \SI{2.99e8}{m.s^{-1}}}}
+\newglossaryentry{sigma}{type=symbols, name=\ensuremath{\sigma}, sort=sigma,
+				description={surface charge density [\si{C.m^{-2}}]}}
 				
 \newglossaryentry{J}{type=symbols, name=\ensuremath{\vec{J}}, sort=J,
 				description={current density [\si{A.m^{-2}}]}}
@@ -72,19 +79,21 @@
 				description={magnetisation/magnetic dipole moment per unit volume [\si{m^{-3}}]}}
 
 \newglossaryentry{eps}{type=symbols, name=\ensuremath{\varepsilon}, sort=eps, 
-				description={complex relative permittivity, $\varepsilon = \varepsilon_1 + i\varepsilon_2$}}
+				description={complex relative permittivity, $\varepsilon = \varepsilon_1 + i\varepsilon_2$, also known as a dielectric function of a material}}
 \newglossaryentry{mu}{type=symbols, name=\ensuremath{\mu}, sort=mu,
 				description={relative permeability}}
-\newglossaryentry{sigma}{type=symbols, name=\ensuremath{\sigma}, sort=sigma, 
-				description={conductivity}}
+\newglossaryentry{conductivity}{type=symbols, name=\ensuremath{\sigma}, sort=sigma, 
+				description={conductivity [\si{S.m^{-1}}]}}
 \newglossaryentry{refractive_index}{type=symbols, name=\ensuremath{\tilde{n}}, sort=n, 
 				description={complex refractive index, $\tilde{n} = n+i\kappa$}}
+\newglossaryentry{skin_depth}{type=symbols, name=\ensuremath{\delta_m}, sort=delta_m, 
+				description={electromagnetic skin depth [m]}}
 				
-\newglossaryentry{wavevector}{type=symbols, name=\ensuremath{\vec{q}}, sort=q,
+\newglossaryentry{wavevector}{type=symbols, name=\ensuremath{\vec{k}}, sort=k,
 				description={wavevector [\si{m^{-1}}]}}
-\newglossaryentry{wavevector_mag}{type=symbols, name=\ensuremath{q}, sort=q,
+\newglossaryentry{wavevector_mag}{type=symbols, name=\ensuremath{k}, sort=k,
 				description={magnitude of the wavevector [\si{m^{-1}}]}}
-\newglossaryentry{wavevector0}{type=symbols, name=\ensuremath{q_0}, sort=q0,
+\newglossaryentry{wavevector0}{type=symbols, name=\ensuremath{k_0}, sort=k0,
 				description={magnitude of the photonic wavevector, $\omega/c$ [\si{m^{-1}}]}}
 \newglossaryentry{e}{type=symbols, name=\ensuremath{e}, sort=e,
 				description={fundamental unit of charge, \SI{1.6e-19}{C}}}
@@ -97,9 +106,9 @@
 				description={complex relative permittivity of a metal (see also \gls{eps_omega})}}
 \newglossaryentry{eps_dielectric}{type=symbols, name=\ensuremath{\varepsilon_d}, sort=eps_dielectric, 
 				description={complex relative permittivity of a dielectric - assumed constant}}
-\newglossaryentry{wavevector_metal}{type=symbols, name=\ensuremath{q_m}, sort=qm,
+\newglossaryentry{wavevector_metal}{type=symbols, name=\ensuremath{k_m}, sort=km,
 				description={magnitude of the wavevector inside a metal [\si{m^{-1}}]}}
-\newglossaryentry{wavevector_dielectric}{type=symbols, name=\ensuremath{q_d}, sort=qd,
+\newglossaryentry{wavevector_dielectric}{type=symbols, name=\ensuremath{k_d}, sort=kd,
 				description={magnitude of the wavevector inside a dielectric [\si{m^{-1}}]}}
 				
 \newglossaryentry{potential}{type=symbols, name=\ensuremath{\varphi}, sort=phi,
@@ -122,11 +131,11 @@
 %\newcommand{\Jint}{\gls{J_int}}%{\ensuremath{\vec{J_{int}}}}
 %\newcommand{\Jext}{\gls{J_ext}}%{\ensuremath{\vec{J_{ext}}}}
 %\newcommand{\refind}{\gls{refractive_index}}%{\ensuremath{\tilde{n}}}
-\newcommand{\wv}{\gls{wavevector}}
-\newcommand{\wvm}{\gls{wavevector_mag}}
-\newcommand{\wvz}{\gls{wavevector0}}
-\newcommand{\wvmet}{\gls{wavevector_metal}}
-\newcommand{\wvdi}{\gls{wavevector_dielectric}}
+\newcommand{\wv}{\ensuremath{\vec{k}}}
+\newcommand{\wvm}{\ensuremath{k}}
+\newcommand{\wvz}{\ensuremath{k_0}}
+\newcommand{\wvmet}{\ensuremath{k_m}}
+\newcommand{\wvdi}{\ensuremath{k_d}}
 \newcommand{\pot}{\gls{potential}}
 
 \newcommand{\epsfs}{\ensuremath{\varepsilon_0}}
@@ -141,6 +150,7 @@
 \newcommand{\Jint}{\ensuremath{\vec{J_{int}}}}
 \newcommand{\Jext}{\ensuremath{\vec{J_{ext}}}}
 \newcommand{\refind}{\ensuremath{\tilde{n}}}
+\newcommand{\skindepth}{\ensuremath{\delta_m}}
 
 % Plasmonics
 \newglossaryentry{a}{type=symbols, name=\ensuremath{a}, sort=a,
@@ -189,7 +199,7 @@
 				description={coefficient of damping [\si{s^{-1}}]}}
 \newglossaryentry{tau}{type=symbols, name=\ensuremath{\tau}, sort=tau,
 				description={relaxation time [s]}}
-\newglossaryentry{psi}{type=symbols, name=\ensuremath{\psi}, sort=psi,
+\newglossaryentry{wave_func}{type=symbols, name=\ensuremath{\psi}, sort=psi,
 				description={wavefunction}}
 \newglossaryentry{v}{type=symbols, name=\ensuremath{v}, sort=v,
 				description={velocity [\si{m.s^{-1}}]}}
@@ -209,6 +219,8 @@
 % Optics
 \newglossaryentry{NA}{type=symbols, name=\ensuremath{\mathit{NA}}, sort=NA,
 				description={numerical aperture}}
+\newglossaryentry{mag}{type=symbols, name=\ensuremath{M}, sort=M,
+				description={magnification}}
 \newglossaryentry{uo}{type=symbols, name=\ensuremath{u}, sort=u,
 				description={axial optical coordinate [m]}}
 \newglossaryentry{vo}{type=symbols, name=\ensuremath{v}, sort=v,
@@ -225,6 +237,8 @@
 % Electronics
 \newglossaryentry{G0}{type=symbols, name=\ensuremath{\mathrm{G_0}}, sort=G0,
 				description={quantum of conductance, \SI{7e-5}{\ohm}}}
+\newglossaryentry{V}{type=symbols, name=\ensuremath{V}, sort=V,
+				description={voltage or potential difference [V]}}
 				
 % AFM
 \newglossaryentry{k}{type=symbols, name=\ensuremath{k}, sort=k,
@@ -233,6 +247,7 @@
 				description={initial cantilever spring constant [\si{N.m^{-1}}]}}
 
 % Electrochemistry
+\newcommand{\Esp}{\ensuremath{E^0}}
 \newcommand{\Eox}{\ensuremath{E^0_{\mathrm{ox}}}}
 \newcommand{\Ered}{\ensuremath{E^0_{\mathrm{red}}}}
 

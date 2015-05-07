@@ -2,7 +2,8 @@
 \usepackage[scale=0.8]{geometry}
 \usepackage[]{hyperref}
 %\usepackage{cmbright}
-%\renewcommand\bfdefault{sb}
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\sfdefault}{cmbr}
 \usepackage{setspace}
 
 % Bibliography
@@ -10,13 +11,13 @@
 \DefineBibliographyStrings{english}{bibliography = {References},}
 \DeclareBibliographyCategory{fullcited}
 \newcommand{\mybibexclude}[1]{\addtocategory{fullcited}{#1}}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/textbooks.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/citations.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/microscopy.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/hyperspectral_imaging.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/tip_methods.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/electrochemistry.bib}
-\addbibresource{~/Documents/PhD/Git/Thesis/citations/presentations.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/textbooks.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/citations.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/microscopy.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/hyperspectral_imaging.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/tip_methods.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/electrochemistry.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/presentations.bib}
 
 % Graphics settings
 \usepackage{graphicx}
@@ -35,7 +36,7 @@
 
 % Misc packages
 \usepackage{amsmath}%, amssymb}
-\usepackage[per-mode=reciprocal]{siunitx}
+\usepackage[per-mode=reciprocal, separate-uncertainty=true]{siunitx}
 \usepackage{color, epstopdf, import}
 \sisetup{range-phrase= \thinspace\textendash\thinspace, detect-all}
 \usepackage{nicefrac}
@@ -57,9 +58,9 @@
 \newglossary{symbols}{sym}{sbl}{List of Symbols}
 \makeglossaries
 
-\usepackage[intoc]{nomencl}
-\renewcommand{\nomname}{List of Symbols}
-\makenomenclature
+%\usepackage[intoc]{nomencl}
+%\renewcommand{\nomname}{List of Symbols}
+%\makenomenclature
 
 % Fancy headings settings
 \usepackage{fancyhdr}
@@ -82,6 +83,9 @@
 
 \renewcommand{\topfraction}{.7}
 \renewcommand{\bottomfraction}{.5}
+
+\newcommand{\subs}[1]{\ensuremath{_{\scriptstyle\text{#1}}}}
+\newcommand{\sups}[1]{\ensuremath{^{\scriptstyle\text{#1}}}}
 
 % Math shortcuts
 \renewcommand{\figurename}{Figure}
