@@ -48,7 +48,7 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.85816861)%
+  \begin{picture}(1,0.82294814)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{dipole_interactions.pdf}}%
     \put(0.40910478,0.59759123){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{dipole_interactions.pdf}}%
@@ -82,9 +82,9 @@
     \put(0,0){\includegraphics[width=\unitlength,page=16]{dipole_interactions.pdf}}%
     \put(0.59092289,0.41440929){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{dipole_interactions.pdf}}%
-    \put(0.5,0.81500011){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0.5,0.75136375){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$r$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{dipole_interactions.pdf}}%
-    \put(0.5,0.72409101){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$s$}}}%
+    \put(0.5,0.68772737){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{dipole_interactions.pdf}}%
     \put(0.04496904,0.59292606){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{dipole_interactions.pdf}}%

@@ -54,6 +54,7 @@
     \put(0.17420496,0.23748539){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
     \put(0.07196444,0.19730784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{dielectric}}}%
     \put(0.07369075,0.15346667){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{metal}}}%
+    
     {\fontsize{8pt}{1em}\selectfont
     \put(0.68789649,0.163995){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0.56263598,0.163995){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{+}}}%
@@ -69,6 +70,8 @@
     \put(0.750521,0.09290335){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$H_y$}}}%
     \put(0.75053056,0.38014276){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_x$}}}%
     \put(0.50000956,0.38014276){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_z$}}}%
-    \put(0.35909149,0.29191568){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\wv, \omega$}}}%
+    \put(0.35909149,0.22302241){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\wv, \omega$}}}%
+    \put(0.36090725,0.30131022){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\epsdi}}}%
+    \put(0.36090725,0.10104558){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\dielectric}}}%
   \end{picture}%
 \endgroup%
