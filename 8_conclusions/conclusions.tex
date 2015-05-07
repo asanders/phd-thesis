@@ -1,5 +1,5 @@
-% !TEX TS-program = pdflatexmk
-% !BIB TS-program = bibtex
+%% !TEX TS-program = pdflatexmk
+%% !BIB TS-program = bibtex
 
 \documentclass[12pt, a4paper, oneside]{book}
 \usepackage{import}
@@ -10,12 +10,13 @@
 \begin{document}
 
 \begin{singlespace}
+\color{white}
 \chapter{Conclusions and Outlook}
 \end{singlespace}
 
-%\AddToShipoutPictureBG*{ \AtPageUpperLeft{ \put(0,-240)
-%{\includegraphics[width=\paperwidth, clip=true, trim=0 80 0 100]{figures/chapter_cover.png}}
-%}}
+\AddToShipoutPictureBG*{ \AtPageUpperLeft{ \put(0,-225)
+{\includegraphics[width=\paperwidth, clip=true, trim=0 80 0 0]{figures/chapter_cover.jpg}}
+}}
 
 % Project overview
 This thesis has focussed on the understanding and application of tips for plasmonics, with the aim to use tips to further understand the recently revealed sub-nm regime of plasmonic coupling. Though the initial motivation was to investigate quantum regime plasmonics, the project diversified into studying the optical differences between sharp and spherical tips using techniques such as hyperspectral imaging and plasmon coupling, the development of an electrochemical method as an alternative approach to producing spherical tips and the application of plasmonic tips for \gls{ters}. Finally, spherical tips were applied to investigating quantum effects in the sub-nm plasmonic coupling regime. Work was therefore split between three core areas: development of plasmonic tips, design and construction of a custom microscope for tip experiments, and ultimately performing experiments on the combined tip systems.
@@ -44,10 +45,10 @@ The experiments carried out have both demonstrated the appeal of nanostructured 
 % Parameters not checked in current experiments
 Though the mechanisms for varying the humidity are in place, its effects on the tunnelling current and plasmons have yet to be systematically studied. Experiments were typically ran in low humidity environments to reduce adhesion forces caused by the water meniscus, however increased water in the gap is thought to extend the tunnelling regime to larger separations. Conversely, since water always exists in ambient gaps and plasmons can be considered to be tightly confined in sub-nm cavities, it may be the case that the ambient tunnelling regime is completely submerged regardless of non-zero humidity levels. It would therefore be a relatively simple extension to current procedures to attempt multiple repeated scans at different humidity levels under the assumption that the gap morphology is unchanged between scans. Modification of the experiment top chamber could also potentially allow for experiments under vacuum conditions.
 
-The influence of the applied d.c. bias on the coupled plasmons has been so far ignored due to the assumption that only optical frequency effects matter. However, it has been suggested that the non-linear nature of electron tunnelling means a strong d.c. bias can be used to tune plasmon coupling \cite{}. Strong biases could also be used to electrically excite coupled plasmons, which could be monitored dynamically to probe the tunnelling regime with a background-free signal.
+The influence of the applied d.c.\ bias on the coupled plasmons has been so far ignored due to the assumption that only optical frequency effects matter. However, it has been suggested that the non-linear nature of electron tunnelling means a strong d.c. bias can be used to tune plasmon coupling \cite{}. Strong biases could also be used to electrically excite coupled plasmons, which could be monitored dynamically to probe the tunnelling regime with a background-free signal.
 
 % Conduction mechanism
-Beyond electron tunnelling is the dependence of plasmon coupling on other conduction mechanisms that result from the placement of material in the gap. The effects of conduction on plasmonic hot spots is particularly important to understand since this is the plasmonic geometry recently opted for in techniques like \gls{sers}. The introduction of a gap layer could be used to controllably modify the charge transfer mechanism, as has been successful in nanoparticle systems \cite{benz2014}. Using the current setup it would be possible to measure the influence of different conduction mechanisms on plasmon coupling across a range of spatial regimes. By coating the tips of a dual-tip plasmonic dimer with dielectric, semiconducting, low-dimensionality or quantum materials, their coupling with plasmons can be directly observed, along with their response to both applied biases and strain. The backside of a cantilever or a flat cantilever could even be exploited for high-quality monolayer deposition with plasmons coupling to an image charge \cite{mertens2013, benz2014}. In the event that a spacer material could be externally controlled, e.g. through the application of a voltage, the basis for a plasmonic switch could be conceived.
+Beyond electron tunnelling is the dependence of plasmon coupling on other conduction mechanisms that result from the placement of material in the gap. The effects of conduction on plasmonic hot spots is particularly important to understand since this is the plasmonic geometry recently opted for in techniques like \gls{sers}. The introduction of a gap layer could be used to controllably modify the charge transfer mechanism, as has been successful in nanoparticle systems \cite{benz2014}. Using the current setup it would be possible to measure the influence of different conduction mechanisms on plasmon coupling across a range of spatial regimes. By coating the tips of a dual-tip plasmonic dimer with dielectric, semiconducting, low-dimensionality or quantum materials, their coupling with plasmons can be directly observed, along with their response to both applied biases and strain. The backside of a cantilever or a flat cantilever could even be exploited for high-quality monolayer deposition with plasmons coupling to an image charge \cite{mertens2013, benz2014}. In the event that a spacer material could be externally controlled, e.g.\ through the application of a voltage, the basis for a plasmonic switch could be conceived.
 
 % Why should people be interested
 To conclude, the boundary between the capacitive coupling and charge transfer regimes of plasmonics has only recently become accessible, displaying a wealth of interesting physics in only a short period of time. Dynamically controlling the particle positions of an \gls{afm} tip dimer has become a powerful technique for the study of such physics and the results provided by it are expected to be of great interest to the general plasmonic community. From the point of view of fundamental plasmonics, they provide an insight into a largely unknown regime of plasmonics whilst from an applied aspect they indicate the limitations of plasmonics.
