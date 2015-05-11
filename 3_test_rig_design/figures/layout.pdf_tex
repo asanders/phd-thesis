@@ -70,13 +70,13 @@
     \put(0.91561265,0.28277781){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.08811313\unitlength}\centering Ocean Optics QE65000\end{minipage}}}%
     \put(0.54225679,0.23655915){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12998998\unitlength}\centering ThorLabs 50:50 plate beamsplitter\end{minipage}}}%
     \put(0.47260704,0.33004023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 200 mm achromat\end{minipage}}}%
-    \put(0.19561686,0.4965391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 125 mm achromat\end{minipage}}}%
+    \put(0.19561686,0.4965391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 150 mm achromat\end{minipage}}}%
     \put(0.08151455,0.28855514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20220663\unitlength}\centering auxilliary illumination input port\end{minipage}}}%
     \put(0.42093281,0.42432245){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12998998\unitlength}\centering wedged beamsplitters\end{minipage}}}%
     \put(-0.00019006,0.51124425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1164326\unitlength}\centering DF stop - 2~mm Al disc on wedged BK7 \end{minipage}}}%
     \put(0.17972919,0.79984905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.11554664\unitlength}\centering beam attenuation: 2x~ND0.3 2x~ND0.5\end{minipage}}}%
     \put(0.81561498,0.41982689){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10146034\unitlength}\centering Lumenera Infinity2 CCD\end{minipage}}}%
-    \put(0.46282288,0.19040465){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=53$}}}%
-    \put(0.76612842,0.27633824){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=133$}}}%
+    \put(0.46282288,0.19040465){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=47$}}}%
+    \put(0.76612842,0.27633824){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=111$}}}%
   \end{picture}%
 \endgroup%

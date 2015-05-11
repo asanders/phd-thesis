@@ -1,11 +1,9 @@
 \documentclass{standalone}
 \usepackage{tikz, graphicx, cmbright, amsmath, setspace}
 \begin{document}
-%\fontsize{10pt}{1em}\selectfont
-\setstretch{0.9}
-
 
 \begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75}]
+{\fontsize{10pt}{1em}\selectfont\setstretch{0.9}
 \node [above right] at (0, 0) {\includegraphics[width=9cm]{tenom_surface.png}};
 \node at (-0.8,5.8) {(b)};
 
@@ -34,6 +32,7 @@ $};
 \draw (9.5,1.8) circle (0.25);
 \node at (9.5,1.8) {4};
 \node [align=center] at (9.3,1.1) {radiative\\SPP decay};
+}
 
 {\fontsize{7pt}{1em}\selectfont \bfseries
 \color{blue}

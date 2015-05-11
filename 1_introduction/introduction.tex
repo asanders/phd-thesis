@@ -10,11 +10,16 @@
 \begin{document}
 
 \begin{singlespace}
+\color{white}
 \chapter{Introduction}
 \end{singlespace}
 
+\AddToShipoutPictureBG*{ \AtPageUpperLeft{ \put(0,-240)
+{\includegraphics[width=\paperwidth, clip=true, trim=0 250 0 0]{figures/chapter_cover.jpg}}
+}}
+
 % Introduction to nanophotonics
-Optics has always been one of the primary branches of applied physics used to probe and extract information from many physical systems. By studying the way light interacts with a material its properties can be discerned. This is the main principle behind optical microscopy. Conventional optics, solely based upon the use of light, {\color{red}however,} is held back by a fundamental limitation. The finite momentum of the photon restricts the spatial confinement of light to its wavelength. Since the discovery of the diffraction limit in 1873, a great amount of work has been done trying to circumvent the limit it imposes and retrieve information from sub-wavelength emissions. Whilst the diffraction limit is firmly fixed for freely propagating photons it can be broken at an interface, where waves can acquire evanescent character. Such surface waves excitations can exist with wavelengths far below those of photons. By understanding the electromagnetic behaviour of waves on an interface, optics can be brought down to nanoscale dimensions.
+Optics has always been one of the primary branches of applied science used to probe and extract information from many physical systems. By studying the way light interacts with a material its properties can be discerned. This is the main principle behind optical microscopy. Conventional optics, solely based upon the use of light, {\color{red}however,} is held back by a fundamental limitation. The finite momentum of the photon restricts the spatial confinement of light to its wavelength. Since the discovery of the diffraction limit in 1873, a great amount of work has been done trying to circumvent the limit it imposes and retrieve information from sub-wavelength emissions. Whilst the diffraction limit is firmly fixed for freely propagating photons it can be broken at an interface, where waves can acquire evanescent character. Such surface waves excitations can exist with wavelengths far below those of photons. By understanding the electromagnetic behaviour of waves on an interface, optics can be brought down to nanoscale dimensions.
 
 Nanophotonics is the name given to the progression of optics into the sub-wavelength domain - the understanding and application of light beyond the diffraction limit. To achieve this nanoscale localisation, nanophotonics exploits light-matter interactions. Matter polarised by an external electromagnetic field can generate its own fields. These fields are determined both by the incident field and by the physical characteristics of the matter. By this mechanism the optical properties of metals on the nm-scale become particularly interesting.
 
@@ -34,18 +39,7 @@ Surface plasmons maintain the same frequency as their photonic excitation, howev
 \label{fig:aunp_plasmon}
 \end{figure}
 
-Noble metals have particularly good surface plasmons in the visible region of the electromagnetic spectrum, and are therefore used in the vast majority of all work involving plasmonics. Their electrons are highly mobile and freely move to oppose an incident field, leading to strong collective oscillations of conduction electrons. This is particularly true for collective oscillations confined to the surface of \glspl{mnp}, which develop highly localised fields when resonantly driven by light as a result of {\color{red} extreme} surface charge accumulation (\figurename~\ref{fig:aunp_plasmon}). These are known as \glspl{spr}.
-%Their inertia, however, leads to this behaviour becoming resonant at specific frequencies. Light shining on a sub-wavelength, noble metallic nanoparticle can therefore readily couple with surface plasmon resonances that remain highly localised on the particle surface (\figurename~\ref{fig:aunp_plasmon}).
-A direct result of this is resonant evanescent enhancement of the incident field at the plasmon poles.
-
-% Concept of an optical antenna
-%\begin{figure}[bt]
-%\centering
-%	\includegraphics[width=0.45\textwidth, clip=true, trim=0 650 0 0]{figures/literature/nphoton_2010_237_f1}
-%	\includegraphics[width=0.45\textwidth, clip=true, trim=15 0 0 660]{figures/literature/nphoton_2010_237_f1}\\
-%\caption[The concept of an optical nano-antenna \cite{novotny2011}.]{\textbf{The concept of an optical nano-antenna \cite{novotny2011}.} The electric field from a near-field transmitter is coupled via an antenna into far-field radiation. By reciprocity, far-field radiation can be received in the near-field. Plasmonic nanostructures act as optical antennae.}
-%\label{fig:novotny2011}
-%\end{figure}
+Noble metals have particularly good surface plasmons in the visible region of the electromagnetic spectrum, and are therefore used in the vast majority of all work involving plasmonics. Their electrons are highly mobile and freely move to oppose an incident field, leading to strong collective oscillations of conduction electrons. This is particularly true for collective oscillations confined to the surface of \glspl{mnp}, which develop highly localised fields when resonantly driven by light as a result of surface charge accumulation (\figurename~\ref{fig:aunp_plasmon}). These are known as \glspl{spr} and lead to resonant field enhancement at the plasmon poles. In fact, it is due to the existence of \gls{mnp} \glspl{spr} and noble \gls{mnp} impurities that historically led to the vibrant colouring of stained glass.
 
 As external, far-field light readily couples with plasmons in \glspl{mnp} they have becomes known as optical antennae, in analogy with conventional metal radio wave antennae \cite{novotny2011}. Consequently, they are seen as a simple and efficient method for transferring and confining photonic energy to nanoscale dimensions. Energy can then be transferred to nano-absorbers, such as quantum dots. By reciprocity, near-fields from nano-emitters can be efficiently transferred into the far-field.
 % Plasmon interactions
