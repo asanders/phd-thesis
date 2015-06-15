@@ -51,12 +51,14 @@
 %\usepackage{cite}
 %\usepackage{tocloft}
 \usepackage[section, below]{placeins} % to use \FloatBarrier
+\usepackage[bottom]{footmisc}
 
 \usepackage[acronym, toc, nomain, nogroupskip, nonumberlist, nopostdot]{glossaries}
 \setglossarystyle{longborder}
 \setlength\glsdescwidth{0.8\textwidth}
 \newglossary{symbols}{sym}{sbl}{List of Symbols}
 \makeglossaries
+\glsdisablehyper
 
 %\usepackage[intoc]{nomencl}
 %\renewcommand{\nomname}{List of Symbols}
@@ -89,6 +91,9 @@
 
 % Math shortcuts
 \renewcommand{\figurename}{Figure}
+\newcommand{\figref}[1]{\figurename~\ref{#1}}
+\renewcommand{\eqref}[1]{Eq.~\textup{\ref{#1}}}
+
 %\input{nomencl_symbols}
 \input{symbols}
 \input{acronyms}

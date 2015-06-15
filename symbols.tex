@@ -24,6 +24,8 @@
 				description={displacement [m]}}
 \newglossaryentry{s}{type=symbols, name=\ensuremath{s}, sort=s,
 				description={azimuthal angle [\si{\degree}]}}
+\newglossaryentry{v}{type=symbols, name=\ensuremath{v}, sort=v,
+				description={velocity [\si{m.s^{-1}}]}}
 				
 \newglossaryentry{F}{type=symbols, name=\ensuremath{\vec{F}}, sort=F,
 				description={force [N]}}
@@ -102,9 +104,9 @@
 				
 \newglossaryentry{eps_omega}{type=symbols, name=\ensuremath{\varepsilon(\omega)}, sort=eps_omega, 
 				description={dielectric function of a metal}}
-\newglossaryentry{eps_metal}{type=symbols, name=\ensuremath{\varepsilon_m}, sort=eps_metal, 
+\newglossaryentry{eps_metal}{type=symbols, name=\ensuremath{\varepsilon_{z,m}}, sort=eps_metal, 
 				description={complex relative permittivity of a metal (see also \gls{eps_omega})}}
-\newglossaryentry{eps_dielectric}{type=symbols, name=\ensuremath{\varepsilon_d}, sort=eps_dielectric, 
+\newglossaryentry{eps_dielectric}{type=symbols, name=\ensuremath{\varepsilon_{z,d}}, sort=eps_dielectric, 
 				description={complex relative permittivity of a dielectric - assumed constant}}
 \newglossaryentry{wavevector_metal}{type=symbols, name=\ensuremath{k_m}, sort=km,
 				description={magnitude of the wavevector inside a metal [\si{m^{-1}}]}}
@@ -134,8 +136,8 @@
 \newcommand{\wv}{\ensuremath{\vec{k}}}
 \newcommand{\wvm}{\ensuremath{k}}
 \newcommand{\wvz}{\ensuremath{k_0}}
-\newcommand{\wvmet}{\ensuremath{k_m}}
-\newcommand{\wvdi}{\ensuremath{k_d}}
+\newcommand{\wvmet}{\ensuremath{k_{z,m}}}
+\newcommand{\wvdi}{\ensuremath{k_{z,d}}}
 \newcommand{\pot}{\gls{potential}}
 
 \newcommand{\epsfs}{\ensuremath{\varepsilon_0}}
@@ -180,6 +182,8 @@
 				description={extinction cross section, $\gls{sigma_abs}+\gls{sigma_scat}$ [\si{\metre\squared}]}}
 
 \newcommand{\omegap}[1][]{\ensuremath{\omega_{p}^{#1}}}
+\newcommand{\omegasp}{\ensuremath{\omega_{\mathrm{SP}}}}
+\newcommand{\omegalsp}{\ensuremath{\omega_{\mathrm{LSP}}}}
 
 % Dimer Plasmonics
 
@@ -201,8 +205,6 @@
 				description={relaxation time [s]}}
 \newglossaryentry{wave_func}{type=symbols, name=\ensuremath{\psi}, sort=psi,
 				description={wavefunction}}
-\newglossaryentry{v}{type=symbols, name=\ensuremath{v}, sort=v,
-				description={velocity [\si{m.s^{-1}}]}}
 \newglossaryentry{phase}{type=symbols, name=\ensuremath{\phi}, sort=phi,
 				description={phase of the wave}}
 \newglossaryentry{m}{type=symbols, name=\ensuremath{m}, sort=m,
@@ -236,9 +238,13 @@
 
 % Electronics
 \newglossaryentry{G0}{type=symbols, name=\ensuremath{\mathrm{G_0}}, sort=G0,
-				description={quantum of conductance, \SI{7e-5}{\ohm}}}
+				description={quantum of conductance, \SI{7e-5}{\per\ohm}}}
 \newglossaryentry{V}{type=symbols, name=\ensuremath{V}, sort=V,
 				description={voltage or potential difference [V]}}
+\newglossaryentry{I}{type=symbols, name=\ensuremath{I}, sort=I,
+				description={current [A]}}
+\newglossaryentry{G}{type=symbols, name=\ensuremath{G}, sort=G,
+				description={conductance [\si{\per\ohm}]}}
 				
 % AFM
 \newglossaryentry{k}{type=symbols, name=\ensuremath{k}, sort=k,
@@ -247,15 +253,15 @@
 				description={initial cantilever spring constant [\si{N.m^{-1}}]}}
 
 % Electrochemistry
-\newcommand{\Esp}{\ensuremath{E^0}}
-\newcommand{\Eox}{\ensuremath{E^0_{\mathrm{ox}}}}
-\newcommand{\Ered}{\ensuremath{E^0_{\mathrm{red}}}}
+\newcommand{\Esp}{\ensuremath{E^o}}
+\newcommand{\Eox}{\ensuremath{E^o_{\mathrm{ox}}}}
+\newcommand{\Ered}{\ensuremath{E^o_{\mathrm{red}}}}
 
-\newglossaryentry{E_sp}{type=symbols, name=\ensuremath{E^0}, sort=E0,
+\newglossaryentry{E_sp}{type=symbols, name=\ensuremath{E^o}, sort=E0,
 				description={standard electrochemical potential [V]}}
-\newglossaryentry{E_ox}{type=symbols, name=\ensuremath{E^0_{\mathrm{ox}}}, sort=E0_ox,
+\newglossaryentry{E_ox}{type=symbols, name=\ensuremath{E^o_{\mathrm{ox}}}, sort=E0_ox,
 				description={standard potential of oxidation [V]}}
-\newglossaryentry{E_red}{type=symbols, name=\ensuremath{E^0_{\mathrm{red}}}, sort=E0_red,
+\newglossaryentry{E_red}{type=symbols, name=\ensuremath{E^o_{\mathrm{red}}}, sort=E0_red,
 				description={standard potential of reduction [V]}}
 \newglossaryentry{v_drift}{type=symbols, name=\ensuremath{v_{\mathrm{drift}}}, sort=v_drift,
 				description={drift velocity of electrons [\si{m.s^{-1}}]}}
