@@ -49,7 +49,7 @@ Before studying the optical properties of nano-gaps it is beneficial to understa
 \begin{figure}[bt]
 \centering
 \includegraphics{figures/tip_scanning_properties}
-\caption[Axial force and conductance measurements of a sharp Au tip dimer approaching into contact]{\textbf{Axial force and conductance measurements of a sharp Au tip dimer approaching into contact.} The characteristic AFM snap-in effect is seen as a discontinuous jump before the linear application of force regime. The tip apices snap together, reducing the separation to on the order of \SI{1}{nm}, leading to the onset of quantum tunnelling upon further decreasing the gap separation.}
+\caption[Axial force and conductance measurements of a sharp Au tip dimer approaching into contact]{\textbf{Axial force and conductance measurements of a sharp Au tip dimer approaching into contact.} The characteristic AFM snap-in effect is seen in the axial force (a) as a discontinuous jump before the linear application of force in a soft contact regime. The tip apices snap together, reducing the separation to on the order of \SI{1}{nm}, leading to the onset of quantum tunnelling, and finally conductive contact, upon further decreasing the gap separation (b). Dashed and dotted lines are added as guides to the eye showing different features in the scan, such as snap-in and conductance behaviour.}
 \label{fig:tip_scan_props}
 \end{figure}
 
@@ -60,7 +60,7 @@ Since experiments are carried out in ambient conditions the surfaces of tips wil
 
 To prevent snap-in either a stiffer cantilever must be used (normally in tapping mode) \cite{zhong1993fractured} or the water meniscus has to be removed, which is usually achieved through liquid immersion AFM \cite{hansma1994tapping, putman1994tapping, song2014}. Removal of the meniscus can also be realised by using plasma treatment to remove hydrophobic contamination \cite{song2014}. In this instance, however, the water layer is advantageous. The presence of the meniscus prevents immediate electrical and geometrical contact and holds tips around \SI{1}{nm} apart until further force is applied. Approach of the tips then occurs in much finer increments due to resistance from the water. This effectively splits a scan into three regimes - one in which the piezo displacement corresponds directly to the separation decrease between tips, one after snap-in in which increased displacement neutralises the capillary force and pushes the tip through the water meniscus (soft interaction), and finally one in which force is applied directly to the opposite tip in geometrical contact (hard-wall contact).
 
-The existence of the soft interaction regime enables sub-nm gaps to be studied with some degree of control since only a fraction of the applied cantilever displacement corresponds to a displacement of the apex. Instead, the meniscus is loaded with the applied force leading to the linear reverse deflection observed in AFM force measurements. This can be seen in \autoref{fig:tip_scan_props} where \SI{15}{nm} of cantilever displacement moves the apex $\sim$\SI{0.8}{nm} (deduced from electron tunnelling measurements). The remaining \SI{14.2}{nm} loads the gap with an applied force of \SI{8}{nN}, proportional to the cantilever's spring constant.
+The existence of the soft interaction regime enables sub-nm gaps to be studied with some degree of control since only a fraction of the applied cantilever displacement corresponds to a displacement of the apex. Instead, the meniscus is loaded with the applied force leading to the linear reverse deflection observed in AFM force measurements. This can be seen in \autoref{fig:tip_scan_props} where \SI{15}{nm} of cantilever displacement moves the apex $\sim$0.8--\SI{0.9}{nm} (deduced from electron tunnelling measurements). The remaining \SI{14.2}{nm} loads the gap with an applied force of \SI{8}{nN}, proportional to the cantilever's spring constant.
 
 Use of soft AFM probes (contact mode cantilevers) means a greater spatial resolution in the sub-nm regime since the force required to push through the meniscus is applied more gently for the same size step in cantilever displacement.%
 \footnote{Smaller $k$ means larger $x$ required for $F=kx$ to meet the same target value.}
@@ -71,20 +71,22 @@ For these reasons, along with those directly related to tip alignment capabiliti
 Despite their usefulness in showing the relative motion of the tip, force measurements are somewhat limited in their information on the absolute separation. An estimate of the absolute separation is made possible by studying charge transfer in the gap.
 % Mathematical description of tunnelling
 Electron tunnelling is the dominant charge transfer mechanism, occurring prior to geometrical (classically conductive) contact. Multiple mathematical descriptions of this phenomena exist\cite{simmons1963generalized, blanco2006stm}, especially after the invention of STM, that predict the conductance and resulting current density as electrons tunnel through an arbitrary potential landscape. In most models, tunnelling current densities are approximated using \cite{tan2014},
-\begin{equation} J=J_0e^{-\beta d}, \end{equation}
-where $d$ is the barrier width, $J_0$ is the saturation current density at $d=0$ and $\beta$ is a decay constant based on the barrier potentials and electrode work functions. In this form, the current due to tunnelling follows an approximately exponential decay with increasing separation. The current therefore drops by a factor 10 for every \SI{1}{\angstrom} (\SI{0.1}{nm}) away from geometrical contact. This relation permits deduction of the gap separation to a certain degree using the order of magnitude of the gap conductance.
+\begin{equation}
+	J=J_0e^{-\beta d},
+\end{equation}
+where $d$ is the barrier width, $J_0$ is the saturation current density at $d=0$ and $\beta$ is a decay constant based on the barrier potentials and electrode work functions. In this form, the current due to tunnelling follows an approximately exponential decay with increasing separation. The current in STM is often stated to drop by a factor 10 for every \SI{1}{\angstrom} (\SI{0.1}{nm}) away from geometrical contact. This relation permits deduction of the gap separation to a certain degree using the order of magnitude of the gap conductance.
 
 % Charge transfer
-Upon reducing the gap to below \SI{1}{nm} electron tunnelling becomes detectable. Though the absolute value of the conductance for a given separation depends on the gap morphology the relative exponential conductance drop from geometrical contact still approximately holds for $d>\SI{2}{\angstrom}$ \cite{esteban2015}. This makes electron tunnelling a useful method for estimating the gap size to within \SI{0.1}{nm}, as is done in STM, though the technique is limited to sub-nm separations. Once the separation is greater than \SI{1}{nm} the conductance drops to below \num{e-10}\G0 and the corresponding current becomes difficult to measure without significantly raising the d.c.\ bias. For example, use of a large bias of \SI{50}{mV} still means a current on the order of \SI{0.1}{fA}, which remains below the currently achievable noise level.
+Upon reducing the gap to below \SI{1}{nm} electron tunnelling becomes detectable. Though the absolute value of the conductance for a given separation depends on the gap morphology the relative exponential conductance drop from geometrical contact still approximately holds for $d>\SI{2}{\angstrom}$ \cite{esteban2015}. This makes electron tunnelling a useful method for estimating the gap size to within $\sim$\SI{0.1}{nm}, as is done in STM, though the technique is limited to sub-nm separations. Once the separation is greater than \SI{1}{nm} the conductance drops to below around \num{e-9}\G0 and the corresponding current becomes difficult to measure without significantly raising the d.c.\ bias. For example, use of a large bias of \SI{50}{mV} still means a current on the order of \SI{1}{fA}, which remains below the currently achievable noise level.
 % effect of water in the gap on tunnelling calibration? effect of finite large surface?
 
-\autoref{fig:tip_scan_props}b shows a typical conductance trace on approach. Once the separation decreases below \SI{1}{nm} the conductance steadily increases with force from \num{e-7} to around \num{e-4}\G0 as the tips transition through the soft interaction regime. At \num{e-4}\G0 (0.4--\SI{0.5}{nm}), the rate of conductance increase slows, signifying a second more resistance gap layer and requiring a greater force to break through. At \num{e-2}\G0 ($\sim$0.2--\SI{0.3}{nm}) the final layer is displaced and tips quickly transition into geometrical contact, saturating with a contact conductance around 100\G0. The displacement of layer and consequent relief of force on the tip is shown by the decrease in gradient during the transition into contact.
+\autoref{fig:tip_scan_props}b shows a typical conductance trace on approach. Once the separation decreases below \SI{1}{nm} the conductance steadily increases with force from \num{e-7} to around \num{e-4}\G0 as the tips transition through the soft interaction regime. At \num{e-4}\G0 (0.4--\SI{0.5}{nm}), the rate of conductance increase slows, signifying a second more resistance gap layer and requiring a greater force to break through. At \num{e-2}\G0 ($\sim$0.3--\SI{0.4}{nm}) the final layer is displaced and tips quickly transition into geometrical contact, saturating with a contact conductance around 100\G0. The displacement of layer and consequent relief of force on the tip is shown by the decrease in gradient during the transition into contact.
 
 Each of the electronic and force measurements described in this section are instrumental in discerning the underlying phenomena occurring in sub-nm gaps. These measurements can then be correlated with optical spectra and used to interpret changes to plasmon coupling, especially changes that depend sensitively on gap morphology or dielectric medium. Using this information, more accurate physical models can be developed to further understand the quantum regime of plasmon coupling than what currently exist.
 
 \section{Plasmonic Coupling Between Tips}
 
-\begin{figure}[h]
+\begin{figure}[bt]
 \centering
 \def\svgwidth{0.5\textwidth}
 \subimport{./figures/}{tip_dimer_diagram.pdf_tex}
@@ -122,7 +124,7 @@ By using spherical Au tips the tip-tip system mimics the prototypical spherical 
 
 \subsubsection{Spherical Tip Interactions with a Spherical Tip}
 
-\begin{figure}
+\begin{figure}[bt]
 \centering
 \begin{tikzpicture}
 \node [below left] at (0,0) {\includegraphics{figures/classical_tip_dimer_1}};
@@ -167,7 +169,7 @@ This effect has been documented previously \cite{nordlander2004} but never direc
 
 \subsubsection{Spherical Tip Interactions with a Sharp Tip}
 
-\begin{figure}[h]
+\begin{figure}[bt]
 \centering
 \includegraphics{figures/sharp-AuNP_tip_dimer}
 \caption[Spectra of a spherical Au tip approaching a stationary sharp Au tip]{\textbf{Spectra of a spherical Au tip approaching a stationary sharp Au tip.} No coupling phenomena are observed due to the mismatch between localised surface plasmon modes.}
@@ -175,7 +177,7 @@ This effect has been documented previously \cite{nordlander2004} but never direc
 \end{figure}
 
 The interaction between the same spherical Au tip and a sharp Au tip is investigated. The results are shown in \autoref{fig:spherical_sharp_tip_scan}. Despite the sharp tip perturbing the field around the spherical tip, acting as the optical antenna, no changes are observed in the spherical tip plasmon, suggesting that there is no interaction between sharp tips and spherical tip plasmons. This is in agreement with predictions that a sharp tip should not deviate the resonance of a planar surface \cite{downes2006, hugall2012}, for which the much larger tip could be considered. The tip acts as a point perturbation not strong enough to significantly modify the more distributed antenna-like response.
-{\color{red}The observation of no coupling somewhat makes sense in that a mode will only interact with a similar mode in the opposing nanostructure \cite{nordlander2004}.}
+%{\color{red}The observation of no coupling somewhat makes sense in that a mode will only interact with a similar mode in the opposing nanostructure \cite{nordlander2004}.}
 This observation also supports the measurements shown in chapter \ref{sec:tip_applications}, where the laser was assumed to stay on resonance with the AuNP tip as it approached the BTh-coated sharp Au tip.
 
 \end{document}

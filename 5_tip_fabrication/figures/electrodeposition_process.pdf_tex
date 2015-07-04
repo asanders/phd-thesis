@@ -57,22 +57,32 @@
     \put(0.15769164,0.24695985){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{cathode}}}%
     \put(0.25007772,0.09512598){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
     \put(0.41669258,0.11027304){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
-    \put(0.19801062,0.08441785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedright interfacial depletion\end{minipage}}}%
+    \put(0.20217599,0.08025248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedright interfacial depletion\end{minipage}}}%
     \put(0.20842401,0.19926025){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
     \put(0.34027949,0.24695985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{diffusion}}}%
     \put(0.8764914,0.20482259){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
     \put(0.83999686,0.2469475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{anode}}}%
-    \put(0.63810401,0.08441785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedleft interfacial depletion\end{minipage}}}%
+    \put(0.63393864,0.08025248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16388588\unitlength}\raggedleft interfacial depletion\end{minipage}}}%
     \put(0.79157595,0.19926025){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
     \put(0.74992225,0.09512598){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
     \put(0.58330742,0.11092404){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
     \put(0.50160803,0.28813){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{e-}}}}%
     \put(0.69024716,0.2820261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{oxidation}}}}%
     \put(0.19040267,0.2820261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{reduction}}}}%
-    \put(0.83277204,0.15728107){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{E}}}%
-    \put(0.58491545,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
-    \put(0.58491545,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
-    \put(0.75153028,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{E^-}}}}%
+    \put(0.83277204,0.15728107){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{A}}}%
+    \put(0.58491545,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{A^-}}}}%
+    \put(0.75153028,0.15900351){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{A^-}}}}%
     \put(0.22092016,0.27290696){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10205158\unitlength}\raggedleft E-field drift\end{minipage}}}%
+    \put(0.4252796,0.07098767){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.14933836\unitlength}\centering electrolyte\end{minipage}}}%
+    \put(0.16331301,0.12359786){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\ce{-}}}}%
+    \put(0.16331301,0.09860563){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\ce{-}}}}%
+    \put(0.16331301,0.07361341){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\ce{-}}}}%
+    \put(0.16331301,0.04862117){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\ce{-}}}}%
+    \put(0.16331301,0.02362894){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\ce{-}}}}%
+    \put(0.83478837,0.02362894){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\ce{+}}}}%
+    \put(0.83478837,0.04862117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\ce{+}}}}%
+    \put(0.83478837,0.07361339){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\ce{+}}}}%
+    \put(0.83478837,0.09860562){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\ce{+}}}}%
+    \put(0.83478837,0.12359784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\ce{+}}}}%
   \end{picture}%
 \endgroup%

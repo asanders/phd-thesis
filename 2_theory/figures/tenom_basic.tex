@@ -1,23 +1,23 @@
 \documentclass{standalone}
-\usepackage{tikz, graphicx, cmbright, amsmath, setspace}
+\usepackage{tikz, graphicx, amsmath, setspace}
+%\usepackage{cmbright}
 \begin{document}
 
 \begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75}]
 {\fontsize{10pt}{1em}\selectfont\setstretch{0.9}
 \node [above right] at (0, 0) {\includegraphics[width=9cm]{tenom_basic.png}};
-\node at (-0.8,4.8) {(a)};
+\node at (-0.7,4.8) {\textbf{\fontsize{12pt}{1em}\selectfont a}};
 
-\draw (-0.8,1.8) circle (0.25);
-\node at (-0.8,1.8) {1};
+\draw (-0.65,1.8) circle (0.25);
+\node at (-0.65,1.8) {1};
 \node [align=center] at (4.4,0.45) {evanescent wave\\generation};
-\node [align=center] at (0,1.1) {TIR excitation\\$\mathit{NA}>1$};
-
+\node [align=center] at (0.15,1.1) {TIR excitation\\$\mathit{NA}>1$};
 
 \draw (0.95,3.1) circle (0.25);
 \node at (0.95,3.1) {2};
 \node at (1.4,2.9) {$\omega$};
 %\node [left] at (10.8,4) {$\omega - \delta\omega$};
-\node [left] at (10.8,2.9) {\bfseries$
+\node [left] at (10.9,2.85) {\bfseries$
 \begin{cases}
     \omega & \text{a-SNOM}\\
     \omega - \delta\omega & \text{TERS}
@@ -30,7 +30,7 @@ $};
 
 \draw (9.5,1.8) circle (0.25);
 \node at (9.5,1.8) {4};
-\node [align=center] at (9.3,1.1) {radiative\\SPP decay};
+\node [align=center] at (9.25,1.1) {SPP leakage\\radiation};
 }
 
 {\fontsize{7pt}{1em}\selectfont \bfseries

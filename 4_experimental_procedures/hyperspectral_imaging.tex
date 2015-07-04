@@ -1,0 +1,42 @@
+\documentclass{book}
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\section{Optical Characterisation of Nanostructures using Hyperspectral Imaging}
+\label{sec:hyperspectral_imaging}
+
+% Introduction to optical characterisation
+The simplest experiment performed using the designed microscope and nanopositioning stage is the optical characterisation of nanostructures. By characterising a nanostructure its plasmon resonances can be locally determined prior to using the nanostructure for any further study. In the context of tips it becomes important to understand the plasmon resonances of an isolated tip before attempting to use them either for field enhancement purposes, such as TERS, or for studies of plasmon coupling.
+
+\begin{figure}[h]
+\centering
+\fcapside[\FBwidth]
+{\subimport{./figures/}{simple_optics_layout.tex}}
+{\caption[Experiment configuration for hyperspectral imaging]{\textbf{Experiment configuration for hyperspectral imaging.} The laser is centered on the tip apex for imaging. The tip is scanned across the beam in a grid with spectra acquired at each position. The resulting image then contains 1044 colours at each pixel instead of the usual 3 (rgb).}
+\label{fig:simple_optics_layout}}
+\end{figure}
+
+% Introduction to hyperspectral imaging
+To optically characterise a sample, it is scanned in a grid under the laser spot and the spectral content of the sampling volume is measured at each point using a spectrometer instead of a photodiode or CCD. This is a form of hyperspectral imaging, allowing for the creation of images at a given wavelength or wavelength band. Rather than comprising of 3 RGB colours, each image pixel is digitised into 1044 bins between 400--\SI{1200}{nm}.
+This is advantageous over regular imaging as more quantitative information can be extracted from an image to the extent that hyperspectral imaging has become commonplace in many widely spread fields, including microscopy, astrophysics \cite{hege2004hyperspectral}, remote sensing, food standards, geology and medical imaging \cite{vo2004hyperspectral, lu2014medical}. Within each of these fields it has mostly been used to identify the components constituting an image by their spectral signatures.
+
+By using this hyperspectral imaging technique, LSPs can be spatially identified with confocal resolutions below \SI{300}{nm} ($\lambda/2\mathit{NA}$). The microscope configuration for this technique is shown in \figurename~\ref{fig:simple_optics_layout}. Previously this approach to hyperspectal imaging has been used to identify plasmonic modes in aggregated AuNP colloids \cite{herrmann2013} and to image SPPs \cite{bashevoy2007hyperspectral}. In this experiment the technique is used to study the optical response of sharp and nanostructured tips. It is also used with AuNPs to measure the microscope PSF and map any aberrations.
+
+Fast image acquisition is made possible by utilising the ultra-high brightness of a supercontinuum laser source and sensitive, TE-cooled, benchtop spectrometers with a \SI{10}{ms} integration time. Image acquisition is then limited only by the integration time at each pixel and the $\sim\SI{30}{ms}$ movement time between pixels. During this time the focal intensity is $10^8$-$10^9~\si{mW \per cm\squared}$, which is not sufficiently high enough to damage the \SI{50}{nm} metallic tip coatings \footnote{This may or may not be true - the sharp tip results have always seemed skeptical at high powers}. The illumination and collection configuration is fixed (using the reference intensity) between different samples to maintain comparable scans. Measured spectra are normalised to a spectrum of flat metal of the same material to show geometrical effects only. By using this approach spectral changes between the apex of a tip and its bulk surfaces can be determined.
+
+While not the fastest or most advanced of hyperspectral imaging techniques it proves efficient when used with a supercontinuum white-light source, similar to the laser requirement for confocal imaging. This approach falls under the "spatial scanning" category of hyperspectral imaging.
+% List some other examples of spatial scanning
+
+
+Other techniques can and have been used depending on the imaging requirements. These fall under the categories of "spectral scanning", "non-scanning" and "spatio-spectral scanning".
+% Spectral scanning
+Spectral scanning involves imaging through multiple filters to acquire images across a range of spectral bands.
+% Non-scanning
+Non-scanning or snapshot hyperspectral imaging techniques are more complex than the previous two categories as both the spatial and spectral information are acquired in a single measurement without the need for any pixel scanning or dynamic filtering. The main method to achieving this is to use a computed tomography imaging spectrometer (CTIS) \cite{okamoto1991simultaneous, bulygin1992spectrotomography, okamoto1993simultaneous, descour1995computed}. By using a 2d dispersive grating in the Fourier plane an image can be split into many spectral images, which can be recorded on a CCD array. Advantages of this approach are short exposure times but necessitates a higher computational requirement to disentangle the 2d image into a cube of dimensions $(x,y,\lambda)$.
+% Spatio-spectral scanning
+
+% Why we still use spatial scanning
+Despite the potential improvements gained by using a more advanced hyperspectral imaging technique, spatial scanning is deemed the most appropriate solution for characterisation. Since the microscope platform is stable there are minimal artefacts due to sample motion, imaging is not time-constrained within minutes and the spectrometers required for other experiments are readily accessible. For this reason, despite its simple but somewhat slow nature, spatial scanning is used for characterisation. Using a spectrometer also provides the highest spectral band resolution, which becomes useful when extracting spectra from a subset of pixels.
+
+\end{document}

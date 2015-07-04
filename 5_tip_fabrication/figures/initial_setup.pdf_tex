@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,0.62757259)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{initial_setup.png}}%
-    \put(0.25522476,0.22847092){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\ce{Au+}}}}%
+    \put(0.259,0.22847092){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Au\sups+}}}%
     \put(0.29867515,0.31855987){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$V$}}}%
     \put(0.16929904,0.55882822){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-V$}}}%
     \put(0.41028292,0.60535751){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+V$}}}%
@@ -60,6 +60,6 @@
     \put(0.93868562,0.32123335){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+V$}}}%
     \put(0.15203422,0.19475834){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{FTO}}}}%
     \put(0.42452624,0.24475613){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Pt}}}}%
-    \put(1.01,0.27){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lt]{\begin{minipage}{0.25\unitlength}\centering Pt\\ counter-electrode\end{minipage}}}}%
+    \put(1.02,0.28){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lt]{\begin{minipage}{0.27\unitlength}\centering Pt\\ counter-electrode\end{minipage}}}}%
   \end{picture}%
 \endgroup%

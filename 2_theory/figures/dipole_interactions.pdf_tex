@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{176bp}%
+    \setlength{\unitlength}{344.00000033bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,56 +48,56 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.82294814)%
+  \begin{picture}(1,0.24371418)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{dipole_interactions.pdf}}%
-    \put(0.40910478,0.59759123){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.23256524,0.14295365){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{dipole_interactions.pdf}}%
-    \put(0.18183209,0.59622744){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.11628619,0.1422559){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{dipole_interactions.pdf}}%
-    \put(0.81819569,0.5962274){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.44186756,0.14225588){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{dipole_interactions.pdf}}%
-    \put(0.59092289,0.59759123){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.32558846,0.14295365){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{dipole_interactions.pdf}}%
-    \put(0.18183221,0.27804565){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.58140245,0.14155825){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{dipole_interactions.pdf}}%
-    \put(0.18183212,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.58140245,0.02458157){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{dipole_interactions.pdf}}%
-    \put(0.40910492,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.69768159,0.14155831){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{dipole_interactions.pdf}}%
-    \put(0.40910485,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.69768152,0.02458157){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{dipole_interactions.pdf}}%
-    \put(0.5909231,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.79070484,0.14155831){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{dipole_interactions.pdf}}%
-    \put(0.59092303,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.79070477,0.02458157){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{dipole_interactions.pdf}}%
-    \put(0.81819583,0.27804572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.90698391,0.14155831){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{dipole_interactions.pdf}}%
-    \put(0.81819576,0.04940942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.90698384,0.02458157){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{dipole_interactions.pdf}}%
-    \put(0.40910478,0.41440929){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.23256524,0.04923266){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{dipole_interactions.pdf}}%
-    \put(0.18183209,0.41440926){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.11628619,0.04923264){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{dipole_interactions.pdf}}%
-    \put(0.81819578,0.41532478){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
+    \put(0.44186759,0.04970105){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$+$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{dipole_interactions.pdf}}%
-    \put(0.59092289,0.41440929){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
+    \put(0.32558846,0.04923266){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$-$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{dipole_interactions.pdf}}%
-    \put(0.5,0.75136375){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$r$}}}%
+    \put(0.27906977,0.22162797){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$r$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{dipole_interactions.pdf}}%
-    \put(0.5,0.68772737){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0.27906977,0.18906982){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{dipole_interactions.pdf}}%
-    \put(0.04496904,0.59292606){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.04626323,0.14056682){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{dipole_interactions.pdf}}%
-    \put(0.04496904,0.41110788){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.04626323,0.04754357){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{dipole_interactions.pdf}}%
-    \put(0.04496904,0.27474421){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.51137947,0.13986914){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{dipole_interactions.pdf}}%
-    \put(0.95406002,0.27610786){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
+    \put(0.97649579,0.14056684){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{dipole_interactions.pdf}}%
-    \put(0.14231956,0.77977964){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{coupling}}}%
-    \put(0.29546842,0.64168205){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$D$}}}%
-    \put(0.29545455,0.54545458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_1$}}}%
-    \put(0.70454545,0.54545458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_2$}}}%
+    \put(0.04029526,0.21058557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{coupling}}}%
+    \put(0.1744257,0.16551175){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$D$}}}%
+    \put(0.17441861,0.11627909){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_1$}}}%
+    \put(0.38372093,0.11627909){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$p_2$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{dipole_interactions.pdf}}%
   \end{picture}%
 \endgroup%

@@ -9,7 +9,7 @@
 \onehalfspacing
 
 \begin{document}
-\begin{singlespace}
+%\begin{singlespace}
 
 \section*{Declaration}
 The work presented in this thesis was carried out at the Nanophotonics Group in the Cavendish Laboratory, University of Cambridge between October 2011 and June 2015. This dissertation is the result of my own work and includes nothing which is the outcome of work done in collaboration except where specifically indicated in the text. It has not been submitted in whole or in part for any degree at this or any other university, and is less than sixty thousand words long.
@@ -21,9 +21,8 @@ The work presented in this thesis was carried out at the Nanophotonics Group in 
 \begin{itemize}
 \item \fullcite{sanders2014}
 \item \fullcite{benz2014}
-\item Understanding tip plasmonics
-\item Plasmon coupling
-\item SERS background
+%\item Understanding tip plasmonics
+%\item Plasmon coupling
 \end{itemize}
 
 \subsection*{Conference Presentations}
@@ -43,42 +42,42 @@ The work presented in this thesis was carried out at the Nanophotonics Group in 
 \newpage
 \section*{Acknowledgements}
 
-%I would like to thank...
+This project would not have been a success without the support of countless people and financial bodies over the last four years.
+% Jeremy
+I would first and foremost like to thank Prof.\ Jeremy Baumberg for giving me the opportunity to undertake this project and for supporting me throughout. His advice and enthusiasm kept this project on course while his wealth of knowledge and ideas meant that there was always something to work on and never a dull moment.
 
-%Jeremy Baumberg
+% Matt, Richard and Liwu
+This PhD project has benefitted from the support of many talented researchers over the years, without whom the work would not have been as much of a success. I have been privileged enough to work closely with three exceptional experimental researchers: Dr.\ Matthew Hawkeye, Dr.\ Richard Bowman and Dr.\ Liwu Zhang. Their expertise and advice has been invaluable and made the experiments presented in this thesis possible. Dr.\ Matthew Hawkeye introduced me to the on-going tips project, and helped me gain proficiency in electronics. Without Dr.\ Richard Bowman, and his knowledge of optics and mechanics, the experiment would not be what it is today. From him I have gained new insights into the principles of optics and optical design. I am finally indebted to Dr.\ Liwu Zhang, under whose supervision I ventured into electrochemistry. His knowledge of electrochemistry was essential while providing constant support and interest in all work.
 
-%Matthew Hawkeye
+% People who did supplementary work for this project
+I would like to thank Lars Herrmann and Daniel Sigle for providing numerical simulations to support of my experimental investigations, and Anna Lombardi and Lee Weller for performing supplementary tip measurements using their newly developed laser systems. I am also grateful to Prof.\ Javier Aizpurua and Dr.\ Ruben Esteban for their helpful discussions at each of the conferences I attended.
 
-%Richard Bowman
+% Support Staff
+This work has also been made easier by both the Nanophotonics and Cavendish Laboratory support staff. I would like to thank Anthony Barnett for his help in designing mechanical parts for my work and for their prompt machining, Colin Edwards for keeping all our computer systems running, and Angela Campbell for processing my constant stream of orders. Thanks go to Chris Summerfield, Gary Large, Kevin Mott and, Nigel Palfrey for their machining of the microscope used to conduct all optical work and to Barry Shores and Huw Prytherch for their assistance in designing the integrated electronics. I am grateful to EPSRC for funding this project and to NanoTools GmbH, for their cooperation in providing spherical Au tips for the experiments discussed in this thesis.
 
 %Rest of the group
-
-%Technical staff
-
-%Thanks go out to NanoTools Gmbh for their cooperation in providing spherical Au tips for experiments and their assistance tuning the properties of these tips for optical characterisation.
+I would finally like to thank the rest of the Nanophotonics group, namely Matt Millyard, Jan Mertens, Laura Brooks, Claire Blejean, Vladimir Turek, Bart de Nijs, Felix Benz, Giuliana Di Martino, Hamid Ohadi, Will Deacon, Marie-Elena Kleemann, and Jago Del-Valle-Inclan-Redondo, who have provided many discussions, and kept me sane.
 
 \newpage
 \section*{Abstract}
 
 % Introduction and Aims
-The recently uncovered quantum regime of plasmonics revealed an interesting new domain of plasmon coupling that necessitates continued investigation. The dual spherical AFM tip approach to forming sub-nm plasmonic cavities is adopted for continuity. Throughout this project, the technology required to initially probe the quantum regime is further developed in order to better study the effects of electron tunnelling on plasmons. To this end, the plasmonic properties of both standard sharp AFM tips and spherically nanostructured AFM tips are studied due to their importance both to the tunnelling regime and in near-field scanning optical microscopy.
+A dual AFM tip approach to forming sub-nm plasmonic cavities is adopted to continue work investigating the recently uncovered quantum regime of plasmonics. The technology required to probe the quantum regime is further developed in order to better study the effects of electron tunnelling and conduction of plasmons. To this end the plasmonic properties of both standard, sharp AFM tips and spherically nanostructured AFM tips are studied to understand the plasmons present in the system and due to their importance in tip-based near-field optical microscopy.
 
 % Fabrication of Tips
-Both commercially available sharp and spherical Au AFM tips are used in experiments. Additional spherical Au nanoparticle-tipped AFM probes are fabricated using pulsed electrodeposition to demonstrate a simple method for nanostructuring a tip to introduce localised surface plasmons. Using this method in a simple electrochemical cell, single Au nanoparticles are selectively grown onto the apex of a Pt AFM tip. Fabricated spherical Au tips demonstrate increased robustness to damage and resistance to aggressive cleaning treatments, proving useful when requiring sub-nm clean surfaces.
-%A more complex cell geometry is used to understand and standardise the growth procedure for a single tip, hence increasing the reliability and reproducibility of the technique.
-This provides a novel method for obtaining tips for use in plasmonic applications.
+Both commercially available sharp and spherical Au AFM tips are used in experiments. Additional spherical Au nanoparticle-tipped AFM probes are fabricated using pulsed electrodeposition to demonstrate a simple method for nanostructuring a tip to introduce localised surface plasmons. Using this method, single Au nanoparticles are selectively grown onto the apex of a Pt AFM tip, demonstrated a simple, novel method for obtaining robust plasmonic tips.
 
 % The Rig
-A custom optical microscope is designed and built, capable of measuring light scattering from both single and gap-coupled nanostructures over a broad range of wavelengths using a novel supercontinuum dark-field spectroscopy techinque. By combining an inverted microscope design and supercontinuum white-light laser with an ultra-stable nanopositioning platform, light can be used to optically probe plasmonic nanostructures and the nanometric gaps that define coupled plasmonic systems. Scanning confocal hyperspectral imaging is utilised to determine the scattering response of single nanostructures and identify localised surface plasmons prior to gap coupling experiments.
+A custom optical microscope is designed and built to facilitate experiments, capable of measuring light scattering from both single and gap-coupled nanostructures over a broad wavelength range using a novel dark-field spectroscopy technique utilising a supercontinuum white-light laser. Through combination with an ultra-stable nanopositioning platform, light is used to optically probe plasmonic nanostructures and the nanometric gaps that define coupled plasmonic systems.
 
 % Tip Plasmonics
-The existence of localised surface plasmons in tips which couple to far-field light is crucial in determining what can be experimentally observed and enables dynamical study of plasmon coupling. Optical spectroscopy shows that sharp metallic tips lack the necessary antenna-like geometry to strongly excite such plasmons. Spherical Au tips are found to support antenna-like plasmons, with a dominant scattering resonance between 600--\SI{700}{nm}. Consequently, excitation of plasmons localised to the spherical tip apex is shown to improve the Raman enhancement by a factor of 30$\times$ compared with sharp Au tips when illuminated on resonance at \SI{633}{nm}.
+Scanning confocal hyperspectral imaging is utilised to determine the scattering response of single nanostructures and identify localised surface plasmons. Spherical Au tips, due to their geometry, are found to exhibit an antenna-like localised surface plasmon resonance between 600--\SI{700}{nm} not present in sharp Au tips. Consequently, resonant excitation of plasmons localised to the spherical tip apex is shown to improve the Raman enhancement by a factor of 30$\times$ compared with sharp Au tips.
 
 % Coupling Experiments
-Finally, plasmonic interactions between AFM tips are studied. An optomechanical scanning capacitance AFM technique is employed to align tips into a dimer configuration. The separation between two opposing AFM probes is dynamically reduced until geometrical contact. By simultaneously measuring the d.c.\ current, applied force and optical scattering in the quantum regime the effects of an optical conductance on coupled plasmon resonances can be directly inferred. Through this, three critical conductances are dynamically observed/measured for the first time, determining the points at which quantum tunnelling and ballistic transport affect plasmon coupling.
+Finally, plasmonic interactions between two AFM tips are studied. By simultaneously measuring the d.c.\ current, applied force and optical scattering as tips come together, the effects of an optical conductance on coupled plasmon resonances can be directly inferred. Through this, three critical conductances are dynamically observed/measured for the first time, determining the points at which quantum tunnelling and ballistic transport affect plasmon coupling.
 
 % Sum up impact of work
 The presented work is a step forward to fully understanding the effects of conduction on plasmonics and the limitations of classical/conventional plasmonic coupling. Furthermore, characterisation of the local spectral response of tips demonstrates the need to adopt optical characterisation techniques to improve understanding and reliability in tip-enhanced near-field optical microscopy. The improved optical performance of spherically nanostructured tips has implications for the future of tip-based near-field microscopy with the electrochemical production of spherical metallic tips providing a further means to develop improved near-field probes.
-\end{singlespace}
+%\end{singlespace}
 
 \end{document}

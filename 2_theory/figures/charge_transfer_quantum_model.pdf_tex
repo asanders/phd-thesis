@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'tip_dimer_diagram.pdf' (pdf, eps, ps)
+%% Accompanies image file 'charge_transfer_quantum_model.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{207.59248047bp}%
+    \setlength{\unitlength}{430.5928287bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,21 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.49878025)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{tip_dimer_diagram.png}}%
-    \put(0.49643899,0.00566389){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
-    \put(0.40484336,0.21427953){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$R$}}}%
-    \put(0.37312045,0.29854541){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
-    \put(0.50000003,0.33308906){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\theta_{\mathrm{col}}$}}}%
-    \put(0.35116012,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{col}}$}}}%
-    \put(0.06983971,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{incident}}$}}}%
-    {\fontsize{9pt}{1em}\selectfont
-    \put(0.31388687,0.21898085){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    \put(0.31388687,0.11107713){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    \put(0.6870992,0.10506542){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.6870992,0.22067651){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.45587695,0.15901725){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.55281652,0.15732158){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    }
+  \begin{picture}(1,0.27557809)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{charge_transfer_quantum_model.pdf}}%
+    \put(0.03265846,0.20044086){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_F$}}}%
+    \put(0.03265846,0.15213539){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E$}}}%
+    \put(0.11031507,0.06667182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.66434571,0.081535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26010651\unitlength}\centering tunnelling CTP without geometrical contact\end{minipage}}}%
+    \put(0.1515643,0.081535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26010651\unitlength}\centering tunnelling-induced screening via gap field\end{minipage}}}%
+    \put(0.55287716,0.21128574){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
+    \put(0.28533336,0.09639823){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$G<1\G0$}}}%
+    \put(0.80822008,0.17814599){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G\geq1\G0$}}}%
   \end{picture}%
 \endgroup%

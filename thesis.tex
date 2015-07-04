@@ -1,24 +1,20 @@
 % !TEX TS-program = pdflatexmk
 % !BIB TS-program = bibtex
 
-\documentclass[12pt, a4paper, twoside, draft=false]{book}
+\documentclass[12pt, a4paper, twoside, draft]{book}
 \input{preamble}
 \onehalfspacing
 
 \begin{document}
 
-\title{\textsc{On the Optical Properties and Interactions of Nanostructured AFM Tips}}
-\author{Alan Sanders}
-\date{\today}
-
 \frontmatter
-\begin{singlespace*}
+%\begin{singlespace*}
 \subimport{./0_frontmatter/}{title}
 \subimport{./0_preface/}{preface}
 \tableofcontents
 \setcounter{tocdepth}{2}
-\listoffigures
-\end{singlespace*}
+%\listoffigures
+%\end{singlespace*}
 
 \mainmatter
 \subimport{./1_introduction/}{introduction}
@@ -40,16 +36,6 @@
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Appendices}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
-%\chapter{Supplementary Information}
-\chapter{Theoretical Background}
-\subimport{./a0_appendices/}{supplementary_theory}
-%\subimport{./a0_appendices/}{quantum_tunnelling}
-\chapter{Experiment Design}
-\subimport{./a0_appendices/}{supplementary_optical_design}
-\chapter{Experimental Procedures}
-\subimport{./a0_appendices/}{tip_alignment_derivation}
-\subimport{./a0_appendices/}{software_lockin}
-%\chapter{Tip Plasmonics}
-%\subimport{./a0_appendices/}{tuneable_raman}
+\subimport{./a0_appendices/}{appendices}
 
 \end{document}

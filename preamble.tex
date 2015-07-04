@@ -94,6 +94,19 @@
 \newcommand{\figref}[1]{\figurename~\ref{#1}}
 \renewcommand{\eqref}[1]{Eq.~\textup{\ref{#1}}}
 
+% For word counting
+\usepackage{ifdraft}
+\ifdraft{
+\usepackage{comment}
+\excludecomment{figure}
+\let\endfigure\relax
+\excludecomment{equation}
+\let\endequation\relax
+\excludecomment{align}
+\let\endalign\relax
+}
+{\relax}
+
 %\input{nomencl_symbols}
 \input{symbols}
 \input{acronyms}
