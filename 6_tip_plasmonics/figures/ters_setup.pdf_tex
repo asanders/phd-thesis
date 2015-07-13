@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{328bp}%
+    \setlength{\unitlength}{340.41607056bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,15 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.6097561)%
+  \begin{picture}(1,0.58746265)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{ters_setup.png}}%
-    \put(0.61323406,0.5202242){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SDF}}}%
-    \put(0.57678796,0.56839359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
-    \put(0.06135196,0.51996471){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SERS}}}%
-    \put(0.01788269,0.56839359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
-    \put(0.38051217,0.14360736){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{spectrometer}}}%
-    \put(0.4,0.11219512){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17073171\unitlength}\centering Long-pass filter\end{minipage}}}%
-    \put(0.55609756,0.32682927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26829268\unitlength}\centering supercontinuum laser\end{minipage}}}%
-    \put(0.07317073,0.32195122){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17073171\unitlength}\centering 638 nm laser\end{minipage}}}%
+    \put(0.06922711,0.5012231){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SDF}}}%
+    \put(0.03411019,0.5476356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{a}}}}%
+    \put(0.47279979,0.50097307){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SERS}}}%
+    \put(0.43091594,0.5476356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{b}}}}%
+    \put(0.78031917,0.13834269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{spectrometer}}}%
+    \put(0.79909622,0.10807616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16450457\unitlength}\centering Long-pass filter\end{minipage}}}%
+    \put(-0.00932625,0.3148819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25850718\unitlength}\centering supercontinuum laser\end{minipage}}}%
+    \put(0.48418747,0.31018177){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16450457\unitlength}\centering 638 nm laser\end{minipage}}}%
   \end{picture}%
 \endgroup%

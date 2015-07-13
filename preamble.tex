@@ -10,14 +10,19 @@
 \usepackage[backend=bibtex, style=phys, maxnames=3, hyperref=true, articletitle=true, biblabel=brackets, defernumbers=true]{biblatex}
 \DefineBibliographyStrings{english}{bibliography = {References},}
 \DeclareBibliographyCategory{fullcited}
+\DeclareBibliographyCategory{appendices}
 \newcommand{\mybibexclude}[1]{\addtocategory{fullcited}{#1}}
+\newcommand{\acite}[1]{\addtocategory{appendices}{#1}\cite{#1}}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/textbooks.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/citations.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/microscopy.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/hyperspectral_imaging.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/tip_methods.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/electrochemistry.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/publications.bib}
 \addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/presentations.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/quantised_conductance.bib}
+\addbibresource{~/Documents/PhD/GitHub/phd-thesis/citations/appendices.bib}
 
 % Graphics settings
 \usepackage{graphicx}
@@ -26,28 +31,27 @@
 \DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
 \graphicspath{ {./figures/} {./figures/literature/} }
 \usepackage{floatrow}
-\floatsetup{capbesideposition={top,inside}}
+%\floatsetup{capbesideposition={top,inside}}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[font+=small, list=false]{subcaption}
 \usepackage{eso-pic}
-\usepackage{lpic}
+%\usepackage{lpic}
 \usepackage{tikz}
 \usepackage{wrapfig}
 
 % Misc packages
 \usepackage{amsmath}%, amssymb}
+\usepackage[version=4]{mhchem}
 \usepackage[per-mode=reciprocal, separate-uncertainty=true]{siunitx}
 \usepackage{color, epstopdf, import}
 \sisetup{range-phrase= \thinspace\textendash\thinspace, detect-all}
-\usepackage{nicefrac}
-\usepackage[version=3]{mhchem}
-\usepackage{breqn}
+%\usepackage{nicefrac}
+%\usepackage{breqn}
 \usepackage{textcomp}
 \usepackage{mathtools}
 \usepackage{standalone}
-\usepackage{verbatim}
+%\usepackage{verbatim}
 
-%\usepackage{textcomp}
 %\usepackage{cite}
 %\usepackage{tocloft}
 \usepackage[section, below]{placeins} % to use \FloatBarrier
@@ -91,6 +95,7 @@
 
 % Math shortcuts
 \renewcommand{\figurename}{Figure}
+\newcommand{\figurenames}{Figures}
 \newcommand{\figref}[1]{\figurename~\ref{#1}}
 \renewcommand{\eqref}[1]{Eq.~\textup{\ref{#1}}}
 

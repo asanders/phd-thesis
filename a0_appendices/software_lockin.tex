@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{standalone} \standalonetrue
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\section{Software Lock-In Derivation}
+
+To lock into only the signal component at the reference frequency $\omega_r$ a reference wave needs to be computed. The first step in the lock-in process is to mathematically construct a single frequency waveform at the correct harmonic using the supplied reference signal. The reference signal is typically of the form $A\sin(\omega_{rs} t + \phi_r)$, but the algorithm will also work with any periodic function since it triggers off a rising position edge.
+When $\sin(\theta)=0$ and the gradient is positive ($\cos(\theta)=1$) $\theta=2n\pi$. Hence the rising edge trigger points $t_i$ occur at,
+\begin{equation} \theta = \omega_{rs} t_i + \phi_r = 2n\pi. \end{equation}
+Trigger times are fitted against the number of triggers (number of periods) since the start of the signal using,
+\begin{equation}
+t_i = \frac{1}{\omega_{rs}}(2n\pi - \phi_r) = \frac{2\pi}{\omega_{rs}}n - \frac{\phi_r}{\omega_{rs}}.
+\end{equation}
+A complex reference wave of the form $e^{ih(\omega_{rs} t + \phi_r)}$, where $h$ is the harmonic of the reference frequency $\omega_{rs}$ required to lock into the frequency $\omega_r$, is constructed from the $t_i=mn+c$ fit using,
+\begin{align}
+\omega_{rs} &= \frac{2\pi}{m}, \\
+\phi_r &= \frac{mc}{2\pi}.
+\end{align}
+The frequency component of the signal at $\omega_r=h\omega_{rs}$ can be extracted using Fourier analysis,
+\begin{equation}
+Z_s(\omega_r) = \frac{2}{t} \int_0^t{Z_s(t) e^{-ih(\omega_{rs} t + \phi_r)} dt}.
+\end{equation}
+Discretising this not a programmable form results in,
+\begin{equation}
+Z_s(\omega_r) = \frac{2}{n} \sum_0^n{Z_s(t_n) e^{-ih(\omega_{rs} t_n + \phi_r)}}
+\end{equation}
+where $\real{Z_s(\omega_r)}$ and $\imag{Z_s(\omega_r)}$ are the $x$ and $y$ of the signal component at $\omega_r$, respectively. Polar coordinates of amplitude and phase are retrieved using the coordinate transforms,
+\begin{align}
+r = \sqrt{x^2 + y^2}, \\
+\phi = \tan^{-1}(y/x).
+\end{align}
+
+\end{document}

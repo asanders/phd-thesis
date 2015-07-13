@@ -5,31 +5,41 @@
 \subimport{../}{preamble}
 \begin{document}
 
-\section{Non-Optical Experimental Measurements of Dynamic Tip Dimers}
+\section{Experimental Measurements of Dynamic Tip Dimers}
 
 % Setup procedure
-Dynamic interactions and separation-dependent phenomena between two tips are spectroscopically studied using an axial scanning approach. Tips are coupled with another tip in order to maximise optical accessibility to the gap. Although not representing the typical geometry used in TENOM it presents a more optimum geometry to explore plasmonic coupling on a more fundamental level.
+Dynamic interactions and separation-dependent phenomena between two tips are spectroscopically studied using an axial scanning approach. Tips are coupled with another tip in order to maximise optical accessibility to the gap. Although not representing the typical geometry used in TENOM this presents a more optimal geometry to explore plasmonic coupling on a more fundamental level.
 Tips are first aligned into the dimer configuration under the supercontinuum laser beam using the capacitive technique described in chapter~\ref{sec:tip_alignment}. Alignment takes place with the laser illumination on to prevent spatial changes of the tip apices, caused by thermal expansion, from occurring post-alignment when spectroscopy is performed.%
 \footnote{This behaviour was briefly looked at, with laser-induced cantilever deflection being measured in tips. This suggested that the heat of the focus was causing mechanical deforming or bending of the AFM probe, moving the lateral position of the tip apex and misaligning the tip dimer prior to gap coupling experiments. As such, it could be a source of error in experiments that was necessary to consider.}
-The tip of the harder cantilever of the pair is partially positioned in the laser spot and the tip of the softer cantilever is resonantly driven and used as the alignment probe, beginning at distances outside of the laser focus. Sufficient space is ideally left after placement of the stationary tip to accommodate both tip apices equally under the laser spot once brought together. This level of positioning is subjective, with scattering intensity used to estimate an acceptable position for the stationary tip within the collection spot. Once alignment is complete the separation between tips is reduced from around $\sim$300--\SI{500}{nm} to geometrical contact whilst undergoing measurement.
+The tip of the harder cantilever of the pair is partially positioned in the laser spot and the tip of the softer cantilever is resonantly driven and used as the alignment probe, beginning at distances outside of the laser focus. Sufficient space is left after placement of the stationary tip to accommodate both tip apices equally under the laser spot once brought together. This level of positioning is subjective, with scattering intensity used to estimate an acceptable position for the stationary tip within the collection spot. Once alignment is complete the separation between tips is reduced from around $\sim$300--\SI{500}{nm} to geometrical contact whilst undergoing measurement.
 
 % Sample preparation
-The tips used in experiments, whether commercial or fabricated in-house, are required to have clean metallic surfaces when studying gap plasmon interactions. Layers of insulating chemicals only prevent the gap from narrowing sufficiently to enter the tunnelling regime. Any layers deposited as either a byproduct of a chemical reaction or carbon deposition in SEM need to be removed. This is done through either plasma cleaning or piranha treatment. To maintain cleanliness some experiments are performed in a nitrogen flow environment.
+The tips used in experiments, whether commercial or fabricated in-house, are required to have clean metallic surfaces when studying gap plasmon interactions. Layers of insulating surface molecules only prevent the gap from narrowing sufficiently to enter the tunnelling regime. Any layers deposited as either a byproduct of a chemical reaction or carbon deposition in SEM need to be removed. This is done through either plasma cleaning or piranha treatment. To maintain cleanliness some experiments are performed in a nitrogen flow environment.
 
 \begin{figure}[bt]
+\vspace{-10pt}
 \centering
 \fontsize{10pt}{1em}\selectfont
-\def\svgwidth{0.6\textwidth}
-\subimport{./figures/}{simple_optics_dimer_layout.tex}
-\caption[Experiment configuration for axial tip scanning]{\textbf{Experiment configuration for axial tip scanning.} The laser is centred on the aligned tip dimer for gap spectroscopy. The soft cantilever approaches the stationary, stiff cantilever at a rate $dz$~\si{\nano\metre\per\second}. A bias is applied across the tip junction and the current through the gap is measured. The soft cantilever faces the AFM module for force measurement via cantilever deflection.}
+\begin{tikzpicture}
+\node [below right] at (0,0)
+{\def\svgwidth{0.7\textwidth}
+\subimport{./figures/}{simple_optics_dimer_layout.pdf_tex}};
+\node [below right] at (5,-2.4)
+{\def\svgwidth{0.4\textwidth}
+\subimport{./figures/}{tip_dimer_diagram.pdf_tex}};
+\end{tikzpicture}
+\caption[Experiment configuration for axial tip scanning]{\textbf{Experiment configuration for axial tip scanning.} The laser is centred on the aligned tip dimer for gap spectroscopy. The soft cantilever approaches the stationary, stiff cantilever at a rate $dz$~\si{\nano\metre\per\second}. A bias is applied across the tip junction and the current through the gap is measured. The soft cantilever faces the AFM module for force measurement via cantilever deflection.
+A diagram of tip dimer characteristics is shown as an inset. The diagram specifically shows the case for a spherical Au tip dimer, showing the antenna plasmon modes which couple together. Plasmonic coupling depends on both the gap size, $d$, and the particle radius, $R$, where the mobile tip particle approaches a stationary spherical tip at a rate $dz$. The illumination and collection angles, defining $\vec{k}_{\mathrm{incident}}$ and $\vec{k}_{\mathrm{col}}$, are $\theta_{\mathrm{incident}} = \sin^{-1}(0.6-0.8\NA)$ and $\theta_{\mathrm{col}} < \sin^{-1}(0.6\NA)$.
+}
 \label{fig:simple_optics_dimer_layout}
+\vspace{-5pt}
 \end{figure}
 
 % Procedure
 During scanning measurements on tip dimers, the stationary tip acts as the optical probe, staying fixed in the collection spot throughout the scan, whilst the other tip approaches at a rate of 0.1--\SI{1}{\nano\metre\per\second}. Approach speeds are continually adjusted and optimised during scanning to reduce the time interval between completion of alignment and achieving geometrical contact and minimise any potential lateral drift. Use of a stiffer cantilever ensures that the AFM tip remains fixed in its current position under the laser spot, even when under pressure from the opposite tip. Measurements of the optical scattering, electronic conductance and applied force are taken at each point in the scan. The geometry of this experiment is shown in \autoref{fig:simple_optics_dimer_layout}.
 % Optics
 The approaching tip perturbs the near-field and interacts with the probe tip. Separation-dependent optical scattering is then collected through the objective collection aperture. Strong scattering of the intense supercontinuum source means 10--\SI{20}{ms} integration times are sufficient for a high quality signal to noise, therefore spectra acquisition does not affect the scan speed. % Not mentioning polarisation sensitivity?
-Only light polarised along the tip dimer axis is studied in the context of this work in order to focus on the influence of charge transfer on bonding hybridised plasmons. % although the rig is capable of measuring in the other polarisation
+Only light polarised along the tip dimer axis is reported in the context of this work in order to focus on the influence of charge transfer on bonding hybridised plasmons. % although the rig is capable of measuring in the other polarisation
 
 Simultanous measurement of gap conductance and applied force supplement optical scattering measurements, enabling correlations to be made between characteristic gap properties.%
 \footnote{Each measurement is ran in parallel using multiprocessing in the experiment control method, with each taking a fixed amount of acquisition time. Multiprocessing not only allows data to be acquired around the same time but also decreases the overall measurement time.}
@@ -42,7 +52,7 @@ The applied force is measured using optical detection of cantilever deflection b
 % Summary
 Using this combination of measurements allows for a more informed interpretation of nanoscale gap behaviour than by measuring only the optical scattering, as was done originally \cite{savage2012}.
 
-\subsection{General Properties of a Nano-Tip Dimer Gap}
+\subsection{Non-Optical Properties of a Nano-Tip Dimer Gap}
 
 Before studying the optical properties of nano-gaps it is beneficial to understand the range of physical phenomena that exist on each characteristic length scale present during scans that traverse from $\sim$\SI{100}{nm} to \SI{0.1}{nm}. With tips well separated, both the separation and the optical scattering are the only meaningful physical quantities. The optical scattering, if plasmonic in origin, is subject to a separation-dependent capacitive interaction. There is no current and no applied force until the separation reduces to below \orderof{\SI{10}{nm}}. Below this point both the current and the force become instrumental in understanding the optical response. Due to the maturity of AFM, STM and molecular electronics there is already a wealth of information explaining both electronic effects and the forces expected on these lengths.
 
@@ -70,11 +80,7 @@ For these reasons, along with those directly related to tip alignment capabiliti
 % Electronics
 Despite their usefulness in showing the relative motion of the tip, force measurements are somewhat limited in their information on the absolute separation. An estimate of the absolute separation is made possible by studying charge transfer in the gap.
 % Mathematical description of tunnelling
-Electron tunnelling is the dominant charge transfer mechanism, occurring prior to geometrical (classically conductive) contact. Multiple mathematical descriptions of this phenomena exist\cite{simmons1963generalized, blanco2006stm}, especially after the invention of STM, that predict the conductance and resulting current density as electrons tunnel through an arbitrary potential landscape. In most models, tunnelling current densities are approximated using \cite{tan2014},
-\begin{equation}
-	J=J_0e^{-\beta d},
-\end{equation}
-where $d$ is the barrier width, $J_0$ is the saturation current density at $d=0$ and $\beta$ is a decay constant based on the barrier potentials and electrode work functions. In this form, the current due to tunnelling follows an approximately exponential decay with increasing separation. The current in STM is often stated to drop by a factor 10 for every \SI{1}{\angstrom} (\SI{0.1}{nm}) away from geometrical contact. This relation permits deduction of the gap separation to a certain degree using the order of magnitude of the gap conductance.
+Electron tunnelling is the dominant charge transfer mechanism, occurring prior to conductive contact with the current due to tunnelling follows an approximately exponential decay with increasing separation. The conductance in STM is often stated to drop by a factor 10 for every \SI{1}{\angstrom} (\SI{0.1}{nm}) away from conductive (approximately geometrical) contact. This relation permits deduction of the gap separation to a certain degree using the order of magnitude of the gap conductance.
 
 % Charge transfer
 Upon reducing the gap to below \SI{1}{nm} electron tunnelling becomes detectable. Though the absolute value of the conductance for a given separation depends on the gap morphology the relative exponential conductance drop from geometrical contact still approximately holds for $d>\SI{2}{\angstrom}$ \cite{esteban2015}. This makes electron tunnelling a useful method for estimating the gap size to within $\sim$\SI{0.1}{nm}, as is done in STM, though the technique is limited to sub-nm separations. Once the separation is greater than \SI{1}{nm} the conductance drops to below around \num{e-9}\G0 and the corresponding current becomes difficult to measure without significantly raising the d.c.\ bias. For example, use of a large bias of \SI{50}{mV} still means a current on the order of \SI{1}{fA}, which remains below the currently achievable noise level.
@@ -86,15 +92,15 @@ Each of the electronic and force measurements described in this section are inst
 
 \section{Plasmonic Coupling Between Tips}
 
-\begin{figure}[bt]
-\centering
-\def\svgwidth{0.5\textwidth}
-\subimport{./figures/}{tip_dimer_diagram.pdf_tex}
-\caption[Diagram of tip dimer characteristics]{\textbf{Diagram of tip dimer characteristics.} The diagram specifically shows the case for a spherical Au tip dimer, showing the antenna plasmon modes which couple together. Plasmonic coupling depends on both the gap size, $d$, and the particle radius, $R$, where the mobile tip particle approaches a stationary spherical tip at a rate $dz$. The illumination and collection angles, defining $\vec{k}_{\mathrm{incident}}$ and $\vec{k}_{\mathrm{col}}$, are $\theta_{\mathrm{incident}} = \sin^{-1}(0.6-0.8\NA)$ and $\theta_{\mathrm{col}} < \sin^{-1}(0.6\NA)$.}
-\label{fig:tip_dimer_diagram}
-\end{figure}
+%\begin{figure}[bt]
+%\centering
+%\def\svgwidth{0.5\textwidth}
+%\subimport{./figures/}{tip_dimer_diagram.pdf_tex}
+%\caption[Diagram of tip dimer characteristics]{\textbf{Diagram of tip dimer characteristics.} The diagram specifically shows the case for a spherical Au tip dimer, showing the antenna plasmon modes which couple together. Plasmonic coupling depends on both the gap size, $d$, and the particle radius, $R$, where the mobile tip particle approaches a stationary spherical tip at a rate $dz$. The illumination and collection angles, defining $\vec{k}_{\mathrm{incident}}$ and $\vec{k}_{\mathrm{col}}$, are $\theta_{\mathrm{incident}} = \sin^{-1}(0.6-0.8\NA)$ and $\theta_{\mathrm{col}} < \sin^{-1}(0.6\NA)$.}
+%\label{fig:tip_dimer_diagram}
+%\end{figure}
 
-Plasmonic interactions between tips are studied using the dimer approach. Two AFM tips are dynamically brought together to form a single gap structure, mimicking a plasmonic MIM dimer cavity, whilst the optical scattering, conductance and force are simultaneously measured. The resulting experiment geometry is shown in \autoref{fig:tip_dimer_diagram}. Both sharp and spherical Au tips are studied in a range of dimer permutations, in order to understand how plasmons in each tip couple. This is also compared with results from hyperspectral characterisation, indicating whether plasmons initially exist in such structures.
+Plasmonic interactions between tips are studied using the dimer approach. Two AFM tips are dynamically brought together to form a single gap structure, mimicking a plasmonic MIM dimer cavity, whilst the optical scattering, conductance and force are simultaneously measured. The resulting experiment geometry is shown as an inset in \autoref{fig:simple_optics_dimer_diagram}. Both sharp and spherical Au tips are studied in a range of dimer permutations, in order to understand how plasmons in each tip couple. This is also compared with results from hyperspectral characterisation, indicating whether plasmons initially exist in such structures.
 
 \subsection{Sharp Tip Dimer Interactions}
 
@@ -120,7 +126,7 @@ In order to optically probe plasmon coupling in a sub-nm cavity between two tips
 
 \subsection{Spherical Tip Dimer Interactions}
 
-By using spherical Au tips the tip-tip system mimics the prototypical spherical AuNP dimer. It is through this  arrangement that a dynamically controllable plasmonic dimer is recreated. The presence of far-field-coupled, antenna-like plasmons, discussed in \ref{ch:tip_plasmonics}, enables the detection of gap modes as tips transition from the non-interacting regime at $\sim\SI{300}{nm}$ through into the charge transfer regime at or before conductive contact. By utilising such a controllable plasmonic system, nanoscale plasmon coupling can be better understood on a fundamental level and unravel the remaining questions regarding plasmonics in sub-nm gaps.
+By using spherical Au tips the tip-tip system mimics the prototypical spherical AuNP dimer. It is through this  arrangement that a dynamically controllable plasmonic dimer is recreated. The presence of far-field-coupled, antenna-like plasmons, discussed in chapter~\ref{ch:tip_plasmonics}, enables the detection of gap modes as tips transition from the non-interacting regime at $\sim$\SI{300}{nm} through into the charge transfer regime at or before conductive contact. By utilising such a controllable plasmonic system, nanoscale plasmon coupling can be better understood on a fundamental level and unravel the remaining questions regarding plasmonics in sub-nm gaps.
 
 \subsubsection{Spherical Tip Interactions with a Spherical Tip}
 
@@ -129,43 +135,32 @@ By using spherical Au tips the tip-tip system mimics the prototypical spherical 
 \begin{tikzpicture}
 \node [below left] at (0,0) {\includegraphics{figures/classical_tip_dimer_1}};
 \node [below right] at (0,0) {\includegraphics{figures/classical_tip_dimer_2}};
-\node [below left] at (-6.6,0) {(a)};
-\node [below right] at (0,0) {(b)};
+\node [below left] at (-6.6,0) {\textbf{a}};
+\node [below right] at (0,0) {\textbf{b}};
 \end{tikzpicture}
-\caption[Spectra of a spherical Au tip approaching a stationary spherical Au tip]{\textbf{Spectra of a spherical Au tip approaching a stationary spherical Au tip.} Spherical Au tips are Au-coated NanoTools B150 AFM probes. Two scans are presented in the classical interaction regime, showing similar phenomena. In both cases, but moreso in (b) with tips having similar initial SPRs, bonding hybridised modes form, which redshift with decreasing intertip separation (increasing coupling). With slightly dissimilar initial SPRs anti-bonding hybridisation can be seen as a blueshifting mode with decreasing intertip separation.}
+\caption[Spectra of a spherical Au tip approaching a stationary spherical Au tip]{\textbf{Spectra of a spherical Au tip approaching a stationary spherical Au tip.} Spherical Au tips are Au-coated NanoTools B150 AFM probes. Two scans are presented in the classical interaction regime, showing similar phenomena. The separation is estimated based on known tip displacements to the point of snap-in. Guides to the eye are added to highlight mode behaviour. Horizontal dashed lines indicate the radius separation, at which point coupling is expected to begin. In both cases, but more clear in (b) with tips having similar initial LSPs, bonding hybridised modes form, which redshift with decreasing intertip separation (increasing coupling). With slightly dissimilar initial LSPs anti-bonding hybridisation can be seen as a blueshifting mode with decreasing intertip separation.}
 \label{fig:spherical_tip_dimer_scan}
 \end{figure}
 
-The first configuration of spherical tips studied is that of a spherical Au tip approaching another spherical Au tip. In this instance the 600--\SI{650}{nm} SPRs of the individual tips interact and form observable hybridised gap modes. Representative scans of two approaching spherical Au tips are shown in \autoref{fig:spherical_tip_dimer_scan}, in which SPRs are dynamically followed from non-interacting to classically hybridised. It should be noted that in previous microscope designs the short-range tip alignment meant that SPRs were only observed once coupled at \SI{750}{nm} \cite{savage2012}. Improvements to the range of the tip alignment technique using optical detection have allowed the full range of plasmon coupling to be studied.
+The first configuration of spherical tips studied is that of a spherical Au tip approaching another spherical Au tip. In this instance the 600--\SI{650}{nm} LSPs of the individual tips interact and form observable hybridised gap modes. Representative scans of two approaching spherical Au tips are shown in \autoref{fig:spherical_tip_dimer_scan}, in which SPRs are dynamically followed from non-interacting to classically hybridised. It should be noted that in previous microscope designs the short-range tip alignment meant that SPRs were only observed once coupled near \SI{750}{nm} \cite{savage2012}. Improvements to the range of the tip alignment technique using optical detection have allowed the full range of plasmon coupling to be studied.
 
-Coupling between spherical tips appears very similar to that of a large nanoparticle dimer. Plasmons are initially uncoupled and only the single SPR of the probed tip is observed. Plasmons begin to interact at $d \approx R_{\mathrm{tip}} = \SI{150}{nm}$ as is classically expected, where $d$ is estimated based on the point of snap-in. As the gap width decreases the individual plasmon modes hybridise, redshifting monotonically and scattering increasingly. Increased scattering is due to both increasing coupling and an increased amount of scattering metal entering the confocal sampling volume of the objective. Once the gap has decreased sufficiently ($d \ll R_{\mathrm{tip}}$) the confocal collection argument is negligible as the sampling volume becomes saturated, hence all further changes are due to plasmon coupling in the gap.
+Coupling between spherical tips appears very similar to that of a large nanoparticle dimer. Plasmons are initially uncoupled and only the single LSP of the probed tip is observed. Plasmons begin to interact at $d \approx R_{\mathrm{tip}} = \SI{150}{nm}$ as is classically expected, where $d$ is estimated based on the point of snap-in. As the gap width decreases the individual plasmon modes hybridise, redshifting monotonically and scattering increasingly. The initial plasmon mode at \SI{630}{nm} redshifts to around \SI{800}{nm} in each scan at the point of snap-in, where the separation is reduced to around \SI{1}{nm}. Increased scattering is due to both increasing coupling and an increased amount of scattering metal entering the confocal sampling volume of the objective. Once the gap has decreased sufficiently ($d \ll R_{\mathrm{tip}}$) the confocal collection argument is negligible as the sampling volume becomes saturated, hence all further changes are due to plasmon coupling in the gap.
 
 For large distances the rate of redshift is dominated by the increase in capacitive coupling as the separation decreases. In each scan a large abrupt redshift of the coupled mode correlates with the snap-in effect measured via the AFM. The large redshift on snap-in is due in part to two effects: the decrease in separation as the tip is pulled in by capillary forces and the increase in refractive index as the gap constitution transitions from air to water (and any organic contaminants pulled into the water meniscus). The intensity of the lowest order mode begins to decrease once the gap width decreases below \SI{1}{nm}. This effect is attributed to the mode becoming confined to such a degree that it's becoming non-radiative. Similar changes in mode intensity are often seen in classical simulations and occur well before the onset of any significant quantum effects \cite{savage2012, esteban2015}.
 {\color{red}From theory it has been seen that the field enhancement in the gap continues to increase despite the intensity decrease, confirming that the gap mode still exists but with lower radiative emission, caused by increased charge localisation \cite{esteban2012}.%
 \footnote{Increased charge localisation reduces the effective dipole moment of the plasmon mode and therefore the scattering cross section.}}
 
-\begin{figure}[bt]
-\centering
-\includegraphics{figures/classical_mode_fits}
-\caption[LSP resonance wavelengths and amplitudes over multiple scans of spherical tip dimers]{\textbf{LSP resonance wavelengths and amplitudes over multiple scans of spherical tip dimers.} The antisymmetric nature of the system mimics a heterodimer leading to the observation of both bonding (red) and anti-bonding (blue) hybridised modes.}
-\label{fig:heterodimer_measurements}
-\end{figure}
-
-Slightly different classical coupling physics is observed when the dimer symmetry is broken. In some cases where initial tip SPRs differ by $\sim\SI{50}{nm}$ plasmon coupling is better described by a heterodimer model rather than a homodimer. Under the asymmetrical condition, anti-bonding modes are no longer dark since dipoles do not exactly cancel. Depending on which particle is probed, either the one supporting the lower or higher energy initial resonance, either a redshifting bonding mode or a blueshifting anti-bonding mode is observed to be the dominant gap resonance (see \figurename~\ref{fig:plasmon_hybridisation} and \cite{nordlander2004}). The tip dimer probed in \autoref{fig:spherical_tip_dimer_scan}a clearly exhibits both mode configurations. These two types of hybridised modes are additionally seen together across many different scans, for which a subset of resonances traced through measurements prior to snap-in are shown in \autoref{fig:heterodimer_measurements}. The amount of shift visible in the figure depends on the initial resonance position and the separation at which snap-in occurred.
-
-This effect has been documented previously \cite{nordlander2004} but never directly observed dynamically. The anti-bonding configuration is typically non-physical in most plasmonic systems since both particles are driven with the same phase of light. However, with larger particles, such as these \SI{150}{nm} radius spherical tips, the phase symmetry is broken allowing anti-bonding hybridised plasmons to be excited. Both the blueshift and the redshift at small separations are found in spherical tip scans, indicating the interaction and anti-crossing between the lower order anti-bonding mode and the higher order, adjacent bonding mode. The higher order bonding modes responsible for this are then seen after snap-in.
-
-%\subsubsection{Spherical Tip Interactions with a Planar Surface}
-
-%\begin{figure}[h]
+%\begin{figure}[bt]
 %\centering
-%\caption[]{Spectra of a spherical Au tip approaching a Au planar surface (AFM cantilever). No coupling phenomena are observed.}
-%\label{fig:spherical_tip_cantilever_scan}
+%\includegraphics{figures/classical_mode_fits}
+%\caption[LSP resonance wavelengths and amplitudes over multiple scans of spherical tip dimers]{\textbf{LSP resonance wavelengths and amplitudes over multiple scans of spherical tip dimers.} The antisymmetric nature of the system mimics a heterodimer leading to the observation of both bonding (red) and anti-bonding (blue) hybridised modes.}
+%\label{fig:heterodimer_measurements}
 %\end{figure}
 
-%By reversing the stationary AFM probe in its mount its cantilever is exposed to the opposing tip. The end of the cantilever is placed in the sampling volume so as the maximise the amount of light penetrating the focal spot around the cantilever width. Scattering from the Au-coated cantilever is minimal and insignificant compared with that of the spherical tip apex. The spherical tip is approached towards the cantilever and measurements taken (\figurename~\ref{fig:spherical_tip_cantilever_scan}).
+Slightly different classical coupling physics is observed when the dimer symmetry is broken. In some cases where initial tip SPRs differ by $\sim\SI{50}{nm}$ plasmon coupling is better described by a heterodimer model rather than a homodimer. Under the asymmetrical condition, anti-bonding modes are no longer dark since dipoles do not exactly cancel. Depending on which particle is probed, either the one supporting the lower or higher energy initial resonance, either a redshifting bonding mode or a blueshifting anti-bonding mode is observed to be the dominant gap resonance (see \figurename~\ref{fig:plasmon_hybridisation} and \cite{nordlander2004}). The tip dimer probed in \autoref{fig:spherical_tip_dimer_scan}a clearly exhibits both mode configurations and is a good representation of what is seen across many additional scans.
+%These two types of hybridised modes are additionally seen together across many different scans, for which a subset of resonances traced through measurements prior to snap-in are shown in \autoref{fig:heterodimer_measurements}. The amount of shift visible in the figure depends on the initial resonance position and the separation at which snap-in occurred.
 
-%Force measurements confirm contact between the tip and the cantilever.
+This effect has been documented previously \cite{nordlander2004} but never directly observed dynamically. The anti-bonding configuration is typically non-physical in most plasmonic systems since both particles are driven with the same phase of light. However, with larger particles, such as these \SI{150}{nm} radius spherical tips, the phase symmetry is broken allowing anti-bonding hybridised plasmons to be excited. Both the blueshift and the redshift at small separations are found in spherical tip scans, indicating the interaction and anti-crossing between the lower order anti-bonding mode and the higher order, adjacent bonding mode. The higher order bonding modes responsible for this are then seen after snap-in.
 
 \subsubsection{Spherical Tip Interactions with a Sharp Tip}
 

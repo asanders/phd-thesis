@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="aunp_tip_legend.svg">
+   sodipodi:docname="aunp_tip_legend.svg"
+   inkscape:export-filename="/Users/alansanders/Documents/PhD/GitHub/phd-thesis/6_tip_plasmonics/data/aunp_tip_legend.png"
+   inkscape:export-xdpi="296.26251"
+   inkscape:export-ydpi="296.26251">
   <defs
      id="defs4">
     <filter
@@ -71,14 +74,16 @@
     </mask>
     <mask
        maskUnits="userSpaceOnUse"
-       id="mask3861">
+       id="mask4155">
       <rect
+         ry="4.8979524e-07"
+         transform="matrix(0.50317939,0,0,0.41085119,27.46884,32.650012)"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3821)"
-         id="rect3863"
-         width="240"
-         height="300"
-         x="92"
-         y="52.362183" />
+         id="rect4157"
+         width="238.48355"
+         height="292.07654"
+         x="104.39848"
+         y="47.97887" />
     </mask>
   </defs>
   <sodipodi:namedview
@@ -88,11 +93,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="50.308355"
-     inkscape:cy="-11.535138"
+     inkscape:zoom="1.4"
+     inkscape:cx="87.329795"
+     inkscape:cy="63.647488"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4166"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="709"
@@ -102,7 +107,21 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -117,7 +136,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -129,16 +148,16 @@
     <g
        id="g4166">
       <path
-         transform="matrix(1,0,0,0.83333335,100,18.727029)"
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
          inkscape:export-filename="/Users/alansanders/Desktop/graphical_legend.png"
-         mask="url(#mask3861)"
+         mask="url(#mask4155)"
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
          id="path2987"
          d="m 40,52.362183 140,59.999997 -140,60 z"
-         style="fill:#ececec;stroke:#000000;stroke-width:1.36930633;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#ececec;stroke:#000000;stroke-width:1.36930633;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1,0,0,0.83333335,100,18.727029)" />
       <path
          transform="translate(100,0)"
          inkscape:export-ydpi="300"

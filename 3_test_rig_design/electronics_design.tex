@@ -4,6 +4,7 @@
 \begin{document}
 
 \section{Electronics Design}
+\label{sec:electronic_design}
 
 By applying a voltage, \gls{V}, and measuring the current, \gls{I}, the conductance, \gls{G}, of a conductive junction between tips can be determined using $I=GV$. Using this, quantum electronic transport can be measured and correlated with optical measurements to gain a sense of spatial separation and the extent of charge transfer across the gap. % should this be G=dI/dV
 
@@ -16,7 +17,7 @@ By applying a voltage, \gls{V}, and measuring the current, \gls{I}, the conducta
 \end{figure}
 
 % Chamber electronics and routing box
-The experimental chamber contains two triaxial connectors, one attached to each Cu tip clamp, to send and return electronic signals, permitting biasing and electrical measurement of the gap between \gls{afm} tips. Electronic signals are controlled and redirected using a control box, which attaches to the chamber triax cables. Electronics are split between an a.c.\ circuit that drives a resonant capacitive tip alignment procedure and a d.c.\ circuit for electrical measurements. The d.c.\ electronics are further split into low and high bandwidth measurement circuits. The low bandwidth ($<\SI{10}{Hz}$) circuit measures electronics continually over long time periods, typically giving spatial information linked to sample separation. The high bandwidth circuit operates on a trigger to capture single shot events on much shorter time scales. Both d.c.\ circuits are typically ran simultaneously while the a.c.\ and d.c.\ circuitry is manually switchable. A block schematic of this system is shown in \figurename~\ref{fig:block_circuit_design}.
+The experimental chamber contains two triaxial connectors, one attached to each Cu tip clamp, to send and return electronic signals, permitting biasing and electrical measurement of the gap between \gls{afm} tips. Electronic signals are controlled and redirected using a control box, which attaches to the chamber triax cables. Electronics are split between an a.c.\ circuit that drives a resonant capacitive tip alignment procedure and a d.c.\ circuit for electrical measurements. The d.c.\ electronics are further split into low and high bandwidth measurement circuits. The low bandwidth ($<\SI{10}{Hz}$) circuit measures electronics continually over long time periods, typically giving spatial information linked to sample separation. The high bandwidth circuit operates on a trigger to capture single shot events on much shorter time scales. Both d.c.\ circuits are typically run simultaneously while the a.c.\ and d.c.\ circuitry is manually switchable. A block schematic of this system is shown in \figurename~\ref{fig:block_circuit_design}.
 
 % Circuits
 The a.c.\ circuit consists of a signal generator connected to a 20$\times$ voltage amplifier to drive the junction capacitance. This is used to resonantly drive an AFM cantilever into oscillation and align tips into a tip-to-tip dimer configuration. A \SI{40}{\kilo\ohm} current limiting resistor is placed after the amplifier to prevent damage to the tip junction in the event of a direct conductive contact.% actually change the resistor from 200 ohm

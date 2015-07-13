@@ -48,21 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.49878025)%
+  \begin{picture}(1,0.4917236)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{tip_dimer_diagram.png}}%
-    \put(0.49643899,0.00566389){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
-    \put(0.40484336,0.21427953){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$R$}}}%
-    \put(0.37312045,0.29854541){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
-    \put(0.50000003,0.33308906){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\theta_{\mathrm{col}}$}}}%
-    \put(0.35116012,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{col}}$}}}%
-    \put(0.06983971,0.43342132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{incident}}$}}}%
-    {\fontsize{9pt}{1em}\selectfont
-    \put(0.31388687,0.21898085){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    \put(0.31388687,0.11107713){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    \put(0.6870992,0.10506542){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.6870992,0.22067651){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.45587695,0.15901725){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
-    \put(0.55281652,0.15732158){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
-    }
+    \put(0.50000003,0.46244448){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0.40484336,0.37061088){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$R$}}}%
+    \put(0.37312045,0.45487676){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
+    \put(0.44816954,0.31881694){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.54510911,0.31712128){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.50000003,0.1348796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\theta_{\mathrm{col}}$}}}%
+    \put(0.39740457,0.08106373){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{col}}$}}}%
+    \put(0.13149898,0.05023406){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{k}_{\mathrm{incident}}$}}}%
+    \put(0.31388687,0.37878057){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.31388687,0.26316942){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$-$}}}}%
+    \put(0.67168438,0.25715768){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
+    \put(0.67168438,0.38047624){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{$+$}}}}%
   \end{picture}%
 \endgroup%

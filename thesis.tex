@@ -1,7 +1,7 @@
 % !TEX TS-program = pdflatexmk
 % !BIB TS-program = bibtex
 
-\documentclass[12pt, a4paper, twoside, draft]{book}
+\documentclass[12pt, a4paper, twoside]{book}
 \input{preamble}
 \onehalfspacing
 
@@ -26,7 +26,7 @@
 \subimport{./8_conclusions/}{conclusions}
 
 \begin{singlespace*}
-\printbibliography[heading=bibintoc, notcategory=fullcited, resetnumbers=true]
+\printbibliography[heading=bibintoc, notcategory=fullcited, notcategory=appendices, resetnumbers=true]
 \glsaddall
 \printglossary[type=symbols, style=superborder]
 \printglossary[type=\acronymtype, style=superheader]

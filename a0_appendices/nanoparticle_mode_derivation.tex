@@ -1,0 +1,35 @@
+\section{Derivation of the Normal Modes of a Spherical Metallic Nanoparticle}
+\newcommand{\const}{\ensuremath{\lambda}}
+
+The Laplace equation,
+\begin{equation}
+\nabla^2\pot = 0,
+\end{equation}
+describes the behaviour of an electrostatic potential, \pot. In a spherically symmetric system the Laplace equation is expanded into,
+\begin{equation}
+\nabla^2\pot = \frac{1}{r^2}\frac{\partial}{\partial r} \left( r^2 \frac{\partial\pot}{\partial r} \right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta} \left( \sin\theta \frac{\partial\pot}{\partial\theta} \right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2\pot}{\partial\phi^2} = 0.
+\end{equation}
+This can be solved by separating the variables such that $\pot(r,\theta\phi)=R(r)Y(\theta,\phi)$ giving two separate equations,
+\begin{subequations}
+\begin{align}
+\frac{1}{R}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right)&=\const, \label{eq:R} \\
+\frac{1}{Y}\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial Y}{\partial\theta}\right) + \frac{1}{Y}\frac{1}{\sin^2\theta}\frac{\partial^2Y}{\partial\phi^2}&=-\const, \label{eq:Y}
+\end{align}
+where \const\ is an arbitrary constant required for both equations to sum to zero. Functions of the form of $Y(\theta,\phi)$ are considered spherical harmonics describing the angular component of a spherical system. Separating again to $Y(\theta,\phi)=\Theta(\theta)\Phi(\phi)$ leads to another two equations from \eqref{eq:Y},
+\begin{align}
+\frac{1}{\Phi}\frac{d^2\Phi}{d\phi^2}&=-m^2, \label{eq:Phi} \\
+\const\sin^2\theta + \frac{\sin\theta}{\Theta}\frac{d}{d\theta}\left(\sin\theta\frac{d\Theta}{d\theta}\right)&=m^2, \label{eq:Theta}
+\end{align}
+\end{subequations}
+where $m$ is another constant. \eqref{eq:Phi} has a solution $\Phi(\phi)=\e^{\pm im\phi}$. \eqref{eq:Theta} has solutions given by associated Legendre polynomials $\Theta(\theta)=P_l^m(\cos\theta)$ of degree $l$ and order $m$, restricting $-l \leq m \leq l$. \eqref{eq:R} then has a solution $R = A_lr^l + B_lr^{-(l+1)}$. Combining these into the electrostatic potential leads to a general solution,
+\begin{equation}
+\pot_{l,m_l}(r,\theta,\phi) = \sum_{l=0}^{l=\infty} \sum_{m_l=-l}^l [ A_lr^l + B_lr^{-(l+1)} ] P_l^m (\cos\theta) e^{i m_l\phi}.
+\end{equation}
+The spherical harmonics set the charge distributions of the normal modes of oscillation in a \gls{mnp}.
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.7\textwidth]{figures/spherical_harmonics}
+%\caption*{Image taken from wikipedia}
+%\label{fig:spherical_harmonics}
+%\end{figure}

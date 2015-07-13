@@ -51,7 +51,7 @@
   \begin{picture}(1,0.83483645)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{tip_separation_response_diagram.png}}%
     \put(0.91662324,0.63959925){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$z$}}}%
-    \put(0.05360243,0.68979671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3504653\unitlength}\centering amplitude restricted by tapping\end{minipage}}}%
-    \put(0.03171172,0.79328501){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(c)}}}%
+    \put(0.05,0.35){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.42\unitlength}\centering amplitude restricted by tapping\end{minipage}}}%
+    %\put(0.03171172,0.79328501){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(c)}}}%
   \end{picture}%
 \endgroup%

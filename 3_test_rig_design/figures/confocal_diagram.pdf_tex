@@ -50,8 +50,8 @@
   \makeatother%
   \begin{picture}(1,0.16300114)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{confocal_diagram.pdf}}%
-    \put(-0.00181103,0.14698997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
-    \put(0.48673148,0.14698997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(-0.00181103,0.14698997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{a}}}}%
+    \put(0.48673148,0.14698997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{b}}}}%
     \put(0.71913006,0.14476667){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Confocal Pinhole}}}%
     \put(0.92208444,0.14670548){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Optical Section}}}%
     \put(0.23061375,0.14670548){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Widefield Reimaging}}}%

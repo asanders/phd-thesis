@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\section{Capacitive Alignment Model Derivation}
+
+Beginning with the general equation of motion for two cantilevers, denoted by $i=(1,2)$, with initial positions $z_{0i}$, spring constants $k_{0i}^z$, masses $m_i$, damping coefficients $\beta_i^z$, and resonant frequencies $\omega_{0i} = \sqrt{k_{0i}/m_i}$, separated by a distance $d(t) = z_1(t) - z_2(t)$ and coupled via the $z$-components of the of the long range attractive electrostatic driving force $F_{EL}^z$ and short range (\orderof{nm}) Van da Waals and repulsive tip-tip interaction forces $F_{TT}^z$. The equilibrium separation between tips is denoted by $d_0 = z_{01} - z_{02}$. The equation of motion in the $z$-axis of the two parallel cantilevers of spring constant $k_i^z=k_{0i}^z+k_{TT}^z$ and damping coefficient $\beta_i^z=\beta_{0i}^z+\beta_{TT}^z$ is given by,
+\begin{equation}
+m_i\frac{d^2z_i}{dt^2}+\beta_i^z\frac{dz_i}{dt}+k_i^z\left(z_i-z_{0i}\right)=\pm\left(F_{EL}^z+F_{TT}^z\right),
+\end{equation}
+where the sign of the force depends on the tip - positive for one tip and negative for the other.
+% Simplifications
+Tip-tip interactions can be ignored and $F_{TT}^z = 0$ by assuming alignment takes place at long range and therefore $\beta_{TT}^{z} = k_{TT}^{z} = 0$. Further assume that one cantilever remains stationary. The apex separation is then restricted to $d=z_1$ with an equilibrium separation $d_0 = z_{01}$. Under these conditions the motion reduces to that of a single tip,
+\begin{equation}
+m_1\frac{d^2z_1}{dt^2}+\beta_1^z\frac{dz_1}{dt}+k_1^z\left(z_1-z_{01}\right) = F_{EL}^z(z_1, t).
+\label{eq:simple_eom_app}
+\end{equation}
+The substitution $z_r = z_1-z_{01} = d-d_{0}$ can simplify the equation to using a single relative variable,
+\begin{equation}
+m_1 \frac{d^2z_r}{dt^2} + \beta_1^z \frac{dz_r}{dt} + k_1^zz_r = F_{EL}^z(z_r, t),
+\end{equation}
+This equation now describes the whole system rather than each individual tip with the main reference point between tips being the equilibrium separation $d_0$.
+
+% Description of the electrostatic force
+The remaining force exerted between tips is purely electrostatic and depends on voltage $V$ and capacitance $C$. In general an electrostatic force acting in one direction can be calculated using,
+\begin{equation} F^z(V,z) = \frac{\partial U(V,z)}{\partial z}, \end{equation}
+where the electrostatic potential is given by,
+\begin{equation} U(V,z) = \frac{C(z)V^2}{2}. \end{equation}
+The force is then given by,
+\begin{equation} F_{EL}^z(V,z) = \frac{1}{2} \frac{\partial C(z)}{\partial z} V^2(t), \end{equation}
+where $C(z)$ is the capacitance between the cantilevers when separated by a distance $d=z_1-z_2$ and $V(t)$ is the potential difference. Under the parallel plate capacitor model the capacitance is,
+\begin{equation} C(z) = \frac{\varepsilon_0 A_{ov}}{z_1} + C_{bk}, \end{equation}
+for plates with $A_{ov}$ area of overlap, including a stray capacitance $C_{bk}$. Applying a harmonic driving force at a frequency $\omega_s$,
+\begin{equation} V(t)=V_0 \cos(\omega_s t), \end{equation}
+results in a nonlinear driving force, given by,
+\begin{equation} F_{EL}^z(z_1,t) = \frac{-\varepsilon_0 A_{ov} V(t)^2}{4z_1^2}. \end{equation}
+The square of a harmonic signal doubles the frequency as per,
+\begin{equation} V(t)^2 = V_0^2\cos^2(\omega_st) = \frac{V_0^2}{2}\left[1+\cos(2\omega_st)\right], \end{equation}
+hence the driving force becomes,
+\begin{equation}
+	F_{EL}^z(z_1,t) = \left(\frac{-\varepsilon_0 A_{ov} V_0^2}{4z_1^2}\right)\left[1+\cos(\omega_pt)\right],
+\label{eq:driving_force_app}
+\end{equation}
+where $\omega_p = 2\omega_s$ is the cantilever pump frequency.
+
+% Deriving the final EoM of the simplified system
+Substituting \eqref{eq:driving_force_app} into \eqref{eq:simple_eom_app} gives the simplified equation of motion for the dual-tip system,
+\begin{equation}
+	m_1 \frac{d^2z_1}{dt^2} + \beta_{01}^z \frac{dz_1}{dt} + k_{01}^z (z_1-d_0) = \left( \frac{-\varepsilon_0 A_{ov} V_0^2}{4z_1^2}\right)\left[1+\cos(\omega_pt)\right].
+\label{eq:final_eom_app}
+\end{equation}
+Driving at a pump frequency close to the cantilever resonance ($\omega_p \approx \omega_{01}$) therefore leads to strong resonant oscillations between tips.
+ 
+% Simplifying the final EoM using first order Taylor expansion of force
+Expressing \eqref{eq:final_eom_app} in terms of $z_r$ and $d_0$ yields,
+\begin{equation}
+	m_1 \frac{d^2z_r}{dt^2} + \beta_{01}^z \frac{dz_r}{dt} + k_{01}^zz_r = \left( \frac{-\varepsilon_0 A_{ov} V_0^2}{4(z_r+d_0)^2}\right)\left[1+\cos(\omega_pt)\right],
+\label{eq:final_rel_eom_app}
+\end{equation}
+and enables further simplification via approximation. Assuming that $z_r \ll d_0$ the right hand side of\eqref{eq:final_rel_eom_app} can be taken to first order using a Taylor series,%
+\footnote{$F(z_r) = F(0) + \left.\frac{dF(z_r)}{dz_r}\right\rvert_0 z_r = \left(\frac{-\varepsilon_0 A_{ov} V_0^2}{4}\right) [1+\cos(\omega_pt)] \left(\frac{1}{d_0^2} - \frac{2z_r}{d_0^3 }\right)$}
+%
+\begin{equation}
+m_1 \frac{d^2z_r}{dt^2} + \beta_{01}^z \frac{dz_r}{dt} + k_{e1}^zz_r \simeq \left(\frac{-\varepsilon_0 A_{ov} V_0^2}{4d_0^2}\right) \left[1+\cos(\omega_pt)\right],
+\label{eq:first_order_eom_app}
+\end{equation}
+%
+where,
+%
+\begin{equation}
+k_{e1}^z = k_{01}^z - \left(\frac{\varepsilon_0 A_{ov} V_0^2}{2d_0^3}\right) \left[1+\cos(\omega_pt)\right].
+\end{equation}
+This effective spring constant $k_{e1}^z$ does not cause parametric mixing as it oscillates at $\omega_p$ and so its effect can be averaged out over time resulting in $\langle k_{e1}^{z} \rangle = k_{01}^z - {\varepsilon_0 A_{ov} V_0^2}/{2d_0^3}$. Defining the constant $q$ as,
+\begin{equation} q = \left(\frac{-\varepsilon_0 A_{ov} V_0^2}{4d_0^3}\right), \end{equation}
+the effective spring constant can be expressed as,
+\begin{align}
+k_{e1}^z &= k_{01}^z + 2q \left[1+\cos(\omega_pt)\right],\\
+\langle k_{e1}^{z} \rangle &= k_{01}^z + 2q,
+\end{align}
+and the EOM can be again rewritten in the form,
+\begin{equation}
+m_1\ddot{z_r} + \beta_{01}^z\dot{z_r} + \left[\langle k_{e1}^z\rangle + 2q\cos(\omega_pt)\right]z_r - q\left[1+\cos(\omega_pt)\right]d_0 \simeq 0,
+\label{eq:first_order_simple_eom_app}
+\end{equation}
+Equation \eqref{eq:first_order_simple_eom_app} is of the form of the driven damped Mathieu equation,
+\begin{equation} \ddot{z} + 2\kappa\dot{z} + [a - 2q\cos(2t)]z = 0, \end{equation}
+and has solutions in the limit of small oscillations of,
+\begin{equation}
+z_1 \approx d_0 - \left|z_{1}^{off}\right| - z_{m1}\cos(\omega_pt+\varphi_1)
+\label{eq:tip_oscillation_app}
+\end{equation}
+where
+\begin{subequations}
+\begin{align}
+z_1^{off} &\approx %
+\frac{ \varepsilon_0 A_{ov} V_0^2 }{ 4d_0^2 \langle k_{e1}^z \rangle }, \label{eq:tip_amp_app}\\
+%
+z_{m1} &\approx %
+\frac{ \varepsilon_0 A_{ov} V_0^2 }%
+{ 4d_0^2 \sqrt{ (\langle k_{e1}^z \rangle - m_1\omega_p^2)^2 + (\beta_{01}^z\omega_p)^2  } }, \\
+%
+\varphi_1 &\approx \tan^{-1}\left(\frac{\beta_{01}^{z}\omega_{p}}{\langle k_{e1}^{z} \rangle -m_{1}\omega_{p}^{2}}\right). \label{eq:tip_phase_app}
+\end{align}
+\end{subequations}
+
+When extending this to determine current flow, the general current through the tip junction is given by,
+\begin{equation}
+I(t) = \frac{dQ}{dt} = \frac{d(CV)}{dt} = C(t)\frac{dV(t)}{dt} + V(t)\frac{dC(t)}{dt}.
+\end{equation}
+Substituting for $C(t)$ and $V(t)$ and taking the first few terms in the Taylor series results in the first-order current flow,
+\begin{subequations}
+\begin{align}
+I(\omega_{s}) & \approx \omega_{s}C_{0}V_{0} \left(1+\frac{|z_{off}|}{d_{0}}+\frac{z_{m1}}{2d_{0}}e^{i\varphi_1}+\frac{C_{bk}}{C_{0}}\right)e^{i\frac{\pi}{2}},\\
+%
+I(\omega_{p}+\omega_{s}) & \approx \frac{\left(\omega_{p}+\omega_{s}\right)C_{0}V_{0}z_{m1}}{2d_{0}} e^{i\left(\varphi_1 + \frac{\pi}{2}\right)},
+\label{eq:3rd_harmonic_current_app}
+\end{align}
+\end{subequations}
+where $C_0 = \varepsilon_0 A^{ov} / d_0$ and $z_{off}$ is an additional offset due to $F_{EL}^z \propto V^2$.
+
+\end{document}

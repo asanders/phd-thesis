@@ -11,7 +11,7 @@
 \fontsize{10pt}{1em}\selectfont
 \def\svgwidth{\textwidth}
 \subimport{./figures/}{figures/afm_concept.pdf_tex}
-\caption[Concept of contact mode AFM]{\textbf{Concept of contact mode AFM.} An applied force \gls{F} bends the cantilever proportional to a linear displacement $x$. Light incident on the bent cantilever deflects at an angle $2\theta$.}
+\caption[Concept of contact mode AFM]{\textbf{Concept of contact mode AFM.} An applied force $F$ bends the cantilever proportional to a linear displacement $x$. Light incident on the bent cantilever deflects at an angle $2\theta$.}
 \label{fig:afm_concept}
 \vspace{-5pt}
 \end{wrapfigure}
@@ -21,7 +21,7 @@ An \gls{afm} module measures cantilever deflections as they flex under an applie
 \begin{equation}
 	F=k\Delta z, \label{eq:hookes_law}
 \end{equation}
-where \gls{k} is the stiffness or spring constant of the cantilever. Contact and tapping mode cantilevers are mostly used in experiments, for which $k=\SI{0.2}{\newton\per\metre}$ and \SI{40}{\newton\per\metre}, respectively. The change in angle caused by a linear displacement at the tip can be measured optically as a change in deflection angle of a laser focussed on the back of a reflective cantilever (\autoref{fig:afm_concept}). The sensitivity of this technique has led to it being named atomic force microscopy since atomic-scale forces cause measurable deflections, enabling topological imaging with nanoscale resolution. For tip-tip dimers, nano-scale force measurements become important as they dictate how tips come together and move through interfacial layers prior to electrical contact. To this extent, a compact AFM module was constructed to monitor the tip-tip interaction forces during tip dimer measurements.
+where \gls{k} is the stiffness or spring constant of the cantilever. Contact and tapping mode cantilevers are mostly used in experiments, for which $k=\SI{0.2}{\newton\per\metre}$ and \SI{40}{\newton\per\metre}, respectively. The change in angle caused by a linear displacement at the tip can be measured optically as a change in deflection angle of a laser focussed on the back of a reflective cantilever (\autoref{fig:afm_concept}). The sensitivity of this technique has led to it being named atomic force microscopy since atomic-scale forces cause measurable deflections, enabling topological imaging with nanoscale resolution. For tip-tip dimers, nano-scale force measurements become important as they dictate how tips come together and move through interfacial layers prior to electrical contact. A compact AFM module was thus constructed to monitor the tip-tip interaction forces during tip dimer measurements.
 
 \begin{figure}[bt]
 \centering
@@ -31,33 +31,33 @@ where \gls{k} is the stiffness or spring constant of the cantilever. Contact and
 \end{figure}
 
 % AFM design
-The AFM module consists of a compact optomechanical {\color{red}array}, mechanically bolted onto the top plate of the microscope platform, and a separate \SI{633}{nm} laser diode coupled together using a strain-relieved single mode fibre, as shown in \autoref{fig:afm_design}. Single mode fibre is used to produce a stabilised laser output.%
-\footnote{Stabilised output results from single mode operation. Multimode stability leads to significant intensity changes that cause issues with the position sensitive detector.}
-Light is focussed through an entry window in the experimental chamber onto the cantilever of the soft AFM probe during an experiment. The beam position is laterally offset on the focussing lens using a silver turning prism to focus on the cantilever at an angle so that reflections return through the AFM with the opposite lateral offset.%
+The AFM module consists of a compact optomechanical module, mechanically bolted onto the top plate of the microscope platform, and a separate \SI{633}{nm} laser diode coupled together using a strain-relieved single mode fibre, as shown in \autoref{fig:afm_design}. Single mode fibre is used to produce a stabilised laser output.%
+%\footnote{Stabilised output results from single mode operation. Multimode stability leads to significant intensity changes that cause issues with the position sensitive detector.}
+Light is focussed through an entry window in the experimental chamber onto the cantilever of a back-facing AFM probe during an experiment. The beam position is laterally offset on the focussing lens using a silver turning prism to focus on the cantilever at an angle so that reflections return through the AFM with the opposite lateral offset.%
 \footnote{An alternative to this approach allows use of a common beam path but requires two polarisers and a quarter wave plate, leading to simpler alignment but a more costly design.}
-Light reflected back off the cantilever at a different angle in the focal plane is laterally translated in Fourier space. This translation is measured using a fast lateral effect photodiode, also known as a \gls{psd}. The PSD contains a signal processing circuit with an in-built transimpedance amplifier (\num{e5} gain) to convert the small currents generated into voltages corresponding to the measurements $\Delta x,y$ and $\sum x,y$. Voltages are recorded using a DAQ card (NI X-series).
+Light reflected back off the cantilever at a different angle in the focal plane is laterally translated in Fourier space. This translation is measured using a fast lateral effect photodiode, also known as a \gls{psd}, where the beam position generates a current in each orthogonal direction. The PSD contains a signal processing circuit with a built-in transimpedance amplifier (\num{e5} gain) to convert these small currents into voltages corresponding to the measurements $\Delta x,y$ and $\sum x,y$. Voltages are recorded using a DAQ card (NI X-series).
+
+% Determining position from current or voltage
+Changes in the voltage output of the PSD correspond directly to motion of the tip and cantilever under an applied force. The position of the PSD is adjusted with zero force applied to the cantilever to zero the voltage. The lateral displacement of the returning beam is then calculated using,
+\begin{equation}
+ds_i = \frac{L_i}{2}\frac{\Delta V_i}{\sum V_i},
+\end{equation}
+where $i$ is the lateral axis, either $x$ or $y$, $L_i$ is the length of the detector along that axis (\SI{10}{mm}) and $V_i$ is the voltage output at each end of the detector axis. The displacement can then be transformed into an applied force via a calibrated conversion.
 
 % Limitations to beam size and focal lengths
 The width of the cantilever and the radius of the input beam determines the minimum beam size. Cantilevers have a width of \SI{50}{\micro\metre} therefore the spot size in the focus must be less than this value. Since the input is a single mode Gaussian beam the spot diameter, $2w_0$, is given by $2w_0 = 4\lambda f/ \pi D$, where $f$ is the focal length and $D$ is the collimated beam diameter. For $\lambda=\SI{633}{nm}$ and a required spot size $2w_0 < \SI{50}{\micro\metre}$ the fraction $f/D < 62$. The focal length is restricted by the distance from the edge of the top plate, where the AFM module is mounted, to the cantilever through the chamber window. A \SI{100}{mm} lens is chosen to accommodate the focal length constraint, which restricts the beam diameter to $D > \SI{1.6}{mm}$. This beam diameter is set by using a short focal length lens to collimate the single mode fibre output.
 
-% Determining position from current or voltage
-Changes in the voltage output of the PSD correlate with the force applied to the tip at the end of the cantilever. The position of the PSD is adjusted with zero force applied to the cantilever to zero the voltage. The lateral displacement of the returning beam is then calculated using,
-\begin{equation}
-ds_i = \frac{L_i}{2}\frac{\Delta V_i}{\sum V_i},
-\end{equation}
-where $i$ is the lateral axis, either $x$ or $y$, $L_i$ is the length of the detector along that axis and $V_i$ is the voltage output at each end of the detector axis. The displacement can then be transformed into an applied force via a calibrated conversion.
-
 \subsection{Calibrating the AFM}
 
-The displacement of the tip under an applied force can be related to the translation of the beam as a measured voltage. By determining the tip displacement, the force applied to the AFM tip can be measured using \eqref{eq:hookes_law}. The transformation from tip displacement into a measured lateral displacement can be expressed as,
+The displacement of the tip under an applied force is related to the lateral translation of the beam on the PSD. By determining the tip displacement, the force applied to the AFM tip can be measured using \eqref{eq:hookes_law}. The transformation from tip displacement into a measured lateral displacement in Fourier space is linear in the current geometry and can be expressed as,
 \begin{equation}
 s = k_{x \rightarrow s}x,
 \end{equation}
-where $k_{x \rightarrow s}$ is the transformation. In the current geometry this transformation is linear and therefore $k_{x \rightarrow s}$ is a fixed constant for a given AFM beam alignment. In general, $k_{x \rightarrow s}$ includes each of the transformations required to convert the cantilever displacement into a measurable signal. These transformations are apparent when following the path of the laser beam through the AFM module. The tip displacement needs to be converted into an angular cantilever deflection, which is further transformed into a lateral beam translation. Each of these is a linear operation, hence the overall effect can be expressed in a single constant $k_{x \rightarrow s}$, which can be experimentally determined.
+where $k_{x \rightarrow s}$ is the transformation constant. Each of the individual linear geometrical transformations required to convert the tip displacement into a measurable beam displacement in Fourier space (tip displacement to angular cantilever deflection to angular beam reflection to lateral translation on recollimation) are incorporated into this single constant, $k_{x \rightarrow s}$, which can be experimentally determined.
 
 The simplest method of calibration involves pushing an AFM tip against a hard contact so that the displacement is known ($\Delta z = z$). From there the beam translation is measured as a function of tip displacement and data can be fitted to determine $k_{x \rightarrow s}$. The force can then be estimated using \eqref{eq:hookes_law}. Whilst this is not ideal as the cantilever spring constant is still somewhat unknown, the method is simple. Therefore, for force measurements, the value of the cantilever spring constant is assumed from the AFM probe data sheet. The large tolerances on stiffness measurements mean that this approach is only sufficient to estimate the applied force on a nano-gap to within 50\%.%
 \footnote{The fractional uncertainty is given by  $\delta F/F = \sqrt{(\delta k/k)^2+(\delta z/z)^2}$ for which $\delta z/z$ is negligible compared with $\delta k/k=\sim0.5$.}
-Other methods of accurately measuring the cantilever spring constant do exist, as do methods to directly map the force to a measured signal, i.e. $F = k_{s \rightarrow F}s$, but add further complexity to experiments \cite{hutter1993calibration, senden1994experimental, torii1996method, sader1999calibration, levy2002measuring, cumpson2004quantitative, gates2007precise, langlois2007spring, ohler2007cantilever}. Since exact measurements of force are not crucial to current nano-gap studies, the current uncertainty is acceptable.
+Other methods of accurately measuring the cantilever spring constant do exist, as do methods to directly map the force to a measured signal, i.e. $F = k_{s \rightarrow F}s$, but add further complexity to experiments \cite{hutter1993calibration, senden1994experimental, torii1996method, sader1999calibration, levy2002measuring, cumpson2004quantitative, gates2007precise, langlois2007spring, ohler2007cantilever}. Since exact measurements of force are not crucial to current nano-gap studies, the uncertainty is acceptable.
 
 \FloatBarrier
 \end{document}

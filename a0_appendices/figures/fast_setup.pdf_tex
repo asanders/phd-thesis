@@ -1,0 +1,67 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fast_setup.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{316.00000224bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.57253046)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fast_setup.pdf}}%
+    \put(0.39479578,0.32521873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering hard drive shutter\end{minipage}}}%
+    \put(0.51897389,0.47137697){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.20253164\unitlength}\centering PIXIS 256E\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fast_setup.pdf}}%
+    \put(0.30236044,0.08218081){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering beam focussing\end{minipage}}}%
+    \put(0.08052963,0.02911389){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{fast_setup.pdf}}%
+    \put(0.17769822,0.21139237){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$I$}}}%
+    \put(0.27510787,0.29746832){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_I$}}}%
+    \put(0.14793006,0.24926942){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering TI amp\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{fast_setup.pdf}}%
+    \put(0.43291139,0.46455696){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{trigger}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{fast_setup.pdf}}%
+    \put(0.72262164,0.58002771){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27849445\unitlength}\centering Triax 320 monochromator\end{minipage}}}%
+  \end{picture}%
+\endgroup%
