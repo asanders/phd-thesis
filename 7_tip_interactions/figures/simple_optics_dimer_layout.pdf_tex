@@ -57,7 +57,7 @@
     \put(0.0963333,0.27188255){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12686319\unitlength}\centering to CCD\end{minipage}}}%
     \put(0.39235584,0.82812333){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
     \put(0.22272803,0.73333724){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.25341394\unitlength}\centering \fontsize{9pt}{1em}\selectfont 100$\times$ IR\\ obj.\end{minipage}}}%
-    \put(0.74236103,0.83956047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29885974\unitlength}\raggedright AFM: cantilever\\ deflection\end{minipage}}}%
+    %\put(0.74236103,0.83956047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29885974\unitlength}\raggedright AFM: cantilever\\ deflection\end{minipage}}}%
     \put(0.44639914,0.18293818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.13934082\unitlength}\centering confocal\\ pinhole\end{minipage}}}%
     \put(0.4251778,0.86599483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30297196\unitlength}\centering fine (piezo) $xyz$ nanopositioning\end{minipage}}}%
     \put(-0.00908201,0.86094529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27267476\unitlength}\centering coarse $xyz$ nanopositioning\end{minipage}}}%

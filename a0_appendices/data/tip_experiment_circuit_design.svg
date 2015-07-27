@@ -11,8 +11,8 @@
    height="478.883717923"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="router-sim.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tip_experiment_circuit_design.svg">
   <metadata
      id="metadata692">
     <rdf:RDF>
@@ -39,9 +39,9 @@
      inkscape:window-height="480"
      id="namedview688"
      showgrid="false"
-     inkscape:zoom="1.312"
-     inkscape:cx="552.46069"
-     inkscape:cy="111.0554"
+     inkscape:zoom="0.9277241"
+     inkscape:cx="740.99666"
+     inkscape:cy="250.54198"
      inkscape:current-layer="g6" />
   <desc
      id="desc4">Created by CircuitLab https://www.circuitlab.com/</desc>
@@ -457,7 +457,7 @@
          id="tspan100">1 kΩ</tspan>
     </text>
     <path
-       style="stroke-linecap:round;stroke-miterlimit:6;stroke:#ffff00"
+       style="stroke-linecap:round;stroke-miterlimit:6;stroke:#ffcc00;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M25,21.87499L25,0"
@@ -467,7 +467,7 @@
        transform="matrix(0,1,-1,0,3000,1625)"
        id="path102" />
     <path
-       style="stroke-linecap:round;stroke-miterlimit:6;stroke:#ffff00"
+       style="stroke-linecap:round;stroke-miterlimit:6;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M25,78.12502L25,100"
@@ -477,15 +477,11 @@
        transform="matrix(0,1,-1,0,3000,1625)"
        id="path104" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,21.87499L14.062504,26.56249L35.937495,35.93748L14.062504,45.31248L35.937495,54.68752L14.062504,64.06252L35.937495,73.43752L25,78.12502"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2978.1251,1650 -4.6875,-10.9375 -9.375,21.875 -9.375,-21.875 -9.3751,21.875 -9.375,-21.875 -9.375,21.875 L 2921.875,1650"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3000,1625)"
-       id="path106" />
+       id="path106"
+       inkscape:connector-curvature="0" />
     <text
        style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
        x="0"
@@ -2024,7 +2020,7 @@
          id="tspan454">SW4</tspan>
     </text>
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2600 1600 L 2700 1600"
@@ -2148,7 +2144,7 @@
        transform="translate(2375,1425)"
        id="path482" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2450 1575 L 2500 1575"
@@ -2157,7 +2153,7 @@
        class="cl_wire"
        id="path484" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2400 1425 L 2450 1425"
@@ -2166,7 +2162,7 @@
        class="cl_wire"
        id="path486" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2450 1200 L 2450 1575"
@@ -2486,7 +2482,7 @@
        class="cl_wire"
        id="path554" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3150 1550 L 3275 1550"
@@ -2495,7 +2491,7 @@
        class="cl_wire"
        id="path556" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3025 1475 L 3050 1475"
@@ -2504,7 +2500,7 @@
        class="cl_wire"
        id="path558" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3025 1475 L 3025 1493 A 7 7 0 1 1 3025 1507 L 3025 1525"
@@ -2513,7 +2509,7 @@
        class="cl_wire"
        id="path560" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3025 1525 L 3050 1525"
@@ -2531,7 +2527,7 @@
        class="cl_wire"
        id="path564" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3000 1500 L 3050 1500"
@@ -2540,7 +2536,7 @@
        class="cl_wire"
        id="path566" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2850 1550 L 2850 1575"
@@ -2549,7 +2545,7 @@
        class="cl_wire"
        id="path568" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2850 1550 L 2893 1550 A 7 7 0 1 1 2907 1550 L 2993 1550 A 7 7 0 1 1 3007 1550 L 3050 1550"
@@ -2610,7 +2606,7 @@
        class="cl_wire"
        id="path582" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2825 1475 L 2868 1475 A 7 7 0 1 1 2882 1475 L 2900 1475"
@@ -2671,7 +2667,7 @@
        class="cl_wire"
        id="path596" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3000 1500 L 3000 1593 A 7 7 0 1 1 3000 1607 L 3000 1618 A 7 7 0 1 1 3000 1632 L 3000 1650"
@@ -2680,7 +2676,7 @@
        class="cl_wire"
        id="path598" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2875 1725 L 3275 1725"
@@ -2716,7 +2712,7 @@
        class="cl_wire"
        id="path606" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2450 1200 L 2875 1200"
@@ -2761,7 +2757,7 @@
        class="cl_wire"
        id="path616" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2800 1575 L 2850 1575"
@@ -2770,7 +2766,7 @@
        class="cl_wire"
        id="path618" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2900 1600 L 3050 1600"
@@ -2779,7 +2775,7 @@
        class="cl_wire"
        id="path620" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3150 1600 L 3150 1625"
@@ -2788,7 +2784,7 @@
        class="cl_wire"
        id="path622" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2900 1625 L 3150 1625"
@@ -2797,7 +2793,7 @@
        class="cl_wire"
        id="path624" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2900 1475 L 2900 1600"
@@ -2806,7 +2802,7 @@
        class="cl_wire"
        id="path626" />
     <path
-       style="stroke-linecap:round;stroke:#ffff00"
+       style="stroke-linecap:round;stroke:#ffcc01;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2900 1625 L 2900 1650"
@@ -2815,7 +2811,7 @@
        class="cl_wire"
        id="path628" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3275 1425 L 3275 1550"
@@ -2824,7 +2820,7 @@
        class="cl_wire"
        id="path630" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 3275 1650 L 3275 1725"
@@ -2930,7 +2926,7 @@
        class="cl_wire"
        id="path654" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2875 1200 L 2875 1550"
@@ -2939,7 +2935,7 @@
        class="cl_wire"
        id="path656" />
     <path
-       style="stroke-linecap:round;stroke:#00ff00"
+       style="stroke-linecap:round;stroke:#00c800;stroke-opacity:1"
        fill="none"
        stroke="#000000"
        d="M 2875 1550 L 2875 1725"
@@ -2962,103 +2958,90 @@
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle662"
-       d="m 2253,1625 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle662" />
     <circle
        cx="3000"
        cy="1650"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle664"
-       d="m 3003,1650 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle664" />
     <circle
        cx="3400"
        cy="1225"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle666"
-       d="m 3403,1225 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle666" />
     <circle
        cx="3400"
        cy="1350"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle668"
-       d="m 3403,1350 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle668" />
     <circle
        cx="3275"
        cy="1225"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle670"
-       d="m 3278,1225 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle670" />
     <circle
        cx="3125"
        cy="1200"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle672"
-       d="m 3128,1200 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle672" />
     <circle
        cx="3500"
        cy="1350"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle674"
-       d="m 3503,1350 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle674" />
     <circle
        cx="3125"
        cy="1275"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle676"
-       d="m 3128,1275 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle676" />
     <circle
        cx="2450"
        cy="1425"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle678"
-       d="m 2453,1425 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle678" />
     <circle
        cx="2825"
        cy="1475"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle680"
-       d="m 2828,1475 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle680" />
     <circle
        cx="3275"
        cy="1425"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle682"
-       d="m 3278,1425 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle682" />
     <circle
        cx="3275"
        cy="1650"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle684"
-       d="m 3278,1650 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle684" />
     <circle
        cx="2875"
        cy="1550"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle686"
-       d="m 2878,1550 c 0,1.6569 -1.3431,3 -3,3 -1.6569,0 -3,-1.3431 -3,-3 0,-1.6569 1.3431,-3 3,-3 1.6569,0 3,1.3431 3,3 z" />
+       id="circle686" />
   </g>
 </svg>

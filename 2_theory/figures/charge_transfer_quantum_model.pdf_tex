@@ -53,7 +53,7 @@
     \put(0.03265846,0.20044086){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_F$}}}%
     \put(0.03265846,0.15213539){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E$}}}%
     \put(0.11031507,0.06667182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.66434571,0.081535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26010651\unitlength}\centering tunnelling CTP without geometrical contact\end{minipage}}}%
+    \put(0.66434571,0.081535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26010651\unitlength}\centering CTP without geometrical contact\end{minipage}}}%
     \put(0.1515643,0.081535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26010651\unitlength}\centering tunnelling-induced screening via gap field\end{minipage}}}%
     \put(0.55287716,0.21128574){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
     \put(0.28533336,0.09639823){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$G<1\G0$}}}%

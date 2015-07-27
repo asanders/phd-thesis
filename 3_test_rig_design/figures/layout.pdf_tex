@@ -51,17 +51,17 @@
   \begin{picture}(1,1.30903638)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{layout.png}}%
     \put(0.65058177,0.06690995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{special bbp cube}}}%
-    \put(0.46281847,0.07413161){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{30um pinhole}}}%
+    \put(0.46281847,0.07413161){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\SI{25}{\micro\metre} pinhole}}}%
     \put(0.89608798,0.02555868){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{to fast spectroscopy}}}%
     \put(0.69383242,0.83464737){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{anti-vibration stage}}}%
     \put(0.14470817,0.96463734){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{periscope}}}%
     \put(0.31787237,0.67594545){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{periscope}}}%
     \put(0.06995988,1.26203562){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17331997\unitlength}\centering Fianium SC-400 supercontinuum fibre output\end{minipage}}}%
-    \put(0.13784354,1.059829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 3x beam expansion\end{minipage}}}%
+    \put(0.13784354,1.059829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 3$\times$ beam expansion\end{minipage}}}%
     \put(0.28195508,1.18008753){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 30 mm achromat\end{minipage}}}%
     \put(0.28195508,1.03565423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 100 mm achromat\end{minipage}}}%
     \put(0.57403212,0.99338968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 150 mm achromat\end{minipage}}}%
-    \put(0.56392179,1.16093231){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17331997\unitlength}\centering Olympus MLPlan 100xIR Objective\end{minipage}}}%
+    \put(0.56392179,1.16093231){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17331997\unitlength}\centering Olympus MLPlan 100$\times$IR Objective\end{minipage}}}%
     \put(0.35706039,0.18560693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 85 mm achromat\end{minipage}}}%
     \put(0.46105237,0.18560693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 50 mm achromat\end{minipage}}}%
     \put(0.70691076,0.19322916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 11 mm achromats\end{minipage}}}%
@@ -73,8 +73,8 @@
     \put(0.19561686,0.4965391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10110331\unitlength}\centering 150 mm achromat\end{minipage}}}%
     \put(0.08151455,0.28855514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20220663\unitlength}\centering auxilliary illumination input port\end{minipage}}}%
     \put(0.42093281,0.42432245){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12998998\unitlength}\centering wedged beamsplitters\end{minipage}}}%
-    \put(-0.00019006,0.51124425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1164326\unitlength}\centering DF stop - 2~mm Al disc on wedged BK7 \end{minipage}}}%
-    \put(0.17972919,0.79984905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.11554664\unitlength}\centering beam attenuation: 2x~ND0.3 2x~ND0.5\end{minipage}}}%
+    \put(-0.00019006,0.51124425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1164326\unitlength}\centering DF stop - \SI{2}{mm} Al disc on wedged BK7 \end{minipage}}}%
+    \put(0.17972919,0.79984905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.11554664\unitlength}\centering beam attenuation: 2$\times$~ND0.3 2$\times$~ND0.5\end{minipage}}}%
     \put(0.81561498,0.41982689){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10146034\unitlength}\centering Lumenera Infinity2 CCD\end{minipage}}}%
     \put(0.46282288,0.19040465){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=47$}}}%
     \put(0.76612842,0.27633824){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$M=111$}}}%

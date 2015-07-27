@@ -2,13 +2,15 @@
 \usepackage[scale=0.8]{geometry}
 \usepackage[]{hyperref}
 %\usepackage{cmbright}
-%\renewcommand{\familydefault}{\sfdefault}
-%\renewcommand{\sfdefault}{cmbr}
+%\renewcommand{\familydefault}{\rmdefault}
+\renewcommand{\sfdefault}{cmbr}
+%\newcommand{\outlinefont}{\fontfamily{ocmbr}\selectfont}
+%\renewcommand{\bfdefault}{sb}
 \usepackage{setspace}
 
 % Bibliography
 \usepackage[backend=bibtex, style=phys, maxnames=3, hyperref=true, articletitle=true, biblabel=brackets, defernumbers=true]{biblatex}
-\DefineBibliographyStrings{english}{bibliography = {References},}
+%\DefineBibliographyStrings{english}{bibliography = {References},}
 \DeclareBibliographyCategory{fullcited}
 \DeclareBibliographyCategory{appendices}
 \newcommand{\mybibexclude}[1]{\addtocategory{fullcited}{#1}}
@@ -31,7 +33,7 @@
 \DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
 \graphicspath{ {./figures/} {./figures/literature/} }
 \usepackage{floatrow}
-%\floatsetup{capbesideposition={top,inside}}
+\floatsetup{capbesideposition={top,inside}}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[font+=small, list=false]{subcaption}
 \usepackage{eso-pic}
@@ -63,6 +65,16 @@
 \newglossary{symbols}{sym}{sbl}{List of Symbols}
 \makeglossaries
 \glsdisablehyper
+
+\usepackage[outline]{contour}
+\usepackage[sf, bf, raggedright, explicit]{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\sffamily\LARGE\bfseries\raggedright}{\chaptertitlename\ \thechapter}{8pt}{
+\begin{minipage}[b]{\linewidth}
+\Huge\raggedright #1
+\end{minipage}}[\titlerule]
+\titleformat{\section}
+{\normalfont\sffamily\Large\bfseries\raggedright\color{black}}{\thesection}{1em}{#1}[\titlerule\vspace{0.5pc}]
 
 %\usepackage[intoc]{nomencl}
 %\renewcommand{\nomname}{List of Symbols}

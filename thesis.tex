@@ -8,13 +8,10 @@
 \begin{document}
 
 \frontmatter
-%\begin{singlespace*}
 \subimport{./0_frontmatter/}{title}
 \subimport{./0_preface/}{preface}
 \tableofcontents
 \setcounter{tocdepth}{2}
-%\listoffigures
-%\end{singlespace*}
 
 \mainmatter
 \subimport{./1_introduction/}{introduction}
@@ -25,17 +22,18 @@
 \subimport{./7_tip_interactions/}{tip_interactions}
 \subimport{./8_conclusions/}{conclusions}
 
-\begin{singlespace*}
-\printbibliography[heading=bibintoc, notcategory=fullcited, notcategory=appendices, resetnumbers=true]
-\glsaddall
-\printglossary[type=symbols, style=superborder]
-\printglossary[type=\acronymtype, style=superheader]
-\end{singlespace*}
-
 \appendix
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Appendices}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
 \subimport{./a0_appendices/}{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
+\begin{singlespace*}
+\printbibliography[heading=bibintoc, notcategory=fullcited, notcategory=appendices, resetnumbers=true]
+%\glsaddall
+\printglossary[type=symbols, style=superborder]
+\printglossary[type=\acronymtype, style=superheader]
+\end{singlespace*}
 
 \end{document}

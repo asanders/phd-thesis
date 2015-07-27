@@ -55,11 +55,12 @@
     \put(0.13357763,0.11109044){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$}}}%
     \put(0.53832154,0.33626489){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{e\sups{$-$}}}}%
     \put(0.53547123,0.19374945){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$T(E)$}}}%
-    \put(0.62383081,0.22795314){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$V$}}}%
+    \put(0.6058873,0.22795314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_0$}}}%
     \put(0.29889556,0.32486365){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E>V$}}}%
     \put(0.29889556,0.11394075){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E<V$}}}%
     \put(0.79769968,0.29065996){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$T(E)=\sum_n{G_0}$}}}%
-    \put(0.18117769,0.31){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
-    \put(0.18060829,0.205){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.18117769,0.31916303){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.18060829,0.19945003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.4500298,0.27925871){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$eV$}}}%
   \end{picture}%
 \endgroup%

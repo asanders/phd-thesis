@@ -13,15 +13,15 @@
 \newglossaryentry{z}{type=symbols, name=\ensuremath{z}, sort=z,
 				description={axial spatial coordinate [m]}}
 \newglossaryentry{rv}{type=symbols, name=\ensuremath{\vec{r}}, sort=r,
-				description={spatial vector with components $(x,y,z)$ or $(r, \theta,\phi)$ depending on coordinate system}}
-\newglossaryentry{xv}{type=symbols, name=\ensuremath{\vec{x}}, sort=x,
-				description={spatial vector with components $(x,y,z)$ or $(r, \theta,\phi)$ depending on coordinate system}}
+				description={spatial vector with components $(x,y,z)$ or $(r, \theta,\phi)$ depending on coordinate system [m]}}
+%\newglossaryentry{xv}{type=symbols, name=\ensuremath{\vec{x}}, sort=x,
+%				description={spatial vector with components $(x,y,z)$ or $(r, \theta,\phi)$ depending on coordinate system}}
 \newglossaryentry{r}{type=symbols, name=\ensuremath{r}, sort=r,
 				description={radial coordinate [m]}}
 \newglossaryentry{theta}{type=symbols, name=\ensuremath{\theta}, sort=theta,
-				description={angle [\si{\degree}]}}
+				description={azimuthal angle [\si{\degree}]}}
 \newglossaryentry{phi}{type=symbols, name=\ensuremath{\phi}, sort=phi,
-				description={displacement [m]}}
+				description={polar angle [\si{\degree}]}}
 \newglossaryentry{s}{type=symbols, name=\ensuremath{s}, sort=s,
 				description={azimuthal angle [\si{\degree}]}}
 \newglossaryentry{v}{type=symbols, name=\ensuremath{v}, sort=v,
@@ -40,7 +40,7 @@
 				description={electric field [\si{V.m^{-1}}]}}
 \newglossaryentry{E_mag}{type=symbols, name=\ensuremath{E}, sort=E,
 				description={magnitude of the electric field [\si{V.m^{-1}}]}}
-\newglossaryentry{E0}{type=symbols, name=\ensuremath{\vec{E_0}}, sort=E0,
+\newglossaryentry{E0}{type=symbols, name=\ensuremath{\vec{E}_0}, sort=E0,
 				description={incident electric field [\si{V.m^{-1}}]}}
 \newglossaryentry{B}{type=symbols, name=\ensuremath{\vec{B}}, sort=B,
 				description={magnetic field strength/magnetic flux density [T]}}
@@ -74,11 +74,11 @@
 \newglossaryentry{D}{type=symbols, name=\ensuremath{\vec{D}}, sort=D,
 				description={electric displacement field}}
 \newglossaryentry{H}{type=symbols, name=\ensuremath{\vec{H}}, sort=H,
-				description={magnetic field}}
+				description={magnetic field [\si{A.m^{-1}}]}}
 \newglossaryentry{P}{type=symbols, name=\ensuremath{\vec{P}}, sort=P,
-				description={polarisation/electric dipole moment per unit volume [\si{m^{-3}}]}}
+				description={polarisation/electric dipole moment per unit volume [\si{C.m^{-2}}]}}
 \newglossaryentry{M}{type=symbols, name=\ensuremath{\vec{M}}, sort=M,
-				description={magnetisation/magnetic dipole moment per unit volume [\si{m^{-3}}]}}
+				description={magnetisation/magnetic dipole moment per unit volume [\si{A.m^{-2}}]}}
 
 \newglossaryentry{eps}{type=symbols, name=\ensuremath{\varepsilon}, sort=eps, 
 				description={complex relative permittivity, $\varepsilon = \varepsilon_1 + i\varepsilon_2$, also known as a dielectric function of a material}}
@@ -104,9 +104,9 @@
 				
 \newglossaryentry{eps_omega}{type=symbols, name=\ensuremath{\varepsilon(\omega)}, sort=eps_omega, 
 				description={dielectric function of a metal}}
-\newglossaryentry{eps_metal}{type=symbols, name=\ensuremath{\varepsilon_{z,m}}, sort=eps_metal, 
+\newglossaryentry{eps_metal}{type=symbols, name=\ensuremath{\varepsilon_m}, sort=eps_metal, 
 				description={complex relative permittivity of a metal (see also \gls{eps_omega})}}
-\newglossaryentry{eps_dielectric}{type=symbols, name=\ensuremath{\varepsilon_{z,d}}, sort=eps_dielectric, 
+\newglossaryentry{eps_dielectric}{type=symbols, name=\ensuremath{\varepsilon_d}, sort=eps_dielectric, 
 				description={complex relative permittivity of a dielectric - assumed constant}}
 \newglossaryentry{wavevector_metal}{type=symbols, name=\ensuremath{k_m}, sort=km,
 				description={magnitude of the wavevector inside a metal [\si{m^{-1}}]}}
@@ -164,9 +164,9 @@
 \newglossaryentry{omega_spp}{type=symbols, name=\ensuremath{\omega_{spp}}, sort=omega_spp,
 				description={surface plasmon polariton frequency [\si{\radian}]}}
 \newglossaryentry{l}{type=symbols, name=\ensuremath{l}, sort=l,
-				description={orbital angular momentum quantum number used to describe the mode of spherical harmonics in the plasmon charge distribution}}
+				description={degree of spherical harmonic (multipolar mode)}}
 \newglossaryentry{m_l}{type=symbols, name=\ensuremath{m_l}, sort=m_l,
-				description={projection of the orbital angular momentum quantum number \gls{l}}}
+				description={order of spherical harmonic of degree \gls{l}}}
 
 \newglossaryentry{omega_l}{type=symbols, name=\ensuremath{\omega_l}, sort=omega_l,
 				description={frequency of the localised surface plasmon mode of angular momentum $l$ [\si{\radian}]}}
@@ -188,7 +188,7 @@
 % Dimer Plasmonics
 
 \newglossaryentry{R}{type=symbols, name=\ensuremath{R}, sort=R,
-				description={characteristic feature size/radius of nanostructures, normally used in the context of this this thesis to refer to the radius of the tip apex [m]}}
+				description={characteristic feature size/radius of nanostructures, normally used in the context of this work to refer to the radius of the tip apex [m]}}
 \newglossaryentry{d}{type=symbols, name=\ensuremath{d}, sort=d,
 				description={dimer gap separation [m]}}
 
@@ -206,7 +206,7 @@
 \newglossaryentry{wave_func}{type=symbols, name=\ensuremath{\psi}, sort=psi,
 				description={wavefunction}}
 \newglossaryentry{phase}{type=symbols, name=\ensuremath{\phi}, sort=phi,
-				description={phase of the wave}}
+				description={phase of a wave}}
 \newglossaryentry{m}{type=symbols, name=\ensuremath{m}, sort=m,
 				description={mass [kg]}}
 \newglossaryentry{damping}{type=symbols, name=\ensuremath{\beta}, sort=beta,
@@ -238,13 +238,13 @@
 
 % Electronics
 \newglossaryentry{G0}{type=symbols, name=\ensuremath{\mathrm{G_0}}, sort=G0,
-				description={quantum of conductance, \SI{7e-5}{\per\ohm}}}
+				description={quantum of conductance, \SI{7.75e-5}{\per\ohm}}}
 \newglossaryentry{V}{type=symbols, name=\ensuremath{V}, sort=V,
 				description={voltage or potential difference [V]}}
 \newglossaryentry{I}{type=symbols, name=\ensuremath{I}, sort=I,
 				description={current [A]}}
 \newglossaryentry{G}{type=symbols, name=\ensuremath{G}, sort=G,
-				description={conductance [\si{\per\ohm}]}}
+				description={conductance [S] or [\si{\per\ohm}]}}
 				
 % AFM
 \newglossaryentry{k}{type=symbols, name=\ensuremath{k}, sort=k,
@@ -268,6 +268,6 @@
 \newglossaryentry{v_diff}{type=symbols, name=\ensuremath{v_{\mathrm{diffusion}}}, sort=v_diff,
 				description={diffusion velocity of electrons [\si{m.s^{-1}}]}}
 \newglossaryentry{diffusion_coefficient}{type=symbols, name=\ensuremath{D}, sort=D,
-				description={coefficient of diffusion []}}
+				description={coefficient of diffusion [\si{m^2.s^{-1}}]}}
 \newglossaryentry{mobility}{type=symbols, name=\ensuremath{\mu_i}, sort=mu,
-				description={charge mobility []}}
+				description={charge mobility [\si{m^2.V^{-1}.s^{-1}}]}}
