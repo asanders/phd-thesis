@@ -1,0 +1,31 @@
+\documentclass[12pt, a4paper, twoside]{book}
+\usepackage{import}
+\subimport{../}{preamble}
+\begin{document}
+
+\chapter{Significant Design Changes from Previous Microscopes}
+
+\begin{figure}[bt]
+\centering
+\singlespace\fontsize{10pt}{1em}\selectfont
+\def\svgwidth{\textwidth}
+\subimport{./figures/}{original_microscope_schematic.pdf_tex}
+\caption[Schematic diagram of the original tip experiment microscope]{\textbf{Schematic diagram of the original tip experiment microscope.}}
+\label{fig:original_microscope_schematic}
+\end{figure}
+
+The original work carried out in ref.~\cite{savage2012, savage2012thesis} made the first experimental observations of the quantum regime, however results did not measure the force or electronic signals with sufficient accuracy. Experimental reliability and reproducibility were severely limited by mechanical and thermal drift in the original microscope design, with large path lengths needed to accommodate optical alignment. A schematic diagram of this original design is shown in \autoref{fig:original_microscope_schematic}. Drift and vibration sensitivity was amplified by the large mechanical reference path between the objective and the samples mounted high off the optical bench. Optical signals contained both spectral and diffractive artefacts in the long paths. Heights between different arms of the microscope relied on the alignment and stability of large micrometer translation platforms.
+
+The new microscope design used to reliably study the quantum regime, described in the main text, was constructed to overcome the limitations of the original design. The inverted design reduces drift between the objective and the sample, better maintaining any phases between the tips and the objective focus. The large Newport coarse stages, which forced the high optical axis in the original design, were replaced with the compact Smaract nanopositioners that are placed onto alignment dowels and screwed onto the microscope top plate to maintain parallel tip motion.
+
+The original VIS objective was replaced with an IR objective to improve spectral validity in the NIR. In the original design the illumination input beamsplitter along with the dark-field stop and iris were placed close to the back of the objective. Reimaging was applied to prevent diffractive artefacts and enable a compact design. Larger pinhole diameters were also initially used to improve signal at the expense of spectral localisation. Optics were replaced with more broadband components contained on a single breadboard in stable mountings.
+
+Supercontinuum laser light incident on the tips was linearly polarised along the tip axis with spectra collected unpolarised under the assumption that only axial plasmon modes would be excited. The single spectrometer was free-space coupled leading to a difficult and time consuming alignment procedure. Illumination was changed to unpolarised in the new design with two spectrometers and a polarising beamsplitter used to isolate each linear polarisation component of scattered light.
+
+Tip electronics previously used a less sensitive SMU preventing measurement of tunnelling to low-\G0 conductive currents. Relays were used to switch to the a.c.\ alignment circuit containing a bandpass filter and lock-in amplifier to measure the 3rd harmonic current signal. This approach was abandoned and replaced with the more sensitive AFM technique with the addition of the AFM module. The d.c.\ electronics were greatly improved through the addition of a manual routing box and low-noise design in order to measure currents in a quantum transport regime.
+
+A metal shield around the entire microscope formed a Faraday cage but failed to shield against internal sources of EMI, including the Newport stages. The cage, which was closed during experiments but remained open to use the microscope, also caused large thermal drifts as the internal equipment (mainly the two cameras and lamp) led to significant heating of the microscope environment. All equipment in the new design is kept away from the sample stages, with samples housed in a smaller environmentally-stable chamber forming a Faraday cage.
+
+The limitations and issues described here necessitated a full redesign and construction of a new microscope in order to properly measure quantum effects in a dynamic plasmonic dimer, forming a significant portion of this project.
+
+\end{document}

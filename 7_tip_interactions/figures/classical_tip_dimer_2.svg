@@ -42,9 +42,9 @@
      id="namedview867"
      showgrid="false"
      inkscape:zoom="2.1885534"
-     inkscape:cx="100.70926"
-     inkscape:cy="217.22024"
-     inkscape:current-layer="figure_1" />
+     inkscape:cx="-8.9522178"
+     inkscape:cy="144.11259"
+     inkscape:current-layer="text_12" />
   <defs
      id="defs4">
     <style
@@ -1299,11 +1299,11 @@
         <g
            id="text_12">
           <text
-             style="font-family:CMU Serif;font-size:10.0px;font-style:normal;text-anchor:middle;"
-             transform="rotate(-90.000000, 8.220000, 120.986417)"
-             x="8.22"
-             y="120.986417323"
-             id="text517">step (nm)</text>
+             style="font-style:normal;font-size:10px;font-family:'CMU Serif';text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+             transform="matrix(0,-1,1,0,-112.76642,129.20642)"
+             x="8.2200003"
+             y="120.98642"
+             id="text517">separation (nm)</text>
         </g>
       </g>
       <g

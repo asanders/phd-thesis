@@ -49,8 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.9897187)%
-    \put(0,0){\includegraphics[width=\unitlength]{simple_optics_layout.png}}%
-    \put(0.03702937,0.59145668){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16769992\unitlength}\raggedright \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{simple_optics_layout.png}}%
     \put(0.0289815,0.59621813){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27454378\unitlength}\raggedright supercontinuum illumination\end{minipage}}}%
     \put(0.02273002,0.32331453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18879545\unitlength}\centering to CCD\end{minipage}}}%
     \put(0.27711089,0.85584475){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.14698199\unitlength}\centering 100x IR\\ obj. \end{minipage}}}%
@@ -58,5 +57,7 @@
     \put(0.46626786,0.22269622){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.14695475\unitlength}\centering confocal pinhole\end{minipage}}}%
     \put(0.78888236,0.18547391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23444942\unitlength}\centering axial\\ polarisation\end{minipage}}}%
     \put(0.12672278,0.66257081){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17541012\unitlength}\raggedleft reimaging\end{minipage}}}%
+    \put(0.19486973,0.92264986){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.07768832\unitlength}\raggedright x\end{minipage}}}%
+    \put(0.16473266,0.94907688){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.07768832\unitlength}\raggedright y\end{minipage}}}%
   \end{picture}%
 \endgroup%

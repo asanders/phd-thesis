@@ -6,9 +6,9 @@
 \section{Plasmons}
 \label{sec:plasmons}
 
-Plasmons are a direct solution of Maxwell's equations at the boundary between a dielectric and a metal. Despite existing on length scales from \SI{100}{nm} down to around \SI{1}{nm}, the high free electron density of metals mean energy levels still retain their characteristic continuous conduction bands and quantisation effects can be ignored.%
+Plasmons are a direct solution of Maxwell's equations at the boundary between a dielectric and a metal. Despite existing on length scales from the order of \SI{100}{nm} down to around \SI{1}{nm}, the high free electron density of metals means energy levels still retain their characteristic continuous conduction bands and quantisation effects can be ignored.%
 \footnote{A higher density of states means that energy levels are more closely spaced, hence metals with a large free electron density appear to have an energy continuum as opposed to discrete energy bands or levels at room temperature.}
-Hence, classical theory is able to accurately describe physical phenomena until the characteristic length scale drops below $\sim$\SI{0.5}{nm} and a phenomenological approach using Maxwell's equations forms the basis of the mathematical description of plasmons.
+Hence, classical theory is able to accurately describe physical phenomena until the characteristic length scale drops below $\sim$2--\SI{5}{nm} and a phenomenological approach using Maxwell's equations forms the basis of the mathematical description of plasmons.
 
 \subsection{Electromagnetic Waves}
 \label{sec:em_waves}
@@ -38,17 +38,15 @@ from which \gls{eps} and \gls{mu} are defined as the relative permittivity and p
 
 The displacement field arises due to polarisation of a material in response to an applied field and is related to the internal charge density by $\nabla\cdot\vec{P}=\rhoint$. Conservation of charge means that $\nabla\cdot\vec{J}=\partial\rho/\partial t$, which requires that $\vec{J}=\partial\vec{P}/\partial t$ (a result also achievable by differentiating \eqref{eq:displacement_field}). The final equation of importance is the relationship between the electric field and the current density, given by,
 \begin{equation}
-	\vec{J} = \sigma\vec{E},
+	\vec{J} = \sigma(\omega)\vec{E},
 	\label{eq:current_density}
 \end{equation}
 where \gls{conductivity} is the conductivity. These few relations are sufficient to understand the behaviour of electromagnetic waves in media.
 
 % Wave equation
-Propagation of EM waves within a medium is governed by a wave equation relating both the spatial and temporal changes of a wave. Combining \eqref{eq:maxwell3} and \eqref{eq:maxwell4} leads to the general wave equation for EM waves in the time domain,
-%\footnote{Derived using $\nabla \times \nabla \times \vec{E} = \nabla(\nabla\cdot\vec{E}) - \nabla^2\vec{E}$}%
+Propagation of EM waves within a medium is governed by a wave equation relating both the spatial and temporal wave dynamics. Combining \eqref{eq:maxwell3} and \eqref{eq:maxwell4} leads to the general wave equation for EM waves in the time domain,
 \begin{align}
-	\nabla(\nabla\cdot\vec{E}) - \nabla^2\vec{E} &= -\eps\epsfs\mu\mu_0\frac{\partial^2\vec{E}}{\partial t^2} - \mu\mu_0\gls{J},% \\
-	%\nabla(\nabla\cdot\gls{D}) - \nabla^2\gls{D} &= \frac{\partial^2\gls{D}}{\partial t^2} - \Jext,
+	\nabla(\nabla\cdot\vec{E}) - \nabla^2\vec{E} &= -\eps\epsfs\mu\mu_0\frac{\partial^2\vec{E}}{\partial t^2} - \mu\mu_0\gls{J},
 	\label{eq:wave_equation}
 \end{align}
 describing the propagation of an EM wave in a given medium.
@@ -59,23 +57,21 @@ In the absence of both charge and current \eqref{eq:wave_equation} reduces to,
 describing a wave propagating in both space and time with a velocity $\gls{v}=1/\sqrt{\epsfs\eps\mu_0\mu}$. In free space ($\eps=\mu=1$) this is the speed of light $\gls{c}=1/\sqrt{\epsfs\mu_0}$, with light slowed when in media to $v=c/\refind$ by a factor $\gls{refractive_index}=\sqrt{\eps\mu}$ known as the refractive index.
 
 % Relate to plasmons
-In general \eps\ is a complex quantity, $\eps=\eps_1+i\eps_2$, and depends on the frequency of the EM wave, \gls{omega}. Plasmons are a phenomenon resulting from this frequency dependence in metallic materials. The relative permittivity is therefore denoted \dielectric\ and is referred to as the material's dielectric function from this point onwards. The concept of a plasmon can be identified through this function alone. Equations are therefore simplified by setting $\mu=1$ and removing any magnetic contributions.
+In general \eps\ is a complex quantity, $\eps=\eps_1+i\eps_2$, and depends on the frequency of the EM wave, \gls{omega}. The relative permittivity is therefore denoted \dielectric\ and is referred to as a material's dielectric function. The concept of a plasmon in a metal can be identified through the frequency dependence of this function alone. Equations are therefore simplified by setting $\mu=1$ and removing any magnetic contributions.
 % refractive index
-Since \dielectric\ is a complex parameter with components $\eps_1+i\eps_2$, the complex refractive can be expressed as $\refind=\sqrt{\dielectric}=n+i\kappa$, where $n$ is the real part causing refraction and $\kappa$ is the loss coefficient determining absorption in the medium. The complex refractive index and the dielectric function are then related via $\eps_1=n^2-\kappa^2$ and $\eps_2 = 2n\kappa$.
+The complex nature of \dielectric\ means that the refractive index can be expressed as $\refind=\sqrt{\dielectric}=n+i\kappa$, where $n$ is the real part causing refraction and $\kappa$ is the loss coefficient determining absorption in the medium. The complex refractive index and the dielectric function are then related via $\eps_1=n^2-\kappa^2$ and $\eps_2 = 2n\kappa$.
 
-The dispersive properties of a material are found by solving \eqref{eq:wave_equation} with $\eps=\dielectric$, describing the behaviour of a wave propagating through a non-magnetic, dielectric medium. For a propagating EM wave with frequency $\omega$ and wave vector \gls{wavevector} in space \gls{rv} of the form,
+The dispersive properties of a material are found by solving \eqref{eq:wave_equation} with $\eps=\dielectric$, describing the behaviour of a wave propagating through a non-magnetic, dielectric medium. For a propagating EM wave of the form,
 \begin{equation}
 	\vec{E} = \gls{E0} \e^{i(\wv \cdot \vec{r} - \omega t)},
 	\label{eq:wave}
 \end{equation}
-\eqref{eq:wave_equation} can be expressed in the frequency (Fourier) domain as,
-%\footnote{Derived using the identities $\nabla \times \nabla \times \vec{E} = \nabla(\nabla\cdot\vec{E}) - \nabla^2\vec{E}$, $\nabla^2\vec{E}=-\wvm^2\vec{E}$ and $\partial^2\vec{E}/\partial t^2 = -\omega^2\vec{E}$ where $\nabla\cdot\vec{E}=0$}
+where $\omega$ is the angular frequency and \gls{wavevector} is the wavevector of a wave propagating in a space \gls{rv}. The wave equation\eqref{eq:wave_equation} in the frequency (Fourier) domain becomes,
 \begin{equation}
-	%\nabla(\nabla\cdot\vec{E}) - \nabla^2\vec{E} = -\eps(\wv, \omega) \frac{\omega^2}{c^2}\vec{E},
 	\wv(\wv\cdot\vec{E}) - \wvm^2\vec{E} = -\eps(\wv, \omega) \frac{\omega^2}{c^2}\vec{E},
 	\label{eq:fourier_wave_equation}
 \end{equation}
-where $\gls{wavevector_mag}=|\wv|$ is the magnitude of the wavevector. The variable $\gls{wavevector0} = \omega/c$ is sometimes used in \eqref{eq:fourier_wave_equation} when all quantities considered are wave vectors. From this equation the propagation behaviour of EM waves in media can be described.
+where $\gls{wavevector_mag}=|\wv|$ is the magnitude of the wavevector. The variable $\gls{wavevector0} = \omega/c$ is sometimes used in \eqref{eq:fourier_wave_equation} when all quantities considered are wave vectors. Using this equation the behaviour of EM waves in media can begin to be described.
 
 Solutions to \eqref{eq:fourier_wave_equation} depend on the orientation of the wavevector with the field. Transverse wave solutions ($\wv\cdot\vec{E}=0$) yield the dispersion relation for light,
 \begin{equation}
@@ -93,7 +89,7 @@ Longitudinal wave solutions ($\wv\cdot\vec{E} = \wvm|\vec{E}|$) result in $\sqrt
 %Furthermore, when considering the behaviour of \gls{em} waves at an interface between two different media the orientation of the fields with respect to the interface becomes important. Separate solutions exist depending on if a wave is considered \gls{tm} or \gls{te} (either only \vec{E} or \gls{H} has a component in the direction of propagation, respectively).%
 %\footnote{\gls{te} and \gls{tm} are also known as $s$- and $p$-polarisations, respectively.}
 
-Lastly, combining \eqref{eq:fourier_displacement_field} with the differential of \eqref{eq:displacement_field}, \eqref{eq:current_density} and \eqref{eq:wave}
+Lastly, combining \eqref{eq:fourier_displacement_field} with the time differential of \eqref{eq:displacement_field}, \eqref{eq:current_density} and \eqref{eq:wave}
 %\footnote{$\partial/\partial t \rightarrow -i\omega$ and $\vec{J}=\dot{\vec{D}}-\epsfs\dot{\vec{E}}=\epsfs\dot{\vec{E}}(\eps-1)=\sigma\vec{E}$}
 yields a relation between a material's conductivity and it's dielectric function,
 \begin{equation}
@@ -110,7 +106,7 @@ Using the framework outlined so far the optical properties of metals can be dedu
 \subsection{Bulk Plasmons and the Optical Properties of Metals}
 
 % work on this paragraph
-The optical properties of a metal are dominated by the response of highly mobile, nearly-free electrons delocalised from the positive nuclei background. When light is incident on a metal, nearly free electrons at the surface are displaced in the opposite direction to the field. The field of the induced charge distribution therefore screens the electric field inside the metal. Field penetration into the metal is strongly attenuated, with fields decaying exponentially over a characteristic ($1/2\e$) length known as the skin depth, $\gls{skin_depth} = c/2\omega\kappa$.%
+The optical properties of a metal are dominated by the response of highly mobile, nearly-free electrons delocalised from the positive nuclei background. When light is incident on a metal, nearly free electrons at the surface are displaced in the opposite direction to the field. The field of the induced charge distribution screens the electric field inside the metal and field penetration into the metal is strongly attenuated. The incident field decays exponentially over a characteristic ($1/2\e$) length known as the skin depth, $\gls{skin_depth} = c/2\omega\kappa$.%
 \footnote{The skin depth is defined using $1/2\e$ rather than $1/\e$ to consider power instead of field.}
 The small values of \skindepth\ exhibited by metals means that they fall within the \textit{perfect conductor} approximation (zero internal field) with transmission only possible through thin metallic films. An EM wave impinging on a metal is hence internally screened and reflected, giving metals their shiny appearance. A metal begins to show a more ``dielectric-like" behaviour when the frequency of incoming light is high enough that electron inertia prohibits an instantaneous response, thus allowing field penetration. Such effects are seen in the visible region of the \gls{em} spectrum in the case of noble metals. Fields increasingly penetrate metals up until \gls{uv} photon energies, at which point most metals become transparent. This is known as the \textit{ultraviolet transparency}.
 
@@ -121,7 +117,7 @@ the optical properties of metals can be classically described by the Drude model
 \begin{equation}
 	m\ddot{\vec{r}}(t) + m\gamma \dot{\vec{r}}(t) = -e\vec{E}(t),
 \end{equation}
-where \gls{m} is its effective optical mass, $e$ its charge, and $\gls{gamma} = 1/\tau$ its electron collision frequency, the inverse of the relaxation time, \gls{tau}. Using an effective optical mass as opposed to the actual electron mass incorporates band structure effects into the model. The electron collision frequency amounts to an effective coefficient of damping as in a mechanical oscillator. For a harmonic driving field, the induced oscillatory response of the free electrons induces a polarisation ($\vec{P} = -ne\vec{r}$, where \gls{n} is the number density of electrons),
+where \gls{m} is its effective optical mass, $e$ its charge, and $\gls{gamma} = 1/\tau$ its electron collision frequency, the inverse of the relaxation time, \gls{tau}. Use of an effective optical mass as opposed to the actual electron mass incorporates band structure effects into the model. The electron collision frequency amounts to an effective coefficient of damping as in a mechanical oscillator. For a harmonic driving field, the induced oscillatory response of the free electrons induces a polarisation ($\vec{P} = -ne\vec{r}$, where \gls{n} is the number density of electrons),
 \begin{equation}
 	\vec{P}(t) = -\frac{ne^2}{m(\omega^2 + i\gamma\omega)}\vec{E}(t).
 	\label{eq:P_solution}
@@ -136,7 +132,7 @@ where \gls{omega_p} is the plasma frequency of the metal, given by,
 	\omegap[2] = \frac{ne^2}{\varepsilon_0 m}.
 	\label{eq:plasma_frequency}
 \end{equation}
-The optical properties of a metal can be discerned from the real and imaginary components of \dielectric. The plasma frequency defines the point at which a metal transitions into a dielectric. For $\omega<\omegap$, $\real{\eps(\omega<\omegap)} < 0$ and a free electron gas remains metallic in character, with electrons moving to oppose an incident field. Once $\omega > \omegap$ the free electron gas, limited by inertia, cannot respond fast enough to the field and the metal becomes dielectric in character. In real metals, interband transitions increase \imag{\dielectric} and \eqref{eq:basic_dielectric_function} has to be modified to account for interband absorption caused by bound electrons through the inclusion of a constant $\eps_\infty$. The dielectric function then has the form,
+The optical properties of a metal can be discerned from the real and imaginary components of \dielectric. The plasma frequency defines the point at which electrons fail to respond fast enough to a field and a metal transitions into a dielectric. For $\omega<\omegap$, $\real{\eps(\omega<\omegap)} < 0$ and a free electron gas remains metallic in character, with electrons moving to oppose an incident field. Once $\omega > \omegap$ the free electron gas, limited by inertia, cannot respond fast enough to the field and the metal becomes dielectric in character. In real metals, interband transitions increase \imag{\dielectric} and \eqref{eq:basic_dielectric_function} has to be modified to account for interband absorption caused by bound electrons through the inclusion of a constant $\eps_\infty$. The dielectric function then takes the form,
 \begin{equation}
 	\dielectric = \eps_\infty - \frac{\omegap[2]}{\omega^2 + i\gamma\omega}.
 	\label{eq:dielectric_function}
@@ -145,7 +141,7 @@ The optical properties of a metal can be discerned from the real and imaginary c
 \begin{figure}[bt]
 \centering
 \includegraphics{figures/dielectric_function}
-\caption[Plot of the dielectric function, given by the Drude model, for Au and Ag compared with empirical data]{\textbf{Plot of the dielectric function, given by the Drude model, for Au and Ag compared with empirical data.} \dielectric\ is calculated using \eqref{eq:dielectric_function}. The plasma frequency is calculated using \eqref{eq:plasma_frequency}. The parameters of the curves are $n=\SI{5.90e28}{\per\metre\cubed}$, $m=\SI{9.11e-31}{kg}$, $\gamma=1/\tau=1/\SI{1e-14}{s}$ and $\eps_\infty = 8$ for Au and $n=\SI{5.86e28}{\per\metre\cubed}$, $m=\SI{9.11e-31}{kg}$, $\gamma=1/\tau=1/\SI{3e-15}{s}$ and $\eps_\infty = 3$ for Ag. Empirical data (Johnson and Christy, 1972 \cite{johnson1972optical}) is shown for comparison to illustrate the importance of interband transitions. Differences between the Drude model (solid lines) and experimental results (circles) are caused by interband transitions not included in the basic Drude formalism.}
+\caption[Plot of the dielectric function, given by the Drude model, for Au and Ag compared with empirical data]{\textbf{Plot of the dielectric function, given by the Drude model, for Au and Ag compared with empirical data.} \dielectric\ is calculated using \eqref{eq:dielectric_function}. The plasma frequency is calculated using \eqref{eq:plasma_frequency}. The parameters of the curves are $n=\SI{5.90e28}{\per\metre\cubed}$, $m=\SI{9.11e-31}{kg}$, $\gamma=1/\tau=1/\SI{1e-14}{s}$ and $\eps_\infty = 8$ for Au and $n=\SI{5.86e28}{\per\metre\cubed}$, $m=\SI{9.11e-31}{kg}$, $\gamma=1/\tau=1/\SI{3e-15}{s}$ and $\eps_\infty = 3$ for Ag. Empirical data (Johnson and Christy, 1972 \cite{johnson1972optical}) is shown for comparison to illustrate the importance of interband transitions. Differences between the Drude model (solid lines) and experimental results (circles) are caused by interband transitions not included in the basic Drude formalism, with differences shown by the shaded areas.}
 \label{fig:dielectric_function}
 \end{figure}
 
@@ -194,7 +190,7 @@ This optical excitation is known as the \gls{spp} and, as a result of it being o
 \label{fig:spp_diagram}
 \end{figure}
 
-An SPP is a propagating \gls{tm} wave confined to the surface of a metal - the bound state between a photon and a SP. The TM nature of the wave indicates that \vec{E} has a component traversing across the interface as shown in the diagram of an SPP in \figurename~\ref{fig:spp_diagram}. No such solution exists for \gls{te} surfaces waves (i.e.\ a component of \vec{H} passing through the interface).%
+An SPP is a propagating \gls{tm} wave confined to the surface of a metal - the bound state between a photon and a SP. The TM nature of the wave indicates that \vec{E} has a component traversing across the interface as shown in the diagram of an SPP in \figurename~\ref{fig:spp_diagram}. No such solution exists for \gls{te} surfaces waves.%
 \footnote{TE and TM are also known as $s$- and $p$-polarisations, respectively.}
 While confined in two dimensions to the planar boundary between a metal and a dielectric, the SPP can either propagate or become stationary as a result of interference. The latter stationary form of the SPP is similar to the localised surface plasmons, described later.
 
@@ -206,12 +202,12 @@ The SPP itself is described through its dispersion. A TM wave propagating in the
 \begin{figure}[bt]
 \centering
 \includegraphics{figures/spp_dispersion}
-\caption[Plasmon dispersion relations for the SPP and LSP]{\textbf{Plasmon dispersion relations for the SPP and LSP.} The dashed lines indicate the dispersion of light in both glass and air (vacuum) along with the surface plasmon frequency. SPPs can be described as photon-like or plasmon-like depending on their point of excitation. SPPs excited with large \wvm\ and $\omega\approx\omega_{SPP}$ are considered plasmon-like while SPPs with low \wvm\ are considered more photon-like. These have been known as Sommerfeld-Zenneck surface waves \cite{kittel1976introduction}.}
+\caption[Plasmon dispersion relations for the SPP and LSP]{\textbf{Plasmon dispersion relations for the SPP and LSP.} The dashed lines indicate the dispersion of light in both glass and air (vacuum) along with the surface plasmon frequency. SPPs can be described as photon-like or plasmon-like depending on their point of excitation. SPPs excited with large \wvm\ and $\omega\approx\omega_{SPP}$ are considered plasmon-like while SPPs with low \wvm\ are considered more photon-like.}
 \label{fig:spp_dispersion}
 \end{figure}
 This dispersion is shown in \figurename~\ref{fig:spp_dispersion} along with the dispersion of light for both air and glass mediums.
 % Excitation of SPPs
-From the dispersion curve it is clear that SPPs cannot couple with light within the same medium as their dispersion curves do not cross. However, light from within a higher refractive index medium such as glass can generate evanescent waves and excite SPPs on a nearby metal/air interface. This method of coupling photons with surface plasmons, depending on the specific prism arrangement, is known as the Kretschmann (prism-metal-dielectric) or Otto (prism-dielectric-metal) configuration \cite{otto1968, kretschmann1971}. Since a diffraction grating may also impart momentum onto a photon ($\wvm_x \rightarrow \wvm_x + n\pi$) a metallic grating can launch SPPs along a planar metal-dielectric interface. This phenomenon was first observed in 1902 by Wood, dubbed as Wood's anomaly \cite{wood1902}, and only explained via surface waves many years later \cite{fano1941}.
+From the dispersion curve it is clear that SPPs cannot couple with light within the same medium as their dispersion curves do not cross. However, light from within a higher refractive index medium such as glass can generate evanescent waves and excite SPPs on a nearby metal/air interface. This method of coupling photons with surface plasmons, depending on the specific prism arrangement, is known as the Kretschmann (prism-metal-dielectric) or Otto (prism-dielectric-metal) configuration \cite{otto1968, kretschmann1971}. Since a diffraction grating may also impart momentum onto a photon ($\wvm_x \rightarrow \wvm_x + 2\pi n/a$) a metallic grating can launch SPPs along a planar metal-dielectric interface. This phenomenon was first observed in 1902 by Wood, dubbed as Wood's anomaly \cite{wood1902}, and only explained via surface waves many years later \cite{fano1941}.
 
 % Plasmon property: nm-scale wavelength with visible frequency
 Closer inspection of the curve highlights one of the major features of a plasmon. While SPPs retain the frequency of the excitation field, their wavelength is considerably smaller than the diffraction-limited wavelength of light.
@@ -222,12 +218,12 @@ whereas SPPs with large \wvm\ become more plasmon-like and their frequency satur
 \begin{equation}
 	\omegasp = \frac{\omegap}{\sqrt{1+\epsdi}}.
 \end{equation}
-At this point the SPP can be considered electrostatic and becomes an SP. To some extent, SPs confined to a finite, continuous, non-planar surface, defining a \gls{mnp}, can be considered to be the basis for \glspl{lsp} or \glspl{lspp}.
+At this point the SPP can be considered electrostatic and becomes an SP. To some extent, SPs confined to a finite-sized, continuous, non-planar surface, defining a \gls{mnp}, can be considered to be the basis for \glspl{lsp} or \glspl{lspp}.
 
 \subsubsection{Localised Surface Plasmons}
 
 % Localised Surface Plasmons
-LSPs are collective oscillations of conduction electrons confined within a fixed sub-wavelength spatial extent. These can occur on any nanoscale curved surface but the effects are strongest, and most well-documented, on the surface of a MNP. Free electrons are displaced from the nuclei in response to an applied field and form a surface charge distribution, polarising the particle. Coulomb interaction between the poles of the surface charge distribution results in a restoring force on electrons within the particle. This gives rise to a natural frequency of oscillation, leading to resonance when driven harmonically at the correct frequency. The particular resonant frequencies present in a particle depend on the particle geometry (supporting various multipolar surface charge distributions), its material properties and the dielectric properties of the surrounding medium, which each modify the electron restoring forces. Each different multipolar charge distribution is considered to be a unique LSP mode, identifiable by its optical resonance \cite{murray2007}.
+LSPs are collective oscillations of conduction electrons confined within a fixed sub-wavelength spatial extent. These can occur on any nanoscale curved surface but the effects are strongest, and most well-documented, on the surface of a MNP. In response to an applied field, free electrons displaced from the nuclei form a surface charge distribution and polarise the particle. Coulomb interaction between the poles of the surface charge distribution results in a restoring force on electrons within the particle. This gives rise to a natural frequency of oscillation, leading to resonance when driven harmonically at the correct frequency. The particular resonant frequencies present in a particle depend on the particle geometry (supporting various multipolar surface charge distributions), its material properties and the dielectric properties of the surrounding medium, which each modify the electron restoring forces. Each different multipolar charge distribution is considered to be a unique LSP mode, identifiable by its optical resonance \cite{murray2007}.
 
 \begin{figure}[bt]
 \centering
@@ -281,13 +277,13 @@ at the Fr\"{o}hlich condition when,
 \begin{equation}
 	\real{\dielectric} = -2\epsdi. \label{eq:frohlich}
 \end{equation}
-This corresponds to excitation of a collective oscillation of conduction electrons on the surface of the sphere - the dipolar LSP. Its magnitude in real metals is restricted by damping of the electron motion leading to a Lorentzian-shaped resonance band - the dipolar surface plasmon resonance. Its relationship with \epsdi\ means that the resonant frequency can be tuned by varying the external dielectric medium. As seen in \eqref{eq:E_out}, the field from the induced dipole moment of the plasmon is superimposed onto the incident field, leading to a resonant field enhancement both inside and outside the surface of the sphere. This is the single most useful property of a plasmon, and one that is heavily exploited in sensing and sensor developments.
+This corresponds to excitation of a strong collective oscillation of conduction electrons on the surface of the sphere - the dipolar LSP. Its magnitude in real metals is restricted by damping of the electron motion leading to a Lorentzian-shaped resonance band - the dipolar surface plasmon resonance. Its relationship with \epsdi\ means that the resonant frequency can be tuned by varying the external dielectric medium. As seen in \eqref{eq:E_out}, the field from the induced dipole moment of the plasmon is superimposed onto the incident field, leading to a resonant field enhancement both inside and outside the surface of the sphere. This is the single most useful property of a plasmon, and one that is heavily exploited in sensing and sensor developments.
 
 In the Drude model, with \dielectric\ given by \eqref{eq:dielectric_function}, the Fr\"{o}hlich condition is satisfied when,
 \begin{equation}
 	\omegalsp = \frac{\omegap}{\sqrt{1+2\epsdi}},
 \end{equation}
-which evaluates to $\omega = \omegap/\sqrt{3}$ for a MNP in vacuum. As can be seen in \figurename~\ref{fig:spp_dispersion}, the flat dispersion of a LSP mode means it crosses the light line at a single point. Light of the correct frequency therefore readily couples with LSPs without the need for SPP momentum matching mechanisms.
+which evaluates to $\omega = \omegap/\sqrt{3}$ for a MNP in vacuum. As can be seen in \figurename~\ref{fig:spp_dispersion}, the flat dispersion of a LSP mode means it crosses the light line at a single point. Light of the correct frequency therefore readily couples to LSPs without the need for SPP momentum matching mechanisms, hence these are radiative plasmons.
 % Spherical harmonics
 In general, the optical spectrum of a MNP can contain a number of multipolar plasmon modes for which the resonant frequencies are given by \cite{prodan2004},
 \begin{equation}
@@ -321,7 +317,7 @@ Depending on the microscopic dipole moment of excited plasmons, their fields can
 \end{equation}
 The radial behaviour of the electric field around an object can be split into three distinct regimes - the \emph{near-field} or Fresnel regime and the \emph{far-field} or Fraunhofer regime. At short distances the $(\wvm r)^{-2}$ term dominates to form the near-field but quickly falls off with increasing distance. The remaining $(\wvm r)^{-1}$ term defines the far-field. The boundary between the near-field and the far-field is defined as the point at which $\wvm r=1$ where $r = \lambda/2\pi$ (hence why sub-wavelength optics deals with the near-field).
 
-Plasmons similarly have the ability to both resonantly absorb and scatter incident fields. The absorbance and scattering cross sections determining interaction with a spherical MNP are given by \cite{bohren2008absorption},
+Plasmons similarly have the ability to both resonantly absorb and scatter incident fields. The absorbance and scattering cross sections determine the interaction strength with a spherical MNP and are given by \cite{bohren2008absorption},
 \begin{subequations}
 \begin{align}
 	\gls{sigma_scat} &= \frac{\wvm^4}{6\pi} |\alpha|^2 = \frac{8\pi}{3}\wvm^4a^6 \left| \frac{\dielectric - \epsdi}{\dielectric + 2\epsdi} \right|^2, \\
@@ -331,7 +327,9 @@ Plasmons similarly have the ability to both resonantly absorb and scatter incide
 Since $\sigma_{\mathrm{scat}} \propto V^2$ and $\sigma_{\mathrm{abs}} \propto V$, absorption dominates in smaller particles whilst larger particles scatter more strongly. The extinction cross section, commonly used in spectroscopy, can be calculated using $\gls{sigma_ext}=\sigma_{\mathrm{scat}}+\sigma_{\mathrm{abs}}$. The size of each cross-section, i.e.\ the spatial extent over which light interacts with the MNP, depends on $\alpha$ and is increased on resonance. Hence, MNPs optically appear strongly coloured and much larger than they actually are.%
 \footnote{Consider that $\sigma_{\mathrm{scat}}$ for a AuNP is enhanced $100\times$ on resonance, meaning it's area cross-section is $\sqrt{100/\pi}= 6\times$ wider than it's radius, hence why a \SI{50}{nm} AuNP looks like a \SI{300}{nm} green sphere when imaged.}
 
-For example, when on resonance with the dipolar LSP, both cross sections are enhanced by the polarisability resonance from the geometrical particle size to the \orderof{\SI{500}{nm}} scattering size. The increased size of the cross-section is comparable to the wavelength of light, meaning LSPs efficiently couple with photons in the far-field. The LSP mediates energy transfer between the near-field and the far-field and acts to match the electromagnetic modes of nanoscale absorbers/emitters, such as phonons (Raman) and radiative energy levels (quantum emitters, fluorescence), with those of a diffraction-limited photonic mode via an oscillating charge density \cite{berweger2012}. A plasmonic MNP is often therefore described as an \textit{optical antenna} in a similar manner to a device that converts between radio waves and an electrical current is named a radio antenna \cite{bharadwaj2009, novotny2011}. LSP modes which readily couple with the far-field are then sometimes referred to as \emph{antenna modes} and become important when designing resonant structures for specific sensing applications.
+For example, when on resonance with the dipolar LSP, both cross sections are enhanced from the geometrical particle size to the \orderof{\SI{500}{nm}} scattering size. The increased size of the cross-section is comparable to the wavelength of light, meaning LSPs efficiently couple with photons in the far-field. The LSP mediates energy transfer between the near-field and the far-field and acts to match the electromagnetic modes of nanoscale absorbers/emitters, such as phonons (Raman) and radiative energy levels (quantum emitters, fluorescence), with those of a diffraction-limited photonic mode via an oscillating charge density \cite{berweger2012}. As a result, a plasmonic MNP is often described as an \textit{optical antenna} in analogy to a radio antenna which converts radio waves into an electrical current \cite{bharadwaj2009, novotny2011}. LSP modes which readily couple with the far-field are then sometimes referred to as \emph{antenna modes} or radiative plasmons and become important when designing resonant structures for specific sensing applications.
+
+\subsubsection{Plasmonics outside the Quasistatic Regime - Mie Scattering}
 
 \begin{figure}[bt]
 \centering
@@ -340,9 +338,9 @@ For example, when on resonance with the dipolar LSP, both cross sections are enh
 \label{fig:mie_scattering}
 \end{figure}
 
-Whilst the quasistatic approach is useful to first demonstrate the field enhancing capabilities of a MNP, the description breaks down once the size of the particle becomes closer to the excitation wavelength. Retardation effects result in phase differences between the incident field and the induced electron currents across the particle, which strongly influences the radiated fields. At this point Mie theory (electrodynamics) \cite{mie1908} is required to describe the spectral response of spherical MNPs, providing a more general description of their optical response. Using this approach the spectrum of a MNP can be decomposed into superimposed multipoles, arising from the existence of higher order LSP modes in larger MNPs with finite dipole moments. The spectral response of spherical AuNPs of varying sizes is shown in \autoref{fig:mie_scattering}, demonstrating the redshift and broadening of lower order modes with increasing particle size and the excitation of higher order modes.
+Whilst the quasistatic approach is useful to first describe the field enhancing capabilities of a MNP, the description breaks down once the size of the particle becomes closer to the excitation wavelength. Retardation effects result in phase differences between the incident field and the induced electron currents across the particle, which strongly influences the radiated fields. At this point Mie theory (electrodynamics) \cite{mie1908} is required to describe the spectral response of spherical MNPs, providing a more general description of their optical response. Using this approach the spectrum of a larger MNP can be decomposed into superimposed multipoles, arising from the existence of higher order LSP modes. The spectral response of spherical AuNPs of varying sizes is shown in \autoref{fig:mie_scattering}, demonstrating the redshift and broadening of the dipole mode with increasing particle size and the excitation of higher order modes.
 
 % Lead into plasmon coupling
-To summarise, by utilising the particle material, geometry and polarisation anisotropy, its LSPs can be tuned across the entire UV--NIR spectrum to tailor to individual applications. However, even when exciting on resonance, a single particle can only provide a relatively small field enhancement ($\left|E/E_0\right|\sim\orderof{5-10}$). An alternative approach to exploiting LSPs is therefore to couple the fields of many plasmons together. Through coupling, the confined fields in nanometric-size gaps between MNPs can be enhanced by many more orders of magnitudes.
+To summarise, by utilising the particle material, geometry and polarisation anisotropy, its LSPs can be tuned across the entire UV--NIR spectrum to tailor to individual applications. However, even when exciting on resonance, a single particle can only provide a relatively small field enhancement ($\left|E/E_0\right|\sim\orderof{5-10}$). An alternative approach to exploiting LSPs is therefore to couple the fields of many plasmons together. Through coupling, the confined fields formed in nanometric-size gaps between MNPs can be enhanced by many more orders of magnitudes.
 
 \end{document}

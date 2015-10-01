@@ -50,10 +50,10 @@
   \makeatother%
   \begin{picture}(1,0.57253046)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{fast_setup.pdf}}%
-    \put(0.39479578,0.32521873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering hard drive shutter\end{minipage}}}%
+    \put(0.3846692,0.32015544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering hard drive shutter\end{minipage}}}%
     \put(0.51897389,0.47137697){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.20253164\unitlength}\centering PIXIS 256E\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fast_setup.pdf}}%
-    \put(0.30236044,0.08218081){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2278481\unitlength}\centering beam focussing\end{minipage}}}%
+    \put(0.33780347,0.08218081){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.16599399\unitlength}\centering beam focussing\end{minipage}}}%
     \put(0.08052963,0.02911389){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{fast_setup.pdf}}%
     \put(0.17769822,0.21139237){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$I$}}}%
@@ -63,5 +63,8 @@
     \put(0.43291139,0.46455696){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{trigger}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{fast_setup.pdf}}%
     \put(0.72262164,0.58002771){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27849445\unitlength}\centering Triax 320 monochromator\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{fast_setup.pdf}}%
+    \put(0.24050633,0.03924047){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{microscope}}}%
+    \put(0.45189873,0.25559111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29240506\unitlength}\centering 150 lines/mm diffraction grating\end{minipage}}}%
   \end{picture}%
 \endgroup%

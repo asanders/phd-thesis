@@ -52,7 +52,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{reimaging_concept.pdf}}%
     \put(0.87726027,0.19707663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1271339\unitlength}\centering lateral translation\end{minipage}}}%
     \put(0.35024122,0.19707663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1271339\unitlength}\centering angular deviation\end{minipage}}}%
-    \put(0.68162806,0.19707663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15370623\unitlength}\centering $k$-space modification\end{minipage}}}%
+    \put(0.68162806,0.19707663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15370623\unitlength}\centering Fourier plane modification\end{minipage}}}%
     \put(-0.00195099,0.15679522){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
     \put(0.52452489,0.15678414){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
   \end{picture}%

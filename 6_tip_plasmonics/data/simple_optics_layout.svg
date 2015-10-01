@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="simple_optics_layout.svg"
-   inkscape:export-filename="/Users/alansanders/Documents/PhD/Git/Thesis/6_tip_plasmonics/figures/simple_optics_layout.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-filename="/Users/alansanders/Documents/PhD/GitHub/phd-thesis/6_tip_plasmonics/figures/simple_optics_layout.png"
+   inkscape:export-xdpi="299.72247"
+   inkscape:export-ydpi="299.72247">
   <defs
      id="defs3138">
     <linearGradient
@@ -646,9 +646,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="214.62807"
-     inkscape:cy="818.6224"
+     inkscape:zoom="2.8"
+     inkscape:cx="141.30942"
+     inkscape:cy="912.21459"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
@@ -891,20 +891,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        clip-path="url(#clipPath4391)" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4895"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'PT Serif';-inkscape-font-specification:'PT Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.56779661,0,0,0.56779712,9.6609716,16.953)"
-       clip-path="url(#clipPath4387)"><flowRegion
-         id="flowRegion4897"><rect
-           id="rect4899"
-           width="101.01525"
-           height="39.39595"
-           x="111.11678"
-           y="284.64624"
-           style="font-size:12px" /></flowRegion><flowPara
-         id="flowPara4901" /></flowRoot>    <path
+    <path
        style="fill:none;stroke:#000000;stroke-width:0.81571239;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m 315,332.36218 0,-25"
        id="path4921"
@@ -936,6 +923,22 @@
        style="fill:none;stroke:#000000;stroke-width:0.81311637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        sodipodi:nodetypes="cc"
        clip-path="url(#clipPath4371)" />
+    <path
+       clip-path="url(#clipPath4395)"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4320"
+       d="m 90,192.36218 40,0"
+       style="fill:none;stroke:#000000;stroke-width:1.06461906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       transform="translate(-5,-119.98977)" />
+    <path
+       transform="translate(-5,-119.98977)"
+       style="fill:none;stroke:#000000;stroke-width:1.06461906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 95,197.36218 25,-10"
+       id="path4334"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       clip-path="url(#clipPath4395)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1039,5 +1042,31 @@
            width="59.993141"
            id="rect3096" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:end;text-anchor:end"
-         id="flowPara3100">reimaging</flowPara></flowRoot>  </g>
+         id="flowPara3100">reimaging</flowPara></flowRoot>    <flowRoot
+       transform="translate(25.008301,-89.694995)"
+       xml:space="preserve"
+       id="flowRoot4336"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4338"><rect
+           id="rect4340"
+           width="26.570679"
+           height="18.110065"
+           x="101.72839"
+           y="154.99582"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara4342"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start">x</flowPara></flowRoot>    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot4344"
+       xml:space="preserve"
+       transform="translate(14.700928,-98.73347)"><flowRegion
+         id="flowRegion4346"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start"
+           y="154.99582"
+           x="101.72839"
+           height="18.110065"
+           width="26.570679"
+           id="rect4348" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start"
+         id="flowPara4350">y</flowPara></flowRoot>  </g>
 </svg>

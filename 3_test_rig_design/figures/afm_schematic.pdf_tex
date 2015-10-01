@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,0.73074162)%
     \put(0,0){\includegraphics[width=\unitlength]{afm_schematic.png}}%
-    \put(0.76179661,0.29913568){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Signal Routing}}}%
+    \put(0.76179661,0.29913568){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Signal routing}}}%
     \put(0.39608457,0.12943168){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Lateral effect photodiode (PSD)}}}%
     \put(0.39608457,0.1033401){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Signal processing circuit (SPC)}}}%
     \put(0.10699462,0.39243595){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.14838779\unitlength}\centering 633 nm laser, single mode fibre\end{minipage}}}%

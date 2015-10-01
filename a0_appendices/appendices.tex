@@ -68,10 +68,10 @@ A 1D constriction between two charge reservoirs of length $L$ and width $W$ can 
 \begin{equation} G=\frac{2e^2}{h}T(E_F), \end{equation}
 where $T(E_F)$ is the transmission coefficient of an electron at the Fermi level. This is derived from the current flowing through a barrier between two biased reservoirs, whereby the Fermi levels are related via $E_{F,L} - E_{F,R} = eV$. The leftwards current through a barrier is given by,
 \begin{equation}
-	I_L = 2e \int_0^\infty f(E(k), E_{F,L}) v(k) T(k) \frac{dk}{2\pi},
+	I_L = 2e \int_{-\infty}^\infty f(E(k), E_{F,L}) v(k) T(k) \frac{dk}{2\pi},
 	\label{eq:left_ballistic_current}
 \end{equation}
-where $f(E, E_F)$ is the Fermi-Dirac function and the wavevector of an electron can be related to its energy via $dE = \hbar v dk$. Converting \eqref{eq:left_ballistic_current} to an energy basis and adding the rightwards current yields,
+where $f(E, E_F)$ is the Fermi-Dirac function, $v$ is the velocity, and $k$ is the wavevector. The wavevector of an electron can be related to its energy via $dE = \hbar v dk$. Converting \eqref{eq:left_ballistic_current} to an energy basis and adding the rightwards current yields,
 \begin{equation}
 	I_L = \frac{2e}{h} \int_{E_{L}}^\infty \left[ f(E(k), E_{F,L}) - f(E(k), E_{F,R}) \right] T(E) dE.
 	\label{eq:ballistic_barrier_current}
@@ -125,7 +125,7 @@ Features, design justifications and optical theory not essential to the main tex
 \vspace{-5pt}
 \end{figure}
 
-The choice of objective was determined by the overall range over which a reference spectrum from a Ag mirror is valid. Two long working distance objectives suitable for single nanostructure spectroscopy were characterised for use in the microscope: a VIS and an IR objective. The raw reflectance spectrum of the supercontinuum laser measured using each objective is shown in \autoref{fig:objective_comparison}. The short wavelength cut-off at \SI{480}{nm} is due to the supercontinuum laser. The VIS objective clearly outperforms the IR objective below \SI{625}{nm}, though both objective counts are large enough to maintain a good reference signal. Overall, references using the VIS objective only extend marginally more below \SI{500}{nm}. However, the \SI{700}{nm} cut-off of the VIS objective means that it is not suitable for spectra in the NIR with referencing only valid up until \SI{900}{nm} whereas the IR objective extends to \SI{1100}{nm}. The gain in spectral range means that the IR objective is chosen despite its lack of dark-field illumination for imaging.
+The choice of objective was determined by the overall range over which a reference spectrum from a Ag mirror is valid. Two long working distance objectives suitable for single nanostructure spectroscopy were characterised for use in the microscope: a VIS and an IR objective. The raw reflectance spectrum of the supercontinuum laser measured using each objective is shown in \autoref{fig:objective_comparison}. The short wavelength cut-off at \SI{480}{nm} is due to the supercontinuum laser. The VIS objective clearly outperforms the IR objective below \SI{625}{nm}, though both objective counts are large enough to maintain a good reference signal. Overall, references using the VIS objective only extend marginally more below \SI{500}{nm}. However, the \SI{700}{nm} cut-off of the VIS objective means that it is not suitable for spectra in the NIR with referencing only valid up until \SI{900}{nm} whereas the IR objective extends to \SI{1100}{nm}. The gain in spectral range means that the IR objective is chosen despite its lack of dark-field illumination for imaging. Fibre illumination was implemented to mimic this missing feature.
 
 \begin{wrapfigure}{O}{9cm}
 \vspace{-10pt}
@@ -137,7 +137,7 @@ The choice of objective was determined by the overall range over which a referen
 \vspace{-5pt}
 \end{wrapfigure}
 
-Consideration was given when designing the optical layout to account for intensity differences in each linear polarisation. Reflection and transmission of an EM wave incident on an interface between two refractive media at an angle is governed by the Fresnel equations \cite{grant2013electromagnetism}. As shown in \autoref{fig:fresnel}, there is a large difference in reflectance between linear polarisations at higher angles of incidence. The microscope is designed such that the $s$-polarisation corresponds to light polarised along the tip axis, maximising its transmission to the spectrometers. Leakage of the $s$-polarisation into the weaker $p$-polarisation signal at the polarising beamsplitter limits current polarisation resolved measurements.
+Consideration was given when designing the optical layout to account for intensity differences in each linear polarisation. Reflection and transmission of an EM wave incident on an interface between two refractive media at an angle is governed by the Fresnel equations \cite{grant2013electromagnetism}. As shown in \autoref{fig:fresnel}, there is a large difference in reflectance between linear polarisations at higher angles of incidence. The microscope is designed such that the $p$-polarisation corresponds to light polarised along the tip axis, maximising its transmission to the spectrometers. Leakage of the $p$-polarisation into the weaker $s$-polarisation signal at the polarising beamsplitter limits current polarisation resolved measurements.
 
 %\subsection{Optical Characterisation}
 
@@ -154,7 +154,7 @@ Consideration was given when designing the optical layout to account for intensi
 
 \section{Supplementary Electronics}
 
-\begin{figure}[b]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/tip_experiment_circuit_design}
 \caption[Schematic of the electrical measurement circuit.]{\textbf{Schematic of the electrical measurement circuit.} The central routing box allows switching between a.c.\ and d.c.\ circuits and low-and high-bandwidth d.c.\ measurements. The a.c.\ circuit is used to align two AFM probes together while the d.c.\ circuit is used to measure spatially dependent signals from the gap between two AFM probes.}
@@ -163,6 +163,7 @@ Consideration was given when designing the optical layout to account for intensi
 
 The schematic circuitry of the microscope electronics is shown in \figref{fig:circuit_design}, corresponding to the simpler block diagram shown in the main text.
 
+\FloatBarrier
 \section{Software Lock-In Derivation}
 
 To lock into only the signal component at the reference frequency $\omega_r$ a reference wave needs to be computed. The first step in the lock-in process is to mathematically construct a single frequency waveform at the correct harmonic using the supplied reference signal. The reference signal is typically of the form $A\sin(\omega_{rs} t + \phi_r)$, but the algorithm will also work with any periodic function since it triggers off a rising position edge.
@@ -255,6 +256,7 @@ z_{m1} &\approx %
 \end{subequations}
 
 \subimport{./}{fast_spectroscopy}
+\subimport{./}{rig_changes}
 
 \begin{singlespace}
 \printbibliography[category=appendices, resetnumbers=true, title={Supplementary Bibliography}]

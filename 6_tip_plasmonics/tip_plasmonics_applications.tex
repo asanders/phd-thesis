@@ -12,7 +12,7 @@ A result of spherical Au tips sustaining radiative LSPs is that their plasmonic 
 \centering
 \def\svgwidth{0.6\textwidth}\fontsize{10pt}{1em}\selectfont
 \subimport{./figures/}{ters_setup.pdf_tex}
-\caption[Experimental geometry for dark-field spectroscopy and SERS measurements]{\textbf{Experimental geometry for dark-field spectroscopy and SERS measurements.} A \SI{125}{nm} radius spherical AuNP grown onto a Pt-coated AFM tip is spectroscopically studied using a supercontinuum laser in a dark-field configuration (a). The tip is then brought within \SI{1}{nm} of a benzenethiol-coated sharp Au tip under \SI{638}{nm} illumination to measure SERS spectra (b).}
+\caption[Experimental geometry for dark-field spectroscopy and SERS measurements]{\textbf{Experimental geometry for dark-field spectroscopy and SERS measurements.} A \SI{250}{nm} diameter spherical AuNP grown onto a Pt-coated AFM tip is spectroscopically studied using a supercontinuum laser in a dark-field configuration (a). The tip is then brought within \SI{1}{nm} of a benzenethiol-coated sharp Au tip under \SI{638}{nm} illumination to measure SERS spectra (b).}
 \label{fig:ters_setup}
 \end{figure}
 
@@ -40,11 +40,7 @@ The spherical tip is modelled as a Pt cone with half-angle \SI{20}{\degree} with
 \node [below right] at (9.5,-0.1) {\includegraphics{figures/aunp_tip_nearfield}};
 \node at (9.9,-0.2) {\textbf{c}};
 \end{tikzpicture}
-\caption[Application of sharp Au and AuNP-on-Pt tips to enhancing Raman scattering]{\textbf{Application of sharp Au and AuNP-on-Pt tips to enhancing Raman scattering.}
-%\caption[Comparative TERS and dark-field spectroscopy of sharp Au and AuNP tips]{
-(a,b) Comparative TERS and dark-field spectroscopy of sharp Au and AuNP tips. (a) Tip-enhanced Raman spectra of a benzenethiol-coated Au AFM probe brought close to the AuNP tip (red), compared to a sharp Au AFM tip (blue). (b) Dark-field optical scattering of AuNP (red) and sharp Au (blue) AFM tips, with calculated relative intensity enhancement \SI{0.5}{nm} from the AuNP tip apex (dashed). The inset shows an SEM image of the \SI{250}{nm} AuNP tip. %}
-%\caption[Calculated field enhancement profile for a \SI{125}{nm} radius AuNP at the end of a \SI{1500}{nm} long Pt tip]{
-(c) Calculated field enhancement profile for a \SI{250}{nm} diameter AuNP at the end of a \SI{1500}{nm} long Pt tip. The neck join is \SI{50}{nm} wide and the tip is under longitudinally polarised plane wave illumination at \SI{633}{nm}.}
+\caption[Application of sharp Au and AuNP-on-Pt tips to enhancing Raman scattering]{\textbf{Application of sharp Au and AuNP-on-Pt tips to enhancing Raman scattering.} (a,b) Comparative TERS and dark-field spectroscopy of sharp Au and AuNP tips. (a) Tip-enhanced Raman spectra of a benzenethiol-coated Au AFM probe brought close to the AuNP tip (red), compared to a sharp Au AFM tip (blue). (b) Dark-field optical scattering of AuNP (red) and sharp Au (blue) AFM tips, with calculated relative intensity enhancement \SI{0.5}{nm} from the AuNP tip apex (dashed). The inset shows an SEM image of the \SI{250}{nm} AuNP tip. (c) Calculated field enhancement profile for a \SI{250}{nm} diameter AuNP at the end of a \SI{1500}{nm} long Pt tip. The neck join is \SI{50}{nm} wide and the tip is under longitudinally polarised plane wave illumination at \SI{633}{nm}.}
 \label{fig:ters_comparison}
 \end{figure}
 
@@ -55,10 +51,9 @@ Coupling between this LSP in the AuNP tip with a BTh-coated sharp Au tip forms a
 
 % Field enhancement calculations
 LSP mode volumes are estimated using a cylindrical gap mode model. The lateral width of a gap plasmon mode is calculated using $w=\sqrt{R_{\mathrm{eff}}d}$, where $R_{\mathrm{eff}}$ is the effective radius of the particles, $\sqrt{R_1R_2}$, comprising the plasmonic dimer and $d$ is the width of the gap separating particles \cite{romero2006}.
+\footnote{$w=\sqrt{Rd}$ is mentioned in the main text but not derived.}
 %\footnote{\color{red}The use of $R_{\mathrm{eff}}=\sqrt{R_1 R_2}$ is justified by...}
-This results in lateral mode widths of \SI{4.5}{nm} for the sharp Au tip of \SI{20}{nm} radius and \SI{7.1}{nm} for the \SI{125}{nm} radius AuNP tip.
-%\footnote{Note that these widths are below the quantum limit for such large AuNPs, presented in \cite{savage2012}, only because the opposing tip has such a small radius to increase localisation.}
-Assuming a cylindrical gap mode yields mode volumes of \SI{15.7}{nm\cubed} and \SI{39.3}{nm\cubed}, respectively. These define the near-field contribution to Raman scattering and a relative field enhancement is obtained using,
+This results in lateral mode widths of \SI{4.5}{nm} for the sharp Au tip of \SI{20}{nm} radius and \SI{7.1}{nm} for the \SI{125}{nm} radius AuNP tip. Assuming a cylindrical gap mode ($V=\pi w^2d/4$) yields mode volumes of \SI{15.7}{nm\cubed} and \SI{39.3}{nm\cubed}, respectively. These define the near-field contribution to Raman scattering and a relative field enhancement is obtained using,
 \begin{equation}
 	\mathit{FE}_{\mathrm{rel}} = \frac{N_{\mathrm{AuNP}} / V_{\mathrm{AuNP}}}{N_{\mathrm{tip}} / V_{\mathrm{tip}}}
 \end{equation}
@@ -71,7 +66,8 @@ where $N_{ff}$, the number of counts obtained using only far-field laser light, 
 This expression yields absolute, lower-bound Raman enhancements of \num{1.9e5} for a \SI{250}{nm} AuNP tip and \num{1.6e4} for a sharp Au tip. Though absolute estimates are not as high as the expected \num{e7}--\num{e8} enhancements reported in the literature \cite{pettinger2012}, the relative SERS enhancement observed with the AuNP tip is indeed comparable to previously reported results \cite{umakoshi2012}.
 
 % Conclusions of plasmonic tips
-These optical measurements confirm that AuNP tips provide increased field enhancement compared to sharp Au tips due to a strong LSP excitation. Lack of any strong peaks around \SI{600}{nm} in dark-field spectra of sharp Au tips suggests that any plasmons present are weakly coupled and do not scatter strongly in this illumination geometry, resulting in a lower observed field enhancement. On the other hand, AuNP tips are well suited to high enhancements when illuminated at the appropriate plasmonic resonances.
+These optical measurements confirm that AuNP tips provide increased field enhancement compared to sharp Au tips due to a strong LSP excitation. Lack of any strong peaks around \SI{600}{nm} in dark-field spectra of sharp Au tips suggests that any plasmons present are weakly coupled and do not scatter strongly in this illumination geometry, resulting in a lower observed field enhancement. Though the dual lightning rod contribution in the sharp tip dimer could provide a larger potential enhancement, failure to couple light to the near-field prevents access to this enhancement. On the other hand, AuNP tips are well suited to high enhancements when illuminated at the appropriate plasmonic resonances, behaving as optical antennae.
+
 Whilst a number of plasmonic probes have been developed recently, several useful features are obtained here. By using standard AFM probes as a basis, these AuNP tips maintain their functionality as AFM probes for force microscopy. The metallic coating of these tips also allows for simultaneous electrical measurements whilst performing optical and AFM force measurements. These tips therefore function as standard electrical AFM probes with added plasmonic functionality.
 Furthermore, such tips also show excellent resistance to damage at the tip apex after multiple surface contacts, though surfaces do become deformed after heavy use. Their robust nature is attributed to the direct growth of the AuNP root across the pyramidal tip end. This is a significant improvement over currently-available commercial spherical AFM tips, in which spheres break from the tip and adhere to the contact surface after only one or a small number of contact cycles. All of this is beneficial for creating a dynamically controllable plasmonic dimer on which to perform measurements in the quantum regime.
 Further applications of spherical metallic tips can be envisaged, for instance in plasmonic optical trapping \cite{lindquist2013} because the tips in the present geometry can conveniently act as a heat sink reducing the problematic optical heating observed, and resulting thermal damage.

@@ -1,0 +1,73 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'original_microscope_schematic.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{532.66220711bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.44470535)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{original_microscope_schematic.png}}%
+    \put(0.63328769,0.41202603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18073454\unitlength}\centering Olympus dark-field lamp source\end{minipage}}}%
+    \put(0.80711274,0.3879958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.09062114\unitlength}\centering Infinity CCD\end{minipage}}}%
+    \put(0.8882148,0.33693154){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1063073\unitlength}\centering Metal enclosure\end{minipage}}}%
+    \put(0.43281527,0.25438555){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.13517009\unitlength}\raggedleft wedge prism pair\end{minipage}}}%
+    \put(0.56798536,0.18830239){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{polariser}}}%
+    \put(0.46285307,0.16427215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10513229\unitlength}\raggedleft beam expander\end{minipage}}}%
+    \put(0.62505718,0.1282268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.0750945\unitlength}\centering ND filters\end{minipage}}}%
+    \put(0.72418191,0.09218144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15920033\unitlength}\centering supercontinuum laser\end{minipage}}}%
+    \put(0.65809876,0.23936665){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.0901134\unitlength}\raggedleft confocal pinhole\end{minipage}}}%
+    \put(0.47186441,0.38354807){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12015119\unitlength}\centering 100x DF VIS objective\end{minipage}}}%
+    \put(0.87388305,0.02261633){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.13517009\unitlength}\raggedright spectrometer\end{minipage}}}%
+    \put(0.28056063,0.13937601){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10513229\unitlength}\centering large aluminium block\end{minipage}}}%
+    \put(-0.02075549,0.25138177){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12015119\unitlength}\raggedleft Newport coarse xyz stages\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{original_microscope_schematic.pdf}}%
+    \put(0.10540327,0.14024192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18022679\unitlength}\centering large mechanical reference path\end{minipage}}}%
+    \put(0.11741838,0.40457454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18923813\unitlength}\centering PI nanopositioning stage\end{minipage}}}%
+    \put(0.03234087,0.42936011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{side view}}}}%
+    \put(0.42355642,0.4304418){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{top view}}}}%
+    \put(0.30515462,0.40457453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.0750945\unitlength}\centering tip mounts\end{minipage}}}%
+  \end{picture}%
+\endgroup%

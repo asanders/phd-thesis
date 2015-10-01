@@ -167,8 +167,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="326.5203"
-     inkscape:cy="924.24844"
+     inkscape:cx="339.0203"
+     inkscape:cy="952.81987"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
@@ -197,7 +197,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -215,11 +215,11 @@
         <path
            id="rect5335"
            d="m 185,47.361328 0,15.000877 120,0 0,-8.77e-4 45,15.000877 0,0 135,0 0,-30.000877 -135,0 -45,0 z"
-           style="opacity:1;fill:#ffe92d;fill-opacity:0.39215686;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:#ffe969;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccccccccc" />
         <rect
-           style="opacity:1;fill:#ffc42d;fill-opacity:0.39215686;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:#ffcb2d;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect5333"
            width="135"
            height="80.000008"
@@ -231,7 +231,7 @@
            height="80.000008"
            width="120"
            id="rect5331"
-           style="opacity:1;fill:#ffc42d;fill-opacity:0.39215686;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+           style="opacity:1;fill:#ffcb2d;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <path
            id="path4421"
            style="fill:none;stroke-linecap:butt;stroke-linejoin:round"

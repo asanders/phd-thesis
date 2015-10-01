@@ -216,9 +216,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="236.87935"
-     inkscape:cy="889.06646"
+     inkscape:zoom="1.979899"
+     inkscape:cx="226.18264"
+     inkscape:cy="823.79391"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -248,7 +248,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -298,7 +298,7 @@
        xml:space="preserve"
        id="flowRoot4148"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(10.944336,1.0386013)"><flowRegion
+       transform="translate(6.944336,3.0386013)"><flowRegion
          id="flowRegion4150"><rect
            id="rect4152"
            width="90"
@@ -522,15 +522,15 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <flowRoot
-       transform="translate(-25.567627,97.038582)"
+       transform="translate(-11.567627,97.038582)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot5216"
        xml:space="preserve"><flowRegion
          id="flowRegion5218"><rect
            y="192.3622"
            x="140"
-           height="30.000008"
-           width="90"
+           height="32.961426"
+           width="65.567627"
            id="rect5220" /></flowRegion><flowPara
          id="flowPara5222">beam focussing</flowPara></flowRoot>    <text
        xml:space="preserve"
@@ -641,5 +641,37 @@
            height="32.693909"
            width="110.00531"
            id="rect6384" /></flowRegion><flowPara
-         id="flowPara6386">Triax 320 monochromator</flowPara></flowRoot>  </g>
+         id="flowPara6386">Triax 320 monochromator</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 85,247.3622 0,50"
+       id="path4265"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 95,247.3622 0,50"
+       id="path4267"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90"
+       y="306.36221"
+       id="text4269"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4271"
+         x="90"
+         y="306.36221">microscope</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4273"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-61.5,18.541512)"><flowRegion
+         id="flowRegion4275"><rect
+           id="rect4277"
+           width="115.5"
+           height="35.458496"
+           x="235"
+           y="202.3622" /></flowRegion><flowPara
+         id="flowPara4279">150 lines/mm diffraction grating</flowPara></flowRoot>  </g>
 </svg>

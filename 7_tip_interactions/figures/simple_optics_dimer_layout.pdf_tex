@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{316.86100781bp}%
+    \setlength{\unitlength}{315.26100781bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,21 +48,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.86229272)%
+  \begin{picture}(1,0.9104329)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{simple_optics_dimer_layout.png}}%
-    \put(0.16138107,0.72557995){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$V$}}}%
-    \put(0.52445429,0.72557995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.07171051,0.54282474){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15148598\unitlength}\raggedright \end{minipage}}}%
-    \put(0.0101788,0.4943397){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27866161\unitlength}\centering supercontinuum\\ illumination\end{minipage}}}%
-    \put(0.0963333,0.27188255){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12686319\unitlength}\centering to CCD\end{minipage}}}%
-    \put(0.39235584,0.82812333){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
-    \put(0.22272803,0.73333724){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.25341394\unitlength}\centering \fontsize{9pt}{1em}\selectfont 100$\times$ IR\\ obj.\end{minipage}}}%
-    %\put(0.74236103,0.83956047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29885974\unitlength}\raggedright AFM: cantilever\\ deflection\end{minipage}}}%
-    \put(0.44639914,0.18293818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.13934082\unitlength}\centering confocal\\ pinhole\end{minipage}}}%
-    \put(0.4251778,0.86599483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30297196\unitlength}\centering fine (piezo) $xyz$ nanopositioning\end{minipage}}}%
-    \put(-0.00908201,0.86094529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27267476\unitlength}\centering coarse $xyz$ nanopositioning\end{minipage}}}%
-    \put(0.58676284,0.24490231){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20198131\unitlength}\centering transverse polarisation\end{minipage}}}%
-    \put(0.73824882,0.14391166){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20198131\unitlength}\centering axial polarisation\end{minipage}}}%
-    \put(0.30006133,0.54282474){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{reimaging}}}%
+    \put(0.16220011,0.72926239){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$V$}}}%
+    \put(0.52711598,0.72926239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.07207446,0.54557966){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15225479\unitlength}\raggedright \end{minipage}}}%
+    \put(0.01023046,0.49684856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28007586\unitlength}\centering supercontinuum\\ illumination\end{minipage}}}%
+    \put(0.0968222,0.27326239){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12750704\unitlength}\centering to CCD\end{minipage}}}%
+    \put(0.3943471,0.83232619){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$dz$}}}%
+    \put(0.22385841,0.73705904){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.25470006\unitlength}\centering 100$\times$ IR\\ obj.\end{minipage}}}%
+    \put(0.74105348,0.83367106){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3003765\unitlength}\raggedright AFM: cantilever\\ deflection\end{minipage}}}%
+    \put(0.44866469,0.18386662){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.140048\unitlength}\centering confocal\\ pinhole\end{minipage}}}%
+    \put(0.42733564,0.87038989){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30450959\unitlength}\centering fine (piezo) $xyz$ nanopositioning\end{minipage}}}%
+    \put(-0.0091281,0.86531473){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27405863\unitlength}\centering coarse $xyz$ nanopositioning\end{minipage}}}%
+    \put(0.58974076,0.24614523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20300639\unitlength}\centering transverse polarisation\end{minipage}}}%
+    \put(0.74199555,0.14464203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20300639\unitlength}\centering axial polarisation\end{minipage}}}%
+    \put(0.30158419,0.54557966){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{reimaging}}}%
   \end{picture}%
 \endgroup%
